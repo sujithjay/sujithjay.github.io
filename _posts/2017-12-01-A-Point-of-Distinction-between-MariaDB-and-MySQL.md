@@ -1,9 +1,4 @@
----
-layout: post
-title: "A Point of Distinction between MariaDB and MySQL"
-date: 2017-12-01
----
-# A Point of Distinction between MariaDB and MySQL
+ Point of Distinction between MariaDB and MySQL
 
 
 ## TL; DR
@@ -78,7 +73,7 @@ WHERE
                 AND e1.DepartmentId = e2.DepartmentId
         );
 ```
-    
+	
 But this is sub-optimal, and we can do better. 
 
 
@@ -90,16 +85,16 @@ set @rn := 1;
 set @sal := NULL;
 
 select `Department`, `Employee`, `Salary` from (
-    select t.`Department`, t.`Employee`, t.Salary,
-        @rn:= if(@did = DepartmentId, if(@sal = Salary, @rn, @rn + 1), 1 ) as rank,
-        @did:= DepartmentId,
-        @sal:= Salary
-    from 
-        (
-            select d.name as `Department`, e.Name as `Employee`, DepartmentId, Salary from Employee e 
-            inner join Department d on e.DepartmentId = d.Id order by DepartmentId, Salary desc
-        ) t
-    ) f where rank <= 3;
+	select t.`Department`, t.`Employee`, t.Salary,
+		@rn:= if(@did = DepartmentId, if(@sal = Salary, @rn, @rn + 1), 1 ) as rank,
+		@did:= DepartmentId,
+		@sal:= Salary
+	from 
+		(
+			select d.name as `Department`, e.Name as `Employee`, DepartmentId, Salary from Employee e 
+			inner join Department d on e.DepartmentId = d.Id order by DepartmentId, Salary desc
+		) t
+	) f where rank <= 3;
 ```
 [Fiddle Link](http://sqlfiddle.com/#!9/627639/697)
 
