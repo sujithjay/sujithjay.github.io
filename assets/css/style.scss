@@ -1,8 +1,28 @@
 ---
 ---
-
 @import "{{site.theme}}";
-#spaced{
+
+div#spaced{
   margin-bottom: 20px;
   margin-top: 20px;
 }
+
+li#navlist {
+  display: inline;
+  position:relative;
+}
+
+li#twitterfollow {
+  padding-top: 30px;
+  display: inline;
+  top:3%;
+  left:2%;
+  z-index:1000;
+}
+
+.active {
+  color: blue;
+  cursor: default;
+}
+
+.topnav { position:relative;}

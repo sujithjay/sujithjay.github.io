@@ -4,9 +4,18 @@ title: Sujith Jay's Blog
 permalink: posts/
 ---
     <h1>{{ page.title }}</h1>
+    <div id="spaced" >
+    </div>
     <ul class="posts">
 
       {% for post in site.posts %}
-        <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+        <div class="post">
+            <h2><a href="{{ post.url }}">{{post.title}}</a></h2>
+            <span class="date">{{ post.date | date:"%B %d, %Y" }}</span>
+            {{ post.content | split:'<!--break-->' | first }}
+            {% if post.content contains '<!--break-->' %}
+            <a href="{{ post.url }}">read more</a>
+            {% endif %}
+        </div>
       {% endfor %}
     </ul>
