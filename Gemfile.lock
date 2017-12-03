@@ -233,6 +233,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
+  jekyll-theme-tactile
 
 BUNDLED WITH
    1.16.0

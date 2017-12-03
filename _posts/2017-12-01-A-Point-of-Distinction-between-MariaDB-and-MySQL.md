@@ -1,10 +1,12 @@
- Point of Distinction between MariaDB and MySQL
-
+---
+layout: post
+title: Point of Distinction between MariaDB and MySQL
+---
 
 ## TL; DR
 In MariaDB, query with `ORDER BY` in a `FROM` subquery produces an unordered result. In effect, `ORDER BY` is ignored in `FROM` subqueries. MySQL does not ignore `ORDER BY` in `FROM` subqueries.
 
-
+<!--break-->
 ## Longer Version
 Older versions of MariaDB(< 10.2.0) did not have window functions such as `rank()`, `dense_rank()`, `row_number()` among others. To understand where you would use such a function, `dense_rank()` for instance, consider the following example:
 
