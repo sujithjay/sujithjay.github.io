@@ -7,6 +7,11 @@ div#spaced{
   margin-top: 20px;
 }
 
+div#doublespaced{
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
 li#navlist {
   display: inline;
   position:relative;
@@ -26,3 +31,22 @@ li#twitterfollow {
 }
 
 .topnav { position:relative;}
+
+.share-page {
+  text-align: center;
+  background: lightgray;
+  color: #d5000d;
+  padding: 8px 15px;
+  border-radius: 5px;
+  margin: 10px;
+
+  a {
+    font-weight: 700;
+    color: #d5000d;
+    margin-left: 10px;
+
+    &:hover {
+      border-bottom: 1px dashed #fff;
+    }
+  }
+}
