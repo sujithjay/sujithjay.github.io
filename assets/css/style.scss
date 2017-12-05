@@ -50,3 +50,56 @@ li#twitterfollow {
     }
   }
 }
+
+table{
+  border-collapse: collapse;
+  border-spacing: 0;
+  border:2px solid #000000;
+  padding-bottom:200px;
+}
+
+th{
+  border:2px solid #000000;
+}
+
+td{
+  border:1px solid #000000;
+}
+
+blockquote {
+  font-size: 1.0em;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+
+}
+
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+
+blockquote p {
+  display: inline;
+  text-align: justify;
+  color: #6d6d6d;
+}
+
+body{
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+p{
+  font-weight: 400;
+  color: #222222;
+  text-align: justify;
+}
+
+h1.postheading{
+  color: #d5000d;
+}
