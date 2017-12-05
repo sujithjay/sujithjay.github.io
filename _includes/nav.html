@@ -1,9 +1,11 @@
 <nav class="topnav">
 
     <ul>
-        <li id="twitterfollow">
+        <li id="navlist">
+            <span class="twitterfollow" style="position:relative;top:5px;">
             <a href="https://twitter.com/suj1th" class="twitter-follow-button" data-show-count="false">Follow @suj1th</a>
-            <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+            </span>
         </li>
         {% for item in site.data.navlist.docs %}
         <li id="navlist" class="{% if item.url == page.url %}active{% endif %}">
