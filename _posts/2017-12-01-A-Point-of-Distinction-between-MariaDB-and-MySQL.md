@@ -34,7 +34,7 @@ Id   | Name    | Salary   | DepartmentId
  1   | IT         |
  2   | Sales      |  
 
-
+<br />
 
 I list three approaches to solving this problem, starting with the easiest one which makes use of `dense_rank()`.
 
