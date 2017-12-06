@@ -26,7 +26,7 @@ Id   | Name    | Salary   | DepartmentId
  6   | Randy   | 85000    | 1              
 
                                                                                   
-
+<br /> <br />
 **Department Table**
 
  Id  | Name       |
@@ -55,7 +55,7 @@ SELECT * FROM
 [Fiddle Link](http://dbfiddle.uk/?rdbms=mariadb_10.2&fiddle=cc9082f8d09b48dc7f374456ef817a73)
 
 
-( Homework Assignment: Why use `dense_rank()` instead of `rank()`? How does it affect your result? )
+(Homework Assignment: Why use `dense_rank()` instead of `rank()`? How does it affect your result?)
 
 
 
