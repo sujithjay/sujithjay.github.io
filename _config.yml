@@ -1,12 +1,27 @@
-# Site settings
-title: Sujith Jay Nair
-email: suj1th@hotmail.com
-description: Sujith Jay's Personal Website
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
 
-baseurl: ""
+# Permalinks
+permalink:        pretty
+
+# Site settings
+title: Sujith Jay
+tagline: Sujith Jay's Programming Blog
+description: This blog is me talking about everything I like in Programming, from the brazen to the trivial
+baseurl: /
 url: "http://sujithjay.com"
-twitterusername: suj1th
-githubusername:  sujithjay
-theme: jekyll-theme-tactile
+
+author:
+  name:           'Sujith Jay'
+  url:            https://twitter.com/suj1th
+
+paginate:         5
+
+version:          0.2.0
+
+github:
+  repo:           https://github.com/sujithjay/sujithjay.github.io
+
 plugins:
   - jekyll-sitemap
