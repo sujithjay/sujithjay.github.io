@@ -7,14 +7,20 @@ permalink:        pretty
 
 # Site settings
 title: Sujith Jay
-tagline: Sujith Jay's Programming Blog
-description: This blog is me talking about everything I like in Programming, from the brazen to the trivial
-baseurl: /
+tagline: A Programming Blog
+description: This blog is me talking about everything I love in Programming, from the brazen to the trivial.
+baseurl:
 url: "http://sujithjay.com"
 
 author:
   name:           'Sujith Jay'
   url:            https://twitter.com/suj1th
+  linkedin:       suj1th
+  twitter:        suj1th
+  github:         sujithjay
+  email:          suj1th@hotmail.com
+  stackoverflow:  suj1th
+  rss:            atom.xml
 
 paginate:         5
 
