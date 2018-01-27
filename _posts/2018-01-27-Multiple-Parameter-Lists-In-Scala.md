@@ -2,7 +2,7 @@
 layout: post
 title: Multiple Parameter Lists in Scala
 desc: A small tutorial on Currying in Scala
-permalink: /2018/01/27/Multiple-Parameter-Lists-In-Scala/
+permalink: /2018/01/27/Multiple-Parameter-Lists-in-Scala/
 ---
 
 **Note**: I wrote this article as part of a contribution to Scala Documentation. The original post can be found [here](http://docs.scala-lang.org/tour/multiple-parameter-lists.html).
