@@ -9,7 +9,7 @@ permalink:        pretty
 title: Sujith Jay
 tagline: A Programming Blog
 description: This blog is me talking about everything I love in Programming, from the brazen to the trivial.
-baseurl:
+baseurl: ""
 url: "http://sujithjay.com"
 
 author:
