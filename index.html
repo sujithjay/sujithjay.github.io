@@ -1,35 +1,43 @@
 ---
 layout: default
-title: Sujith Jay Nair
+title: Home
 ---
 
-<div id="home">
-  <h1 id="intro">Recent Blog Posts</h1>
-    <div class="spaced" >
+<div class="posts">
+    {% for post in paginator.posts %}
+    <div class="post">
+        <h1 class="post-title">
+            <a href="{{ site.baseurl }}/{{ post.url }}">
+                {{ post.title }}
+            </a>
+        </h1>
+
+        <span class="post-date">{{ post.date | date_to_string }}</span>
+
+        {{ post.content | split:'<!--break-->' | first }}
+        {% if post.content contains '<!--break-->' %}
+        <a href="{{ post.url }}">.. Read More</a>
+        <div class="doublespaced" >
+        </div>
+        {% endif %}
     </div>
-  {% for post in site.posts limit:3 %}
-  <div class="post">
-    <h2><a href="{{ post.url }}">{{post.title}}</a></h2>
-    <span class="date">{{ post.date | date:"%B %d, %Y" }}</span>
-    {{ post.content | split:'<!--break-->' | first }}
-    {% if post.content contains '<!--break-->' %}
-    <a href="{{ post.url }}">.. Read More</a>
-    <div class="doublespaced" >
-    </div>
-    {% endif %}
-  </div>
-  {% endfor %}
-
-  <div class="doublespaced" >
-  </div>
-  <div class="doublespaced" >
-  </div>
-  <div id="related">
-    <div class="related_right">
-      <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-    </div>
-  </div>
-
-
+    {% endfor %}
 </div>
+
+<div class="pagination">
+    {% if paginator.next_page %}
+    <a class="pagination-item older" href="{{ site.baseurl }}/page{{paginator.next_page}}">Older</a>
+    {% else %}
+    <span class="pagination-item older">Older</span>
+    {% endif %}
+    {% if paginator.previous_page %}
+    {% if paginator.page == 2 %}
+    <a class="pagination-item newer" href="{{ site.baseurl }}/">Newer</a>
+    {% else %}
+    <a class="pagination-item newer" href="{{ site.baseurl }}/page{{paginator.previous_page}}">Newer</a>
+    {% endif %}
+    {% else %}
+    <span class="pagination-item newer">Newer</span>
+    {% endif %}
+</div>
+
