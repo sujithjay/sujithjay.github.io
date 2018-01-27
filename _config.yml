@@ -1,10 +1,12 @@
 # Site settings
 title: Sujith Jay Nair
 email: suj1th@hotmail.com
-description: >
+description: Sujith Jay's Personal Website
 
 baseurl: ""
 url: "http://sujithjay.com"
 twitterusername: suj1th
 githubusername:  sujithjay
 theme: jekyll-theme-tactile
+plugins:
+  - jekyll-sitemap
