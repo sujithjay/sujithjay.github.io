@@ -5,8 +5,8 @@ highlighter:      rouge
 permalink:        pretty
 
 # Site settings
-title: Sujith Jay's
-tagline: Programming Blog
+title: Sujith Jay
+tagline: A Programming Logbook
 description: This blog is me talking about everything I love in programming, from the brazen to the trivial.
 baseurl: ""
 url: "http://sujithjay.com"
