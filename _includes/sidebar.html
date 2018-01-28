@@ -13,7 +13,7 @@
         <a href="https://github.com/{{ site.author.github }}">
           <span class="fa-stack fa-lg">
             <i class="fa fa-square-o fa-stack-2x"></i>
-            <i class="fa fa-github-alt fa-stack-1x"></i>
+            <i class="fa fa-github-alt fa-stack-1x" title="Github"></i>
           </span>
         </a>
         {% endif %}
@@ -22,16 +22,16 @@
         <a href="https://linkedin.com/in/{{ site.author.linkedin }}">
           <span class="fa-stack fa-lg">
             <i class="fa fa-square-o fa-stack-2x"></i>
-            <i class="fa fa-linkedin fa-stack-1x"></i>
+            <i class="fa fa-linkedin fa-stack-1x" title="LinkedIn"></i>
           </span>
         </a>
         {% endif %}
 
-        {% if site.author.email %}
-        <a href="mailto: {{ site.author.email }}">
+        {% if site.author.mailinglist %}
+        <a href="{{ site.baseurl}}/subscribe">
           <span class="fa-stack fa-lg">
             <i class="fa fa-square-o fa-stack-2x"></i>
-            <i class="fa fa-envelope fa-stack-1x"></i>
+            <i class="fa fa-envelope fa-stack-1x" title="Newsletter"></i>
           </span>
         </a>
         {% endif %}
@@ -43,7 +43,7 @@
         <a href="https://stackoverflow.com/story/{{ site.author.stackoverflow }}">
         <span class="fa-stack fa-lg">
           <i class="fa fa-square-o fa-stack-2x"></i>
-          <i class="fa fa-stack-overflow fa-stack-1x"></i>
+          <i class="fa fa-stack-overflow fa-stack-1x" title="StackOverflow"></i>
         </span>
         </a>
         {% endif %}
@@ -52,16 +52,16 @@
         <a href="https://twitter.com/{{ site.author.twitter }}">
         <span class="fa-stack fa-lg">
           <i class="fa fa-square-o fa-stack-2x"></i>
-          <i class="fa fa-twitter fa-stack-1x"></i>
+          <i class="fa fa-twitter fa-stack-1x" title="Twitter"></i>
         </span>
         </a>
         {% endif %}
 
-        {% if site.rss %}
+        {% if site.author.rss %}
         <a href="{{ site.url }}/atom.xml">
         <span class="fa-stack fa-lg">
           <i class="fa fa-square-o fa-stack-2x"></i>
-          <i class="fa fa-rss fa-stack-1x"></i>
+          <i class="fa fa-rss fa-stack-1x" title="RSS Feed"></i>
         </span>
         </a>
         {% endif %}
