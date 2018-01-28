@@ -6,7 +6,9 @@
   <body class="theme-base-08">
 
     {% include sidebar.html %}
+    {% if jekyll.environment == 'production' %}
     {% include analytics.html %}
+    {% endif %}
 
     <!-- Wrap is the content to shift when toggling the sidebar. We wrap the
          content to avoid any CSS collisions with our real content. -->
