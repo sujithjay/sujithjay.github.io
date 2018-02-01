@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: A Point of Distinction between MariaDB and MySQL
 desc: Difference between MariaDB and MySQL in handling of FROM subquery
 permalink: /2017/12/01/A-Point-of-Distinction-between-MariaDB-and-MySQL/
