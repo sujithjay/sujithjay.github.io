@@ -27,11 +27,11 @@
         </a>
         {% endif %}
 
-        {% if site.author.mailinglist %}
-        <a href="{{ site.baseurl}}/subscribe">
+        {% if site.author.email %}
+        <a href="mailto:{{ site.author.email}}">
           <span class="fa-stack fa-lg">
             <i class="fa fa-square-o fa-stack-2x"></i>
-            <i class="fa fa-envelope fa-stack-1x" title="Newsletter"></i>
+            <i class="fa fa-envelope fa-stack-1x" title="Email"></i>
           </span>
         </a>
         {% endif %}

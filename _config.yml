@@ -20,11 +20,10 @@ author:
   email:          suj1th@hotmail.com
   stackoverflow:  suj1th
   rss:            atom.xml
-  mailinglist:    mailchimp
 
 paginate:         5
 
-version:          0.2.0
+version:          0.3.0
 
 github:
   repo:           https://github.com/sujithjay/sujithjay.github.io
