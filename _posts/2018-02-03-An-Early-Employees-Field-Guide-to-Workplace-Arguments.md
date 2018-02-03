@@ -33,7 +33,7 @@ I reiterate here that the theme of this post is not to discourage people from en
 
 ## _I will teach thee what thou shalt do_
 
-Before we begin exploring the core ideas, a small side-note on the presentation style. Commandments are a peculiar way of presenting mental models. Mental models are frameworks to make sense of the world as a free thinker. Commandments, in their traditional sense, are directives with little scope for free thinking. Still, I believe framing the models in an imperative fashion adds to its recall value. Who doesn't love a good catchphrase? So here we go.
+Before we begin exploring the core ideas, a small side-note on the presentation style. Commandments are a peculiar way of presenting mental models. Mental models are frameworks to make sense of the world as a free-thinker. Commandments, in their traditional sense, are directives with little scope for free thinking. Still, I believe framing mental models in an imperative fashion adds to its recall value. Who doesn't love a good catchphrase? So, here we go.
 
 ### **You are not your idea**
   Argumentum ad hominem is a well-known logical fallacy wherein an statement is argued against by questioning the motive or character of the entity making the statement, rather than questioning the substance of the statement. This fallacy, in spite of being easy to identify, is well-entrenched in our rationale. I have seen myself use it often inadvertently, only to identify it as such in retrospect.
