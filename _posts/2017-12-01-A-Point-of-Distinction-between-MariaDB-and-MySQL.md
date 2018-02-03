@@ -6,7 +6,7 @@ desc: Difference between MariaDB and MySQL in handling of FROM subquery
 permalink: /2017/12/01/A-Point-of-Distinction-between-MariaDB-and-MySQL/
 ---
 
-## TL; DR
+**TL; DR**
 In MariaDB, query with `ORDER BY` in a `FROM` subquery produces an unordered result. In effect, `ORDER BY` is ignored in `FROM` subqueries. MySQL does not ignore `ORDER BY` in `FROM` subqueries.
 
 <!--break-->
