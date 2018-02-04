@@ -73,4 +73,4 @@ Before we begin exploring the core ideas, a small side-note on the presentation 
 
 
 ## _Endnote_
-I do not believe this to be a comprehensive list, nor a coherent one. I think of these commandments as a work in progress, at best. Subsequent posts will look at conficts within a startup from the perspective of other stakeholders. Still more posts will explore the underlying theme of how culture trumps strategy. You can find them here.
+I do not believe this to be a comprehensive list, nor a coherent one. I think of these commandments as a work in progress, at best. Subsequent posts will look at conflicts within a startup from the perspective of other stakeholders. Still more posts will explore the underlying theme of how culture trumps strategy. You can find them here.
