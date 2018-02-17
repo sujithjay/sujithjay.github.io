@@ -30,3 +30,4 @@ github:
 
 plugins:
   - jekyll-sitemap
+  - jekyll-gist
