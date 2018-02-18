@@ -35,7 +35,7 @@ In Spark REPL, you can create the tables as shown below. The gist then initiates
 
 As the action in the last command triggers the lazy evaluation, you will see Spark make a flurry of transformations on the data. We are interested in the bit where the join magic happens. Since the default value for `spark.sql.autoBroadcastJoinThreshold` is 10M and the size of our datasets is miniscule, BHJ is chosen as the join strategy even without us providing any hints.
 
-The broadcasted object is of type `HashedRelation`: either a `LongHashedRelation` (when the join key is a Long or an Int) or an `UnsafeHashedRelation`(in other cases, such as String, Float, etc.). The relation types are backed by either `LongToUnsafeRowMap` or a `BytesToBytesMap`, respectively. In our case, since our join column is of String type, a `UnsafeHashedRelation` is chosen.
+The broadcasted object is of type `HashedRelation`: either a `LongHashedRelation` (when the join key is a Long or an Int) or an `UnsafeHashedRelation`(in other cases, such as String, Float, etc.). The `HashedRelation` subtypes are backed by either a `LongToUnsafeRowMap` or a `BytesToBytesMap`, respectively. In our case, since our join column is of String type, a `UnsafeHashedRelation` is chosen.
 
 The broadcast object is physically sent over to the executor machines using `TorrentBroadcast`, which is a BitTorrent-like implementation of `org.apache.spark.broadcast.Broadcast`.
 
