@@ -37,7 +37,7 @@ As the action in the last command triggers the lazy evaluation, you will see Spa
 
 The broadcasted object is of type `HashedRelation`: either a `LongHashedRelation` (when the join key is a Long or an Int) or an `UnsafeHashedRelation`(in other cases, such as String, Float, etc.). The relation types are backed by either `LongToUnsafeRowMap` or a `BytesToBytesMap`, respectively. In our case, since our join column is of String type, a `UnsafeHashedRelation` is chosen.
 
-The broadcast object is physically sent over to the executor machines using `TorrentBroadcast`, which is a BitTorrent-like implementation of the  `org.apache.spark.broadcast.Broadcast`.
+The broadcast object is physically sent over to the executor machines using `TorrentBroadcast`, which is a BitTorrent-like implementation of `org.apache.spark.broadcast.Broadcast`.
 
 The broadcasted object, once available at the executors, is processed by the following generated code where the actual join takes place.
 
