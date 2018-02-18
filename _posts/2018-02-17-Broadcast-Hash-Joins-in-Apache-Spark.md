@@ -7,8 +7,10 @@ series: Apache Spark SQL
 categories:
   - spark-sql
 tags:
-  - apache-spark sql joins
-img: jointables.jpg
+  - apache-spark 
+  - sql 
+  - joins
+image: /public/jointables.png
 permalink: /spark-sql/2018/02/17/Broadcast-Hash-Joins-in-Apache-Spark/
 ---
 ![image-title-here]({{ site.baseurl }}/public/jointables.png){:class="img-responsive"}
