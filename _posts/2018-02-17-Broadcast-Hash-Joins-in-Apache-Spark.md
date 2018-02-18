@@ -27,7 +27,7 @@ The Broadcast Hash Join (BHJ) is chosen when one of the Dataset participating in
 Once the broadcasted Dataset is available on an executor machine, it is joined with each partition of the other Dataset. That is, for the values of the join columns for each row (in each partition) of the other Dataset, the corresponding row is fetched from the broadcasted Dataset and the join is performed.
 
 ## Let's Dive
-An example would be in order to understand the nuances of Broadcast Hash Join. What better example than the 'Hello World!'' of SQL: Employees and Department tables. Our Employee table has id, name, and did columns; Department table has id, and name as columns. You know the drill; I will not bother to even draw out the tables.
+An example would be in order to understand the nuances of Broadcast Hash Join. What better example than the 'Hello World!'' of SQL: _Employee_ and _Department_ tables. Our _Employee_ table has _id_, _name_, and _did_ columns; _Department_ table has _id_, and _name_ as columns. You know the drill; I will not bother to draw out the tables.
 
 In Spark REPL, you can create the tables as shown below. The gist then initiates a join on the tables.
 
@@ -39,7 +39,7 @@ The broadcasted object is of type `HashedRelation`: either a `LongHashedRelation
 
 The broadcast object is physically sent over to the executor machines using `TorrentBroadcast`, which is a BitTorrent-like implementation of `org.apache.spark.broadcast.Broadcast`.
 
-The broadcasted object, once available at the executors, is processed by the following generated code where the actual join takes place.
+The broadcasted object, once available at the executors, is processed by the following generated code where the actual join takes place. I have annotated the code with relevant comments. The important point to notice in our case, since both our tables are broadcastable (< 10M), _Department_ is chosen since it has a smaller estimated physical size. This is also mentioned at line 042 of the gist below. The section on Caveats has an item (item #3) which points to a related case where broadcast hints are explicitly mentioned against both sides. The handling remains the same.
 
 {% gist 6f1d012fe221e7b888f6246896af6bff BroadcastHashJoin.md %}
 
