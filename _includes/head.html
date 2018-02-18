@@ -28,7 +28,7 @@
     <!-- RSS -->
     <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
 
-    <!-- Twitter cards -->
+    <!-- Twitter Cards -->
     <meta name="twitter:site"    content="@{{ site.author.twitter }}">
     <meta name="twitter:creator" content="@{{ site.author.twitter }}">
     <meta name="twitter:title"   content="{{ page.title }}">
@@ -43,5 +43,20 @@
     <meta name="twitter:card"  content="summary_large_image">
     <meta name="twitter:image" content="{{ site.url }}{{ page.image }}">
     {% endif %}
-    <!-- end of Twitter cards -->
+    <!-- End of Twitter Cards -->
+
+    <!-- Open Graph/ LinkedIn Cards-->
+    <meta property="og:title" content="{{ page.title }}"/>
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
+
+    {% if page.desc %}
+    <meta name="og:description" content="{{ page.desc }}">
+    {% else %}
+    <meta name="og:description" content="{{ site.description }}">
+    {% endif %}
+
+    {% if page.image %}
+    <meta property="og:image" content="{{ site.url }}{{ page.image }}"/>
+    {% endif %}
+    <!-- End of Open Graph/ LinkedIn Cards-->
 </head>
