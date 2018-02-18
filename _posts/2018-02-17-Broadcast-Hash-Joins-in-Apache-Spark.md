@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: Broadcast Hash Joins in Apache Spark
-desc: A deep dive into Broadcast Hash Joins in Apache Spark
+desc: A deep dive into Broadcast Hash Joins in Apache Spark SQL
 series: Apache Spark SQL
 categories:
   - spark-sql
