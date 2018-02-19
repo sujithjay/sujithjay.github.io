@@ -50,7 +50,7 @@ The important point to notice, in our case, is since both our tables are broadca
 
 
 ## Caveats
-Broadcast Hash Join is performed only under certain circumstances, due to limitations of broadcasting complete datasets. One of the condition is, of course, the configuration `spark.sql.autoBroadcastJoinThreshold` (which, as we know, can be overriden at your own risk). In addition, we have the following caveats:
+Broadcast Hash Join is performed only under certain circumstances, due to limitations of broadcasting complete datasets. One of the condition is, of course, the configuration `spark.sql.autoBroadcastJoinThreshold` (which, as we know, can be overriden at one's own risk). In addition, we have the following caveats:
 
 1. BHJ is not supported for full outer join.
 2. For right outer join, Spark can only broadcast the left side. For left outer, left semi, left anti and the internal join type ExistenceJoin, Spark can only broadcast the right side.
