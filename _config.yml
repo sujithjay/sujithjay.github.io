@@ -12,7 +12,7 @@ baseurl: ""
 url: "http://sujithjay.com"
 
 author:
-  name:           'Sujith Jay'
+  name:           'Sujith Jay Nair'
   url:            https://twitter.com/suj1th
   linkedin:       suj1th
   twitter:        suj1th
@@ -31,3 +31,4 @@ github:
 plugins:
   - jekyll-sitemap
   - jekyll-gist
+  - jekyll-seo-tag

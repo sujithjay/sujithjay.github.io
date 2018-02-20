@@ -233,7 +233,7 @@ PLATFORMS
 
 DEPENDENCIES
   github-pages
-  jekyll-theme-tactile
+  jekyll-seo-tag
 
 BUNDLED WITH
    1.16.0
