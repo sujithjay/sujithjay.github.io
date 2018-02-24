@@ -13,7 +13,7 @@ comments: true
             </a>
         </h1>
 
-        <span class="post-date">{{ post.date | date_to_string }} • {% include tags.html %}</span>
+        <span class="post-date">{{ post.date | date_to_string }} • {% include crosspost-homepage.html %}</span>
 
         {{ post.content | split:'<!--break-->' | first }}
         {% if post.content contains '<!--break-->' %}
