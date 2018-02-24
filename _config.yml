@@ -7,7 +7,7 @@ permalink:        pretty
 # Site settings
 title: Sujith Jay Nair
 tagline: Thinking Aloud
-description: This blog is me talking about everything I love in programming and startups, from the brazen to the trivial.
+description: Empirical Learnings and Observational Inferences on Programming, and Startups
 baseurl: ""
 url: "http://sujithjay.com"
 
@@ -23,7 +23,7 @@ author:
 
 paginate:         5
 
-version:          0.3.0
+version:          0.4.0
 
 github:
   repo:           https://github.com/sujithjay/sujithjay.github.io
