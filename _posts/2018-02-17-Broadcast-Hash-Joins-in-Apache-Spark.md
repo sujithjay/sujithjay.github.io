@@ -3,13 +3,11 @@ layout: post
 comments: true
 title: Broadcast Hash Joins in Apache Spark
 desc: A deep dive into Broadcast Hash Joins in Apache Spark SQL
+author: Sujith Jay Nair
 series: Apache Spark SQL
 categories:
   - spark-sql
-tags:
-  - apache-spark 
-  - sql 
-  - joins
+tags: apache-spark sql joins
 image: /public/jointables.png
 permalink: /spark-sql/2018/02/17/Broadcast-Hash-Joins-in-Apache-Spark/
 ---

@@ -3,11 +3,11 @@ layout: post
 comments: true
 title: An Early Employee's Field Guide to Workplace Arguments
 desc: Mental models for an early startup employee can use in conflict
+author: Sujith Jay Nair
 series: Culture Eats Strategy
 categories:
   - culture-eats-strategy
-tags:
-  - conflict management strategy culture team startup employee
+tags: management culture startup
 permalink: /culture-eats-strategy/2018/02/03/An-Early-Employees-Field-Guide-to-Workplace-Arguments/
 ---
 **TL; DR**

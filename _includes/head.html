@@ -61,4 +61,9 @@
     <!-- End of Open Graph/ LinkedIn Cards-->
 
     {% seo %}
+
+    <!-- Post Tags-->
+    {% if site.tags != "" %}
+        {% include collecttags.html %}
+    {% endif %}
 </head>
