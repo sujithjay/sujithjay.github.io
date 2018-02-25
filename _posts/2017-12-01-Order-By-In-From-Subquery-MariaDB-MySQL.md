@@ -4,7 +4,7 @@ comments: true
 title: "Behaviour of ORDER BY in FROM: MariaDB vs MySQL"
 desc: Difference between MariaDB and MySQL in handling of FROM subquery
 author: Sujith Jay Nair
-tags: sql
+tags: sql mariadb mysql
 permalink: /2017/12/01/Order-By-in-From-Subquery-MariaDB-MySQL/
 redirect_from: /2017/12/01/A-Point-of-Distinction-between-MariaDB-and-MySQL/
 ---
