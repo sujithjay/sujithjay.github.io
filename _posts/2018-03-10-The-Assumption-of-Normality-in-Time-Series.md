@@ -1,12 +1,17 @@
 ---
 layout: "post"
 comments: true
-title: "The Assumption of Normality in Time Series: Extending the Limits of Central Limit Theorem"
+title: "The Assumption of Normality in Time Series"
+desc: This post tries to explain the use of Limit theorems in time-series analysis
+author: Sujith Jay Nair
 tags: statistics time-series
 date: "2018-03-10 11:11"
+permalink: /2018/03/10/The-Assumption-of-Normality-in-Time-Series/
 ---
 
-The notion of normality is oft-encountered in statistics as an underlying assumption to many proofs and results; it is normal to assume normality (pun strongly intended; always wanted to use this one). In much statistical works, the assumption of normality, even if inaccurate, is amortized and ameliorated by the existence of Central Limit Theorem. Time-series analysis, sadly, does not enjoy this privilege. The assumption of independence, so core to the CLT and other Limit theorems, is poignantly absent in time-series'. This post tries to explain the use of Limit theorems in time-series analysis. As my intended audience comprises computer scientists/engineers, and not statisticians, this post has a long preface on the premise of the problem.
+The notion of normality is oft-encountered in statistics as an underlying assumption to many proofs and results; it is normal to assume normality (pun strongly intended; always wanted to use this one). In much statistical works, the assumption of normality, even if inaccurate, is amortized and ameliorated by the existence of Central Limit Theorem. Time-series analysis, sadly, does not enjoy this privilege. The assumption of independence, so core to the CLT and other Limit theorems, is poignantly absent in time-series'.
+
+This post tries to explain the use of Limit theorems in time-series analysis. <!--break--> As my intended audience comprises computer scientists/engineers, and not statisticians, this post has a long preface on the premise of the problem.
 
 ## Preface
 ### Limit Theorems
@@ -21,7 +26,7 @@ $$\frac{\sqrt{n}}{\sigma}(\frac{1}{n}\sum_{i=1}^{n} x_{i} - \mu) \Rightarrow \ma
 In practice, how would you use this fact? A clichéd, yet pedagogical, example would be an experiment involving large number of coin flips. Suppose you choose a sample of _n_ coin flips and count the number of heads you get within the sample. If this exercise of choosing a sample is done over and over, the count of heads you get will follow an approximate normal distribution. As you increase the sample size _n_ asymptotically, the distribution will tend closer and closer to a normal distribution.
 
 
-### Convergence
+### Convergence [[2](#references)]
 I make a short note here on convergence for completeness. The relevant types of convergence common in statistics and probability are,
 * Almost surely, almost everywhere with probability one, \\(w.p.  1\\):
 
@@ -46,7 +51,7 @@ To understand why the assumption of normality is important in modeling time-seri
 
 $$\mathsf{Y_t = {\phi}Y_{t-1} + Z_t} \tag{2.1}$$
 
-where $$\mathsf{\{Y_t\}}, t = 0, 1,.. $$ is a first order [Markov process](http://mathworld.wolfram.com/MarkovProcess.html) on sample space $$\mathbf{Y} \subseteq \mathbb{R} $$ with conditional (transition) density $$\mathsf{p(y_t \mid y_{t-1})} $$. $$\mathsf{\phi}$$ can take any _allowable_ value such that $$\mathsf{Y} \subseteq \mathbb{R} $$ when $$\mathsf{Y}_{t-1} \subseteq \mathbb{R} $$. $$\mathsf{Z_t}$$ is an _i.i.d_ sequence with mean $$\mathsf{\lambda}$$. More on this can be found at [Hyndman].
+where $$\mathsf{\{Y_t\}}, t = 0, 1,.. $$ is a first order [Markov process](http://mathworld.wolfram.com/MarkovProcess.html) on sample space $$\mathbf{Y} \subseteq \mathbb{R} $$ with conditional (transition) density $$\mathsf{p(y_t \mid y_{t-1})} $$. $$\mathsf{\phi}$$ can take any _allowable_ value such that $$\mathsf{Y} \subseteq \mathbb{R} $$ when $$\mathsf{Y}_{t-1} \subseteq \mathbb{R} $$. $$\mathsf{Z_t}$$ is an _i.i.d_ sequence with mean $$\mathsf{\lambda}$$. More on this can be found at [Grunwald].
 
 The normal **AR(1)** process with mean $$\mathsf{\mu}$$ is usually written in terms of a series of white noise variables $$\mathsf{\{E_t\}}$$:
 
@@ -60,6 +65,15 @@ A feature of normal AR(1) processes is that the marginal distribution is also no
 
 $$\mathsf{Y_t \sim \mathcal{N}(\mu, \frac{\sigma^2}{1 - \phi^2})} \tag{2.3}$$
 
-It is uncommon, in case of any other distribution, for the conditional and the marginal probabilities to have similar distributions. In fact, in the general case, they do not even possess relatively simple forms. The Normal distribution is a rare exception [Hyndman]. In addition, the parametric calculations corresponding to a particular time-series model using maximum likelihood estimators are simplified with the assumption of normality.
+It is uncommon, in case of any other distribution, for the conditional and the marginal probabilities to have similar distributions. In fact, in the general case, they do not even possess relatively simple forms. The Normal distribution is a rare exception [Grunwald]. In addition, the parametric calculations corresponding to a particular time-series model using maximum likelihood estimators are simplified with the assumption of normality.
 
 We will continue seeking the premise for the assumption of normality in time-series analysis in the next post, which will also elaborate on the Martingale Central Limit Theorem, which is one of the extensions of CLT to dependent random variables. Until next time!
+
+
+## References
+[1] Grunwald, G. K., R. J. Hyndman, and L. M. Tedesco. "A unified view of linear AR (1) models." (1995). [Link](https://robjhyndman.com/papers/ar1.pdf)
+
+[2] Asymptotic Distributions in Time Series, Statistics 910, Wharton School of the University of Pennsylvania. [Link](http://www-stat.wharton.upenn.edu/~stine/stat910/lectures/11_clt.pdf)
+
+[3] Anna Mikusheva, course materials for 14.384 Time Series Analysis, Fall 2007. MIT OpenCourseWare,
+Massachusetts Institute of Technology.
