@@ -561,3 +561,38 @@ a.pagination-item:hover {
 .layout-reverse.sidebar-overlay #sidebar-checkbox:checked ~ .sidebar {
   box-shadow: -.25rem 0 .5rem rgba(0,0,0,.1);
 }
+
+/*For Section Links*/
+.header-link {
+    position: absolute;
+    padding-right: .5em;
+    margin-left: -1em;
+    color: inherit !important;
+    text-decoration: none !important;
+    opacity: 0;
+
+    \-webkit-transition: opacity 0.2s ease-in-out 0.1s;
+    \-moz-transition: opacity 0.2s ease-in-out 0.1s;
+    \-ms-transition: opacity 0.2s ease-in-out 0.1s;
+}
+
+.header-link .fa {
+    font-size: 66%;
+    vertical-align: .1em;
+}
+
+/* do not display in less than 768px screen */
+@media (max-width: 767px) {
+    .header-link {
+        display: none !important;
+    }
+}
+
+
+h2:hover .header-link,
+h3:hover .header-link,
+h4:hover .header-link,
+h5:hover .header-link,
+h6:hover .header-link {
+    opacity: 1;
+}
