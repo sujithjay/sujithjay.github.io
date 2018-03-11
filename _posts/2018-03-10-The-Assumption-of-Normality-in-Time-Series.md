@@ -72,9 +72,9 @@ We will continue seeking the premise for the assumption of normality in time-ser
 
 
 ## References
-[1] Grunwald, G. K., R. J. Hyndman, and L. M. Tedesco. "A unified view of linear AR (1) models." (1995). [Link](https://robjhyndman.com/papers/ar1.pdf)
+[1] Grunwald, G. K., R. J. Hyndman, and L. M. Tedesco. "A unified view of linear AR (1) models." (1995). [[Link]](https://robjhyndman.com/papers/ar1.pdf)
 
-[2] Asymptotic Distributions in Time Series, Statistics 910, Wharton School of the University of Pennsylvania. [Link](http://www-stat.wharton.upenn.edu/~stine/stat910/lectures/11_clt.pdf)
+[2] Asymptotic Distributions in Time Series, Statistics 910, Wharton School of the University of Pennsylvania. [[Link]](http://www-stat.wharton.upenn.edu/~stine/stat910/lectures/11_clt.pdf)
 
 [3] Anna Mikusheva, course materials for 14.384 Time Series Analysis, Fall 2007. MIT OpenCourseWare,
-Massachusetts Institute of Technology.
+Massachusetts Institute of Technology. [[Link]](https://ocw.mit.edu/courses/economics/14-384-time-series-analysis-fall-2013/lecture-notes/MIT14_384F13_lec2.pdf)
