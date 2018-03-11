@@ -9,7 +9,7 @@ date: "2018-03-10 11:11"
 permalink: /2018/03/10/The-Assumption-of-Normality-in-Time-Series/
 ---
 
-The notion of normality is oft-encountered in statistics as an underlying assumption to many proofs and results; it is normal to assume normality (pun strongly intended; always wanted to use this one). In much statistical works, the assumption of normality, even if inaccurate, is amortized and ameliorated by the existence of Central Limit Theorem. Time-series analysis, sadly, does not enjoy this privilege. The assumption of independence, so core to the CLT and other Limit theorems, is poignantly absent in time-series'.
+The notion of normality is oft-encountered in statistics as an underlying assumption to many proofs and results; it is normal to assume normality (pun strongly intended; always wanted to use this one). In much statistical works, the assumption of normality, even if inaccurate, is amortized and ameliorated by the existence of Central Limit Theorem. Time-series analysis, sadly, does not enjoy this privilege. The assumption of independence, so core to the CLT and other Limit theorems, is poignantly absent in time-series.
 
 This post tries to explain the use of Limit theorems in time-series analysis. As my intended audience comprises computer scientists/engineers, and not statisticians, this post has a long preface on the premise of the problem.
 
@@ -20,7 +20,7 @@ Limit theorems are a class of theorems in statistics governing the behaviour of 
 
 In its more generic form, CLT states that the sum of any number of random variables generated in a stochastic process will be asymptotically distributed according to a small set of [attractor](https://en.wikipedia.org/wiki/Attractor) distributions. Notice that this general form of CLT makes no assumption on the independence of the variables; however, it is of scant use in this particular form.
 
-In case of [_i.i.d_](https://en.wikipedia.org/wiki/Independent_and_identically_distributed_random_variables) (independent and identically distributed) stochastic variables with a finite variance, the attractor distribution is a normal distribution. In other words, if \\( x\_{i} \\) is a sequence of i.i.d random variables, with \\({Ex}\_{i} = \mu\\), \\(Var( x\_{i}) = \sigma^2\\), CLT states that,
+In case of [_i.i.d._](https://en.wikipedia.org/wiki/Independent_and_identically_distributed_random_variables) (independent and identically distributed) stochastic variables with a finite variance, the attractor distribution is a normal distribution. In other words, if \\( x\_{i} \\) is a sequence of _i.i.d._ random variables, with \\({Ex}\_{i} = \mu\\), \\(Var( x\_{i}) = \sigma^2\\), CLT states that,
 
 $$\frac{\sqrt{n}}{\sigma}(\frac{1}{n}\sum_{i=1}^{n} x_{i} - \mu) \Rightarrow \mathcal{N}(0, 1)$$
 
@@ -52,13 +52,13 @@ To understand why the assumption of normality is important in modeling time-seri
 
 $$\mathsf{Y_t = {\phi}Y_{t-1} + Z_t} \tag{2.1}$$
 
-where $$\mathsf{\{Y_t\}}, t = 0, 1,.. $$ is a first order [Markov process](http://mathworld.wolfram.com/MarkovProcess.html) on sample space $$\mathbf{Y} \subseteq \mathbb{R} $$ with conditional (transition) density $$\mathsf{p(y_t \mid y_{t-1})} $$. $$\mathsf{\phi}$$ can take any _allowable_ value such that $$\mathsf{Y} \subseteq \mathbb{R} $$ when $$\mathsf{Y}_{t-1} \subseteq \mathbb{R} $$. $$\mathsf{Z_t}$$ is an _i.i.d_ sequence with mean $$\mathsf{\lambda}$$. More on this can be found at [Grunwald].
+where $$\mathsf{\{Y_t\}}, t = 0, 1,.. $$ is a first order [Markov process](http://mathworld.wolfram.com/MarkovProcess.html) on sample space $$\mathbf{Y} \subseteq \mathbb{R} $$ with conditional (transition) density $$\mathsf{p(y_t \mid y_{t-1})} $$. $$\mathsf{\phi}$$ can take any _allowable_ value such that $$\mathsf{Y} \subseteq \mathbb{R} $$ when $$\mathsf{Y}_{t-1} \subseteq \mathbb{R} $$. $$\mathsf{Z_t}$$ is an _i.i.d._ sequence with mean $$\mathsf{\lambda}$$. More on this can be found at [Grunwald].
 
 The normal **AR(1)** process with mean $$\mathsf{\mu}$$ is usually written in terms of a series of white noise variables $$\mathsf{\{E_t\}}$$:
 
 $$\mathsf{Y_t - \mu = \phi(Y_{t-1} - \mu) + E_t} \tag{2.2}$$
 
-where $$\mathsf{E_t \sim \mathcal{N}(0, \sigma^2)} $$ are _i.i.d_ and $$\mathsf{\mid \phi\mid < 1}$$.
+where $$\mathsf{E_t \sim \mathcal{N}(0, \sigma^2)} $$ are _i.i.d._ and $$\mathsf{\mid \phi\mid < 1}$$.
 
 The question is why would you choose to model your time-series as (2.2) over (2.1), even in the face of a lack of evidence of normal behaviour in your data. The reason is convenience.
 
