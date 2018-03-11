@@ -27,7 +27,7 @@ $$\frac{\sqrt{n}}{\sigma}(\frac{1}{n}\sum_{i=1}^{n} x_{i} - \mu) \Rightarrow \ma
 In practice, how would you use this fact? A clichéd, yet pedagogical, example would be an experiment involving large number of coin flips. Suppose you choose a sample of _n_ coin flips and count the number of heads you get within the sample. If this exercise of choosing a sample is done over and over, the count of heads you get will follow an approximate normal distribution. As you increase the sample size _n_ asymptotically, the distribution will tend closer and closer to a normal distribution.
 
 
-### Convergence [[2](#references)]
+### Convergence
 I make a short note here on convergence for completeness. The relevant types of convergence common in statistics and probability are,
 * Almost surely, almost everywhere with probability one, \\(w.p.  1\\):
 
