@@ -11,7 +11,7 @@ permalink: /2018/03/10/The-Assumption-of-Normality-in-Time-Series/
 
 The notion of normality is oft-encountered in statistics as an underlying assumption to many proofs and results; it is normal to assume normality (pun strongly intended; always wanted to use this one). In much statistical works, the assumption of normality, even if inaccurate, is amortized and ameliorated by the existence of Central Limit Theorem. Time-series analysis, sadly, does not enjoy this privilege. The assumption of independence, so core to the CLT and other Limit theorems, is poignantly absent in time-series'.
 
-This post tries to explain the use of Limit theorems in time-series analysis. <!--break--> As my intended audience comprises computer scientists/engineers, and not statisticians, this post has a long preface on the premise of the problem.
+This post tries to explain the use of Limit theorems in time-series analysis.  <!--break--> As my intended audience comprises computer scientists/engineers, and not statisticians, this post has a long preface on the premise of the problem.
 
 ## Preface
 ### Limit Theorems
@@ -67,7 +67,7 @@ $$\mathsf{Y_t \sim \mathcal{N}(\mu, \frac{\sigma^2}{1 - \phi^2})} \tag{2.3}$$
 
 It is uncommon, in case of any other distribution, for the conditional and the marginal probabilities to have similar distributions. In fact, in the general case, they do not even possess relatively simple forms. The Normal distribution is a rare exception [Grunwald]. In addition, the parametric calculations corresponding to a particular time-series model using maximum likelihood estimators are simplified with the assumption of normality.
 
-We will continue seeking the premise for the assumption of normality in time-series analysis in the next post, which will also elaborate on the Martingale Central Limit Theorem, which is one of the extensions of CLT to dependent random variables. Until next time!
+We will continue seeking the premise for the assumption of normality in time-series analysis in the next post, which will also elaborate on the extensions of Central Limit Theorem to dependent random variables. Until next time!
 
 
 ## References
