@@ -11,8 +11,9 @@ permalink: /2018/03/10/The-Assumption-of-Normality-in-Time-Series/
 
 The notion of normality is oft-encountered in statistics as an underlying assumption to many proofs and results; it is normal to assume normality (pun strongly intended; always wanted to use this one). In much statistical works, the assumption of normality, even if inaccurate, is amortized and ameliorated by the existence of Central Limit Theorem. Time-series analysis, sadly, does not enjoy this privilege. The assumption of independence, so core to the CLT and other Limit theorems, is poignantly absent in time-series'.
 
-This post tries to explain the use of Limit theorems in time-series analysis.  <!--break--> As my intended audience comprises computer scientists/engineers, and not statisticians, this post has a long preface on the premise of the problem.
+This post tries to explain the use of Limit theorems in time-series analysis. As my intended audience comprises computer scientists/engineers, and not statisticians, this post has a long preface on the premise of the problem.
 
+<!--break-->
 ## Preface
 ### Limit Theorems
 Limit theorems are a class of theorems in statistics governing the behaviour of sums of stochastic variables. The most widely used limit theorems are the Central Limit Theorem (CLT) and the Law of Large Numbers (LLN). Our focus in this post is on the Central Limit Theorem. CLT, in itself, is a family of theorems rather than one single theorem. But in every form, CLT forms a set of weak-convergence rules around the sum of stochastic variables. We will have a little more to say on weak-convergence in our section on [Convergence](#convergence).
