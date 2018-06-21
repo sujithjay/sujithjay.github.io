@@ -1,7 +1,7 @@
 ---
 layout: "post"
 comments: true
-title: "Concurrency & Parallelism"
+title: "Concurrency and Parallelism"
 desc: This post provides a bit of a preface on the notion of concurrency, and compares it with parallelism
 author: Sujith Jay Nair
 tags: concurrency parallelism
