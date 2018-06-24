@@ -16,11 +16,11 @@ I was working on an open-source ticket recently where I received the following r
 
 *"IndexedSeq[_] (being backed by scala.collection.Vector) are horrifically inefficient, and we should replace that with a better IndexedSeq that's just backed by an Array."*
 
-The reviewer here is referring to a Collection class '*immutable.IndexedSeq*'. For those new to Scala, IndexedSeq is an interface which provides an Java Array-like API. And like any Java interface, it states this contract without constraints on the run-time of its operations.
+The reviewer here is referring to a Collection class '*immutable.IndexedSeq*'. For those new to Scala, _IndexedSeq_ is an interface which provides an Java Array-like API. And like any Java interface, it states this contract without constraints on the run-time of its operations.
  
-In other words, it defines methods like 'head()', 'next()', 'hasNext()' etc, but says nothing on how quick the implementation of these need to be. They could range from O(1) to O(N) in the various classes implementing the interface. The default implementation is backed by a Vector which uses a tree-like structure to perform these operations. So, definitely not O(1). And that is the point the reviewer is trying to make.
+In other words, it defines methods like '_head()_', '_next()_', '_hasNext()_' etc, but says nothing on how quick the implementation of these need to be. They could range from _O(1)_ to _O(N)_ in the various classes implementing the interface. The default implementation is backed by a Vector which uses a tree-like structure to perform these operations. So, definitely not _O(1)_. And that is the point the reviewer is trying to make.
 
-I was not aware of the nuances of IndexedSeq and set about in learning more about how it is implemented, and to find an Array-backed implementation. Although I learnt more and more about how IndexedSeq work, I was at a loss on how to implement an Array-backed implementation without copying the entire implementing class from scala.collections and making the relevant changes.
+I was not aware of the nuances of IndexedSeq and set about in learning more about how it is implemented, and to find an Array-backed implementation. Although I learnt more and more about how _IndexedSeq_ work, I was at a loss on how to implement an Array-backed implementation without copying the entire implementing class from scala.collections and making the relevant changes.
 
 As a resort of the final sorts, I posted a question on StackOverflow. A few people responded via comments and answers; each offering a different world-view. But, what amazed me as I read and responded to their comments and answers is how little I knew on the topic and on some allied topics; how an exercise which lasted less than a few hours (between me posting the question and the final acceptance of an appropriate answer) can be so enriching.
 
