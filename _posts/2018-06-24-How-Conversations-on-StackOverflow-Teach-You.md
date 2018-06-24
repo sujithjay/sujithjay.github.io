@@ -16,7 +16,7 @@ I was working on an open-source ticket recently where I received the following r
 
 *"IndexedSeq[_] (being backed by scala.collection.Vector) are horrifically inefficient, and we should replace that with a better IndexedSeq that's just backed by an Array."*
 
-The reviewer here is referring to a Collection class '*immutable.IndexedSeq*'. For those new to Scala, _IndexedSeq_ is an interface which provides an Java Array-like API. And like any Java interface, it states this contract without constraints on the run-time of its operations.
+The reviewer here is referring to a Collection class '*immutable.IndexedSeq*'. For those new to Scala, _IndexedSeq_ is an interface which provides an Java _Array_-like API. And like any Java interface, it states this contract without constraints on the run-time of its operations.
  
 In other words, it defines methods like '_head()_', '_next()_', '_hasNext()_' etc, but says nothing on how quick the implementation of these need to be. They could range from _O(1)_ to _O(N)_ in the various classes implementing the interface. The default implementation is backed by a _Vector_ which uses a tree-like structure to perform these operations. So, definitely not _O(1)_. And that is the point the reviewer is trying to make.
 
