@@ -12,12 +12,13 @@ permalink: /2018/06/20/Concurrency-and-Parallelism/
 **TL; DR**
 This post explores the notion that the definition of concurrency & parallelism itself is not language-agnostic. Depending on the language & paradigms we subscribe to, the definitions change.
 
+<!--break-->
 ## Introduction
 Concurrency is a much-overloaded term in computer science. Every domain of literature in computer science defines its own flavour of what concurrency means to it. To add to the confusion, "Parallelism" and "Muti-programming" are purported as synonyms to concurrency. So much for our simple minds to wrap around.
 
 The intention of this article is to provide a bit of a preface on the notion of concurrency, and compare it with parallelism. Bear with me.
 
-<!--break-->
+
 ## Concurrency != Parallelism
 Concurrency is the use of multiple threads of control to achieve a program objective. Each thread is interleaved in (execution) space & time, and the interleaving is non-deterministic. Thus, concurrent programs are non-deterministic in general. 
 
