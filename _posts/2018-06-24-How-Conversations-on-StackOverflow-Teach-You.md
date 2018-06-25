@@ -6,8 +6,10 @@ desc: An exhortation to the engineering community to share more
 author: Sujith Jay Nair
 tags: conversations learning culture
 date: "2018-06-24 11:11"
+image: /public/ourjob.png
 permalink: /2018/06/24/How-Conversations-on-StackOverflow-Teach-You/
 ---
+![image-title-here]({{ site.baseurl }}/public/ourjob.png){:class="img-responsive"}
 
 **Note**: This post has some concepts on Scala collections. Do not worry if you have little interest in Scala; the point I am trying to convey has significance beyond my choice of language. This is an exhortation to the engineering community at large to share our learnings more.
 
