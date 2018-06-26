@@ -30,6 +30,8 @@ But if we think of it, any conversation on matters we know little about (and wou
 
 Which brings me to my particular pet peeve. Why do we engineers not use the immediate community we have? Our teams are communities in themselves; each knowing something more about something than the other. How often do we share with each other things we learnt during that day? In this week? In this month? During last sprint or release? You must have learnt something! Something which surprised you; something which brought out an 'Oh!'. Why would you not share it with everyone around you? Walk up to somebody today, and say 'Did you know that ...?'. And for the greater good, share it with the wider world as well. We would all like to know.
 
-P.S: For those of you interested in the SO post and the original open-source ticket (which is still a work in progress), check out the links below:
+P.S. For those of you interested in the SO post and the original open-source ticket (which is still a work in progress), check out the links below:
 1. [StackOverflow Post](https://stackoverflow.com/questions/49256315/how-to-implement-an-immutable-indexedseq-in-scala-backed-by-an-array)
 2. [ScalaNLP/Breeze PR](https://github.com/scalanlp/breeze/pull/695)
+
+Also, a thank you to the awesome team at [CommitStrip](http://www.commitstrip.com/en/) for producing great comic strips, such as the one at the start of this post. The original strip can be found [here](http://www.commitstrip.com/en/2018/04/24/thats-our-job/).

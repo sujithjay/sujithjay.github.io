@@ -61,3 +61,5 @@ All of these stand as of Spark 2.2.0.
 A reasonable way to understand the expected behaviour of Broadcast Hash Join is to peruse the test cases against it. You can find them [here](https://github.com/apache/spark/blob/branch-2.2/sql/core/src/test/scala/org/apache/spark/sql/execution/joins/BroadcastJoinSuite.scala). Also, check out this [talk](https://databricks.com/session/optimizing-apache-spark-sql-joins) on optimizing Spark SQL joins.
 
 Upcoming posts in this series will explore Shuffle Hash Joins, Broadcast Nested Loop Joins and others. Tune in for them. Please leave a comment for suggestions, opinions, or just to say hello. Until next time!
+
+P.S. A thank you to [angriestprogrammer](http://angriestprogrammer.com/) for the strip at the start of this post. The original strip can be found [here](http://angriestprogrammer.com/comic/sql_vaudeville).
