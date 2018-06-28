@@ -1,21 +1,21 @@
 ---
 layout: post
 comments: true
-title: Shuffle Hash Joins and Sort Merge Joins in Apache Spark
-desc: An overview into Shuffle Hash Joins and Sort Merge Joins in Apache Spark SQL
+title: Shuffle Hash and Sort Merge Joins in Apache Spark
+desc: An overview into Shuffle Hash and Sort Merge Joins in Apache Spark SQL
 author: Sujith Jay Nair
 series: Apache Spark SQL
 categories:
   - spark-sql
 tags: apache-spark sql joins
-permalink: /spark-sql/2018/06/28/Shuffle-Hash-Joins-and-Sort-Merge-Joins-in-Apache-Spark/
+permalink: /spark-sql/2018/06/28/Shuffle-Hash-and-Sort-Merge-Joins-in-Apache-Spark/
 ---
 
 ## Introduction
-This post is the second in my series on Joins in Apache Spark SQL. The [first part](/spark-sql/2018/02/17/Broadcast-Hash-Joins-in-Apache-Spark/) explored Broadcast Hash Join; this post will focus on Shuffle Hash Joins & Sort Merge Joins.
+This post is the second in my series on Joins in Apache Spark SQL. The [first part](/spark-sql/2018/02/17/Broadcast-Hash-Joins-in-Apache-Spark/) explored Broadcast Hash Join; this post will focus on Shuffle Hash Join & Sort Merge Join.
 
 <!--break-->
-Although Broadcast Hash Join is the most performant join strategy, it is applicable to a small set of scenarios. Shuffle Hash Joins & Sort Merge Joins are the true work-horses of Spark SQL; a majority of the use-cases involving joins you will encounter in Spark SQL will have a physical plan using either of these strategies.
+Although Broadcast Hash Join is the most performant join strategy, it is applicable to a small set of scenarios. Shuffle Hash Join & Sort Merge Join are the true work-horses of Spark SQL; a majority of the use-cases involving joins you will encounter in Spark SQL will have a physical plan using either of these strategies.
 
 ## [MCVE](https://stackoverflow.com/help/mcve)
 Let us take an example to understand the join strategies better. This time we will be using the [Mondrian Foodmart](https://github.com/OSBI/foodmart-data) dataset to write our queries against. For those unaware of it, the foodmart dataset is a popular test dataset for OLAP scenarios. It originated as part of the test suite of the Pentaho Mondrian OLAP engine. You can check out its schema layout [here](https://github.com/julianhyde/foodmart-data-hsqldb/blob/master/foodmart-schema.png). We will be concerned with only a couple of tables from the dataset: _sales_fact_98_ & _customer_.
@@ -32,7 +32,7 @@ The Spark SQL planner chooses to implement the join operation using _'SortMergeJ
 - _Sort Merge_: if the matching join keys are sortable.
 
 ## Pick One, Please
-There is some confusion over the choice between Shuffle Hash Joins & Sort Merge Joins, particularly after Spark 2.3. Part of the reason is the introduction of a new configuration [spark.sql.join.preferSortMergeJoin](https://github.com/apache/spark/blob/v2.3.0/sql/catalyst/src/main/scala/org/apache/spark/sql/internal/SQLConf.scala?utf8=%E2%9C%93#L157-L161), which is internal, and is set by default.
+There is some confusion over the choice between Shuffle Hash Join & Sort Merge Join, particularly after Spark 2.3. Part of the reason is the introduction of a new configuration [spark.sql.join.preferSortMergeJoin](https://github.com/apache/spark/blob/v2.3.0/sql/catalyst/src/main/scala/org/apache/spark/sql/internal/SQLConf.scala?utf8=%E2%9C%93#L157-L161), which is internal, and is set by default.
 
 This means that Sort Merge is chosen every time over Shuffle Hash in Spark 2.3.0.
 
