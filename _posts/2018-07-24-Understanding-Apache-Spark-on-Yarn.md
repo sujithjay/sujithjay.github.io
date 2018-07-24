@@ -9,6 +9,10 @@ image: /public/Spark-Cluster-Overview.png
 permalink: /2018/07/24/Understanding-Apache-Spark-on-YARN/
 date: "2018-07-24 11:11"
 ---
+**TL; DR**
+Apache Spark is a lot to digest; running it on YARN even more so. I hope this post helps a bit.
+
+<!--break-->
 ## Introduction
 This article is a introductory reference to understanding Apache Spark on YARN. Since our data platform at [Logistimo](http://logistimo.com) runs on this infrastructure, it is imperative you (my fellow engineer) have an understanding about it before you can contribute to it. This article assumes basic familiarity with Apache Spark concepts, and will not linger on discussing them.
 
@@ -104,7 +108,10 @@ Let us now move on to certain Spark configurations. In particular, we will look 
 I hope this article serves as a concise compilation of common causes of confusions in using Apache Spark on YARN. More details can be found in the references below. Please leave a comment for suggestions, opinions, or just to say hello. Until next time!
 
 ## References
-[1] "Apache Hadoop 2.9.1 – Apache Hadoop YARN". Hadoop.Apache.Org, 2018, https://hadoop.apache.org/docs/current/hadoop-yarn/hadoop-yarn-site/YARN.html. Accessed 23 July 2018.
-[2] Ryza, Sandy. "Apache Spark Resource Management And YARN App Models - Cloudera Engineering Blog". Cloudera Engineering Blog, 2018, https://blog.cloudera.com/blog/2014/05/apache-spark-resource-management-and-yarn-app-models/. Accessed 22 July 2018.
-[3] "Configuration - Spark 2.3.0 Documentation". spark.apache.org, 2018, https://spark.apache.org/docs/2.3.0/configuration.html. Accessed 22 July 2018.
-[4] "Cluster Mode Overview - Spark 2.3.0 Documentation". spark.apache.org, 2018, https://spark.apache.org/docs/2.3.0/cluster-overview.html. Accessed 23 July 2018.
+[1] "Apache Hadoop 2.9.1 – Apache Hadoop YARN". hadoop.apache.org, 2018, Available at: [Link](https://hadoop.apache.org/docs/current/hadoop-yarn/hadoop-yarn-site/YARN.html). Accessed 23 July 2018.
+
+[2] Ryza, Sandy. "Apache Spark Resource Management And YARN App Models - Cloudera Engineering Blog". Cloudera Engineering Blog, 2018, Available at: [Link](https://blog.cloudera.com/blog/2014/05/apache-spark-resource-management-and-yarn-app-models/). Accessed 22 July 2018.
+
+[3] "Configuration - Spark 2.3.0 Documentation". spark.apache.org, 2018, Available at: [Link](https://spark.apache.org/docs/2.3.0/configuration.html). Accessed 22 July 2018.
+
+[4] "Cluster Mode Overview - Spark 2.3.0 Documentation". spark.apache.org, 2018, Available at: [Link](https://spark.apache.org/docs/2.3.0/cluster-overview.html). Accessed 23 July 2018.
