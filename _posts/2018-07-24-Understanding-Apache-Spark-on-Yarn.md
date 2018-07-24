@@ -91,7 +91,9 @@ We will first focus on some YARN configurations, and understand their implicatio
   <value>8192</value><!-- 8 GB -->
   ```
 
-Thus, in summary, the above configurations mean that the ResourceManager can only allocate memory to containers in increments of *yarn.scheduler.minimum-allocation-mb* and not exceed *yarn.scheduler.maximum-allocation-mb*, and it should not be more than the total allocated memory of the node, as defined by *yarn.nodemanager.resource.memory-mb*. We will refer to this in further discussions as the YARN Boxed Memory axiom (just a fancy name to ease the discussions). A similar axiom can be stated for cores as well, although we will not be doing so in this article.
+Thus, in summary, the above configurations mean that the ResourceManager can only allocate memory to containers in increments of *yarn.scheduler.minimum-allocation-mb* and not exceed *yarn.scheduler.maximum-allocation-mb*, and it should not be more than the total allocated memory of the node, as defined by *yarn.nodemanager.resource.memory-mb*.
+
+We will refer to the above statement in further discussions as the _Boxed Memory axiom_ (just a fancy name to ease the discussions). A similar axiom can be stated for cores as well, although we will not venture forth in this article.
 
 Let us now move on to certain Spark configurations. In particular, we will look at these configurations from the viewpoint of running a Spark job within YARN.
 
