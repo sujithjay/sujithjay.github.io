@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: "Understanding Apache Spark on YARN"
-desc: An introductory reference to understanding Apache Spark on YARN
+desc: An introductory reference to Apache Spark on YARN
 author: Sujith Jay Nair
 tags: apache-spark yarn
 image: /public/Spark-Cluster-Overview.png
@@ -93,19 +93,19 @@ We will first focus on some YARN configurations, and understand their implicatio
 
 Thus, in summary, the above configurations mean that the ResourceManager can only allocate memory to containers in increments of *yarn.scheduler.minimum-allocation-mb* and not exceed *yarn.scheduler.maximum-allocation-mb*, and it should not be more than the total allocated memory of the node, as defined by *yarn.nodemanager.resource.memory-mb*.
 
-We will refer to the above statement in further discussions as the _Boxed Memory axiom_ (just a fancy name to ease the discussions). A similar axiom can be stated for cores as well, although we will not venture forth in this article.
+We will refer to the above statement in further discussions as the _Boxed Memory Axiom_ (just a fancy name to ease the discussions). A similar axiom can be stated for cores as well, although we will not venture forth with it in this article.
 
 Let us now move on to certain Spark configurations. In particular, we will look at these configurations from the viewpoint of running a Spark job within YARN.
 
 - *spark.executor.memory*
 
-  Since every executor runs as a YARN container, it is bound by the Boxed Memory axiom. However, a source of confusion among developers is that the executors will use a memory allocation equal to *spark.executor.memory*. In essence, the memory request is equal to the sum of *spark.executor.memory* + *spark.executor.memoryOverhead*. Thus, it is this value which is bound by the Boxed Memory axiom.
+  Since every executor runs as a YARN container, it is bound by the Boxed Memory Axiom. However, a source of confusion among developers is that the executors will use a memory allocation equal to *spark.executor.memory*. In essence, the memory request is equal to the sum of *spark.executor.memory* + *spark.executor.memoryOverhead*. Thus, it is this value which is bound by our axiom.
 
 - *spark.driver.memory*
 
-  In cluster deployment mode, since the driver runs in the ApplicationMaster which in turn is managed by YARN, this property decides the memory available to the ApplicationMaster, and it is bound by the Boxed Memory axiom. But as in the case of *spark.executor.memory*, the actual value which is bound is *spark.driver.memory* + *spark.driver.memoryOverhead*.
+  In cluster deployment mode, since the driver runs in the ApplicationMaster which in turn is managed by YARN, this property decides the memory available to the ApplicationMaster, and it is bound by the Boxed Memory Axiom. But as in the case of *spark.executor.memory*, the actual value which is bound is *spark.driver.memory* + *spark.driver.memoryOverhead*.
 
-  In case of client deployment mode, the driver memory is independent of YARN and the Boxed Memory axiom is not applicable to it. In turn, it is the value *spark.yarn.am.memory* + *spark.yarn.am.memoryOverhead* which is bound by the Boxed Memory axiom.
+  In case of client deployment mode, the driver memory is independent of YARN and the axiom is not applicable to it. In turn, it is the value *spark.yarn.am.memory* + *spark.yarn.am.memoryOverhead* which is bound by the Boxed Memory Axiom.
 
 I hope this article serves as a concise compilation of common causes of confusions in using Apache Spark on YARN. More details can be found in the references below. Please leave a comment for suggestions, opinions, or just to say hello. Until next time!
 
