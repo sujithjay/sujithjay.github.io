@@ -18,8 +18,8 @@ This post presents a simple, almost trivial, mental-model to help think about da
 <!--break-->
 ## Cut to the chase
 Large-scale data processing serves multiple purposes. At a 30,000-feet view, every purpose can be bucketed into two broad categories:
-- Maintaining Materialized Views
-- Processing Events
+- **Maintaining Materialized Views**
+- **Processing Events**
 
 This categorization is a high, high level one I use to reason about data system design, and its utility fades fast as we delve deeper into system nitty-gritty. Silos appear within & around each of these buckets as we descend into implementation of systems, but it is still a useful one to reason about data-intensive applications.
 
@@ -82,7 +82,7 @@ The central tenet of this dichotomy is an old idea; streams and databases have h
 However, synergy between the two cannot be overstated. Recent state-of-the-art systems, such as [Kafka](https://kafka.apache.org/) and [Samza](http://samza.apache.org/), have blurred the distinction between them. Suggested reading include [[4]](#kreps-jay-its-okay-to-store-data-in-kafka-confluent-2018-link-accessed-14-aug-2018)[[5]](#kreps-jay-why-local-state-is-a-fundamental-primitive-in-stream-processing-oreilly-media-2018-link-accessed-15-aug-2018), both by Jay Kreps, along with [[6]](#gray-jim-queues-are-databases-arxiv-preprint-cs0701158-2007) as examples of how stream systems are proving their utility as state systems.
 
 ## References
-1. #### Kleppmann, Martin. Designing data-intensive applications: The big ideas behind reliable, scalable, and maintainable systems. " O'Reilly Media, Inc.", 2017
+1. #### Kleppmann, Martin. Designing data-intensive applications: The big ideas behind reliable, scalable, and maintainable systems. " O'Reilly Media, Inc.", 2017.
  `I particularly recommend this as a encyclopedia of data engineering concepts and practices. I would also like to credit this work as what inspired me into writing this piece.`
 2. #### Abadiand, D., et al. "Aurora: A data stream management system." Proc. ACM SIGMOD. 2003.
 3. #### Aggarwal, Charu C., ed. Data streams: models and algorithms. Vol. 31. Springer Science & Business Media, 2007.
