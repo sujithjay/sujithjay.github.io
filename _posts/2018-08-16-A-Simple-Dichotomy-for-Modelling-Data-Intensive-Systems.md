@@ -83,7 +83,7 @@ However, synergy between the two cannot be overstated. Recent state-of-the-art s
 
 ## References
 1. #### Kleppmann, Martin. Designing data-intensive applications: The big ideas behind reliable, scalable, and maintainable systems. " O'Reilly Media, Inc.", 2017.
- `I particularly recommend this as a encyclopedia of data engineering concepts and practices. I would also like to credit this work as what inspired me into writing this piece.`
+ `I particularly recommend this as an encyclopedia of data engineering concepts and practices. I would also like to credit this work as what inspired me into writing this piece.`
 2. #### Abadiand, D., et al. "Aurora: A data stream management system." Proc. ACM SIGMOD. 2003.
 3. #### Aggarwal, Charu C., ed. Data streams: models and algorithms. Vol. 31. Springer Science & Business Media, 2007.
 4. #### Kreps, Jay. "It's Okay To Store Data In Kafka". Confluent, 2018, [Link](https://www.confluent.io/blog/okay-store-data-apache-kafka/). Accessed 14 Aug 2018.
