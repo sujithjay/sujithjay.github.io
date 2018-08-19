@@ -43,7 +43,7 @@ A class of systems which belong to the bucket of systems processing events are [
 
 An analytics system performing batch computations, or stream processing, or implementing some form of lambda architecture is an example of a system capable of being modeled as either. The model depends on the vantage point from where you observe the system.
 
-Every statistic, metric, aggregation, and ML model that the system computes is a materialized view into the source data. Thus, if we view the analytics system in conjunction with the system-component storing the materialized views, i.e, from the vantage point of a consumer of the materialized views, the system exhibits the property of persistent data & transient query.
+Every statistic, metric, aggregation, and machine-learning model that the system computes is a materialized view into the source data. Thus, if we view the analytics system in conjunction with the system-component storing the materialized views, i.e, from the vantage point of a consumer of the materialized views, the system exhibits the property of persistent data & transient query.
 
 On the other hand, when viewed in disjunction with the component storing the materialized views, it exhibits the property of permanent query and transient data.
 
