@@ -1,6 +1,7 @@
-<span>[
+<span>
   {% for tag in post.tags %}
-    {% capture tag_name %}{{ tag }}{% endcapture %}
-    <a href="/tag/{{ tag_name }}"><code class="highligher-rouge"><nobr>{{ tag_name }}</nobr></code>&nbsp;</a>
+    {% capture tagname %}{{ tag }}{% endcapture %}
+    {% capture tagcase %}{{ tag | upcase }}{% endcapture %}
+    <a href="/tag/{{ tagname }}" style="color: #da393f;font-size: 0.8rem;font-weight: 600;letter-spacing: 0.05em;"><code class="highligher-rouge"><nobr>{{ tagcase }}</nobr></code>&nbsp;</a>
   {% endfor %}
-]</span>
+</span>
