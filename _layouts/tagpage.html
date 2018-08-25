@@ -2,11 +2,28 @@
 layout: default
 ---
 <div class="post">
-    <h3>Articles with Tag:   ' {{ page.tag }} '</h3>
+    {% assign tags = page.tag | split: '-' %}
+    {% capture titlecase %}{% for word in tags %}{{ word | capitalize }} {% endfor %}{% endcapture %}
+    <h1 align="center" style="font-weight: 600;">{{ titlecase }} Articles</h1>
+    {% include newsletter.html %}
     <ul>
         {% for post in site.tags[page.tag] %}
-        <li>{{ post.date | date_to_string }} <br><a href="{{ post.url }}">{{ post.title }}</a>
-        </li>
+        <div class="post">
+            <h1 class="post-title">
+                <a href="{{ post.url }}">
+                    {{ post.title }}
+                </a>
+            </h1>
+
+            <span class="post-date">{{ post.date | date_to_string }} • {% include includetags-homepage.html %}</span>
+
+            {{ post.content | split:'<!--break-->' | first }}
+            {% if post.content contains '<!--break-->' %}
+            <a href="{{ post.url }}">.. Read More</a>
+            <div class="doublespaced" >
+            </div>
+            {% endif %}
+        </div>
         {% endfor %}
     </ul>
 </div>
