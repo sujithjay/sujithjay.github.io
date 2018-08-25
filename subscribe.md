@@ -1,5 +1,5 @@
 ---
 layout: page
-title: Sujith Jay's Newsletter
+title: Newsletter
 ---
 {% include newsletter.html %}
