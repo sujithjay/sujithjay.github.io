@@ -13,12 +13,12 @@ Data systems are defined to include:
 This list is inspired by Reynold Xin's list on [Database Readings](https://github.com/rxin/db-readings).
 
 ## Table of Contents
-1. [Algorithms](#Algorithms)
-2. [Consistency and Consensus](#Consistency-and-Consensus)
-3. [Query Processing](#Query-Processing)
-4. [State and Stream](#State-and-Stream)
-5. [Database Design](#Database-Design)
-6. [Distributed Data Computation](#Distributed-Data-Computation)
+1. [Algorithms](#algorithms)
+2. [Consistency and Consensus](#consistency-and-consensus)
+3. [Query Processing](#query-processing)
+4. [State and Stream](#state-and-stream)
+5. [Database Design](#database-design)
+6. [Distributed Data Computation](#distributed-data-computation)
 
 ### Algorithms
 
