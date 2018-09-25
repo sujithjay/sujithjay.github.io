@@ -12,10 +12,6 @@ date: "2018-08-18 11:11"
 image: /public/StateVsStream.png
 permalink: /data-systems/A-Simple-Dichotomy-for-Modelling-Data-Intensive-Systems/
 ---
-**TL; DR**
-This post presents a simple, almost trivial, mental-model to help think about data-intensive systems.
-
-<!--break-->
 ## Cut to the chase
 Large-scale data processing serves multiple purposes. At a 30,000-feet view, every purpose can be bucketed into two broad categories:
 - **Maintaining Materialized Views**
@@ -25,13 +21,13 @@ This categorization is a high, high level one I use to reason about data system 
 
 The basis of this categorization is captured in the following statement:
 
-`Every data system has two variables: data & query. The defining feature of the system is in the temporal nature of these variables. In every data system, either data or query is transient and the other is persistent.`
+> Every data system has two variables: data & query. The defining feature of the system is in the temporal nature of these variables. In every data system, either data or query is transient and the other is persistent.
 
 In a data system maintaining materialized views, data (or more precisely, the view of data) is persistent, and query is a transient entity flowing into & out of the system.
 
 In a data system processing events, query is persistent and transient data flows through the system.
 
-
+<!--break-->
 ## I like examples
 What are examples of systems which can be reasoned using this simple model?
 
