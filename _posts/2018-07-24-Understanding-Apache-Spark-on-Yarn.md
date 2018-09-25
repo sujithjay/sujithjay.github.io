@@ -9,13 +9,10 @@ image: /public/Spark-Cluster-Overview.png
 permalink: /2018/07/24/Understanding-Apache-Spark-on-YARN/
 date: "2018-07-24 11:11"
 ---
-**TL; DR**
-Apache Spark is a lot to digest; running it on YARN even more so. I hope this post helps a bit.
+## Introduction
+Apache Spark is a lot to digest; running it on YARN even more so. This article is an introductory reference to understanding Apache Spark on YARN. Since our data platform at [Logistimo](http://logistimo.com) runs on this infrastructure, it is imperative you (my fellow engineer) have an understanding about it before you can contribute to it. This article assumes basic familiarity with Apache Spark concepts, and will not linger on discussing them.
 
 <!--break-->
-## Introduction
-This article is an introductory reference to understanding Apache Spark on YARN. Since our data platform at [Logistimo](http://logistimo.com) runs on this infrastructure, it is imperative you (my fellow engineer) have an understanding about it before you can contribute to it. This article assumes basic familiarity with Apache Spark concepts, and will not linger on discussing them.
-
 ## Overview on YARN
 YARN is a generic resource-management framework for distributed workloads; in other words, a cluster-level operating system. Although part of the Hadoop ecosystem, YARN can support a lot of varied compute-frameworks (such as Tez, and Spark) in addition to MapReduce.
 
