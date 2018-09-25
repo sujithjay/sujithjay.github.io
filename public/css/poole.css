@@ -61,6 +61,7 @@ html {
 body {
   color: #515151;
   background-color: #fff;
+  font-size: 0.8rem;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
