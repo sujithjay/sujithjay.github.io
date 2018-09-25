@@ -48,7 +48,7 @@ Every statistic, metric, aggregation, and machine-learning model that the system
 On the other hand, when viewed in disjunction with the component storing the materialized views, it exhibits the property of permanent query and transient data.
 
 ## Why does this dichotomy exist?
-Data in a system exists either as state or a stream. Martin Kleppmann has a loose analogy to connect states and streams [[1]](#kleppmann-martin-designing-data-intensive-applications-the-big-ideas-behind-reliable-scalable-and-maintainable-systems--oreilly-media-inc-2017). In this analogy, State is defined as the mathematical integration (a cumulative effect) of a stream.
+Data in a system exists either as state or a stream. Martin Kleppmann has a loose analogy to connect states and streams [^1]. In this analogy, State is defined as the mathematical integration (a cumulative effect) of a stream.
 
 $$ \mathsf{\mathbf{state(now) = \int_{t = 0}^{now} stream(t)  dt }} $$
 
@@ -77,16 +77,15 @@ This answer to this question is the raison d'être for your system. I believe ou
 
 
 ## Related Work
-The central tenet of this dichotomy is an old idea; streams and databases have had separate handling and research attention since long [[2]](#abadiand-d-et-al-aurora-a-data-stream-management-system-proc-acm-sigmod-2003)[[3]](#aggarwal-charu-c-ed-data-streams-models-and-algorithms-vol-31-springer-science--business-media-2007).
+The central tenet of this dichotomy is an old idea; streams and databases have had separate handling and research attention since long. [^2] [^3]
 
-However, synergy between the two cannot be overstated. Recent state-of-the-art systems, such as [Kafka](https://kafka.apache.org/) and [Samza](http://samza.apache.org/), have blurred the distinction between them. Suggested reading include [[4]](#kreps-jay-its-okay-to-store-data-in-kafka-confluent-2018-link-accessed-14-aug-2018)[[5]](#kreps-jay-why-local-state-is-a-fundamental-primitive-in-stream-processing-oreilly-media-2018-link-accessed-15-aug-2018), both by Jay Kreps, along with [[6]](#gray-jim-queues-are-databases-arxiv-preprint-cs0701158-2007) as examples of how stream systems are proving their utility as state systems.
+However, synergy between the two cannot be overstated. Recent state-of-the-art systems, such as [Kafka](https://kafka.apache.org/) and [Samza](http://samza.apache.org/), have blurred the distinction between them. Suggested reading include [^4] and [^5], both by Jay Kreps, along with [^6] as examples of how stream systems are proving their utility as state systems.
 
 ## References
-1. #### Kleppmann, Martin. Designing data-intensive applications: The big ideas behind reliable, scalable, and maintainable systems. " O'Reilly Media, Inc.", 2017.
- `I particularly recommend this as an encyclopedia of data engineering concepts and practices. I would also like to credit this work as what inspired me into writing this piece.`
-2. #### Abadiand, D., et al. "Aurora: A data stream management system." Proc. ACM SIGMOD. 2003.
-3. #### Aggarwal, Charu C., ed. Data streams: models and algorithms. Vol. 31. Springer Science & Business Media, 2007.
-4. #### Kreps, Jay. "It's Okay To Store Data In Kafka". Confluent, 2018, [Link](https://www.confluent.io/blog/okay-store-data-apache-kafka/). Accessed 14 Aug 2018.
-5. #### Kreps, Jay. "Why Local State Is A Fundamental Primitive In Stream Processing". O'reilly Media, 2018, [Link](https://www.oreilly.com/ideas/why-local-state-is-a-fundamental-primitive-in-stream-processing). Accessed 15 Aug 2018.
-6. #### Gray, Jim. "Queues are databases." arXiv preprint cs/0701158 (2007).
-7. #### Hyde, Julian. "Data in flight." Communications of the ACM 53.1 (2010): 48-52.
+[^1]: Kleppmann, Martin. Designing data-intensive applications: The big ideas behind reliable, scalable, and maintainable systems. " O'Reilly Media, Inc.", 2017.
+[^2]: Abadiand, D., et al. "Aurora: A data stream management system." Proc. ACM SIGMOD. 2003.
+[^3]: Aggarwal, Charu C., ed. Data streams: models and algorithms. Vol. 31. Springer Science & Business Media, 2007.
+[^4]: Kreps, Jay. "It's Okay To Store Data In Kafka". Confluent, 2018, [Link](https://www.confluent.io/blog/okay-store-data-apache-kafka/). Accessed 14 Aug 2018.
+[^5]: Kreps, Jay. "Why Local State Is A Fundamental Primitive In Stream Processing". O'reilly Media, 2018, [Link](https://www.oreilly.com/ideas/why-local-state-is-a-fundamental-primitive-in-stream-processing). Accessed 15 Aug 2018.
+[^6]: Gray, Jim. "Queues are databases." arXiv preprint cs/0701158 (2007).
+[^7]: Hyde, Julian. "Data in flight." Communications of the ACM 53.1 (2010): 48-52.
