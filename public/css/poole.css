@@ -88,19 +88,19 @@ h1, h2, h3, h4, h5, h6 {
   text-rendering: optimizeLegibility;
 }
 h1 {
-  font-size: 2rem;
+  font-size: 1.50rem;
 }
 h2 {
   margin-top: 1rem;
-  font-size: 1.5rem;
+  font-size: 1.20rem;
 }
 h3 {
   margin-top: 1.5rem;
-  font-size: 1.25rem;
+  font-size: 1rem;
 }
 h4, h5, h6 {
   margin-top: 1rem;
-  font-size: 1rem;
+  font-size: 0.9rem;
 }
 
 /* Body text */
@@ -108,10 +108,12 @@ p {
   margin-top: 0;
   margin-bottom: 1rem;
   text-align:justify;
+  font-size: 0.8rem;
 }
 
 strong {
   color: #303030;
+  font-size: 0.8rem;
 }
 
 
@@ -246,6 +248,7 @@ td,
 th {
   padding: .25rem .5rem;
   border: 1px solid #e5e5e5;
+  font-size: 0.8rem;
 }
 tbody tr:nth-child(odd) td,
 tbody tr:nth-child(odd) th {
@@ -351,6 +354,7 @@ tbody tr:nth-child(odd) th {
   margin-top: -.5rem;
   margin-bottom: 1rem;
   color: #9a9a9a;
+  font-size: 0.9rem;
 }
 
 /* Related posts */
@@ -428,4 +432,11 @@ a.pagination-item:hover {
     border-top-right-radius:    4px;
     border-bottom-right-radius: 4px;
   }
+}
+
+.footnotes {
+    font-size: 80%;
+    width: 100%;
+    margin-bottom: 1em;
+    line-height: 1.4em;
 }
