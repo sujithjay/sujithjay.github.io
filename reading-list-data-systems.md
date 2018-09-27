@@ -10,7 +10,7 @@ Data systems are defined to include:
 - Database systems
 - Data processing systems
 
-This list is inspired by Reynold Xin's list on [Database Readings](https://github.com/rxin/db-readings).
+This list is inspired by Reynold Xin's list on [Database Readings](https://github.com/rxin/db-readings), and is a work in progress.
 
 ## Table of Contents
 1. [Algorithms](#algorithms)
