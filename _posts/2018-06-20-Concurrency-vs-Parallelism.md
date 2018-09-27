@@ -28,19 +28,19 @@ Contrast that with parallelism, which is the condition where a program utilises 
 
 So where does the notion of concurrency == parallelism come from? I would like to quote [Simon Marlow](https://github.com/simonmar), co-developer of the Glasgow Haskell Compiler and author of "Parallel and Concurrent Programming in Haskell", on this:
 
-> It’s a natural consequence of languages with side-effects: when your language has side-effects everywhere, then any time you try to do more than one thing at a time you essentially have non-determinism caused by the interleaving of the effects from each operation.  So in side-effecty languages, the only way to get parallelism is concurrency; it’s therefore not surprising that we often see the two conflated [2].
+> It’s a natural consequence of languages with side-effects: when your language has side-effects everywhere, then any time you try to do more than one thing at a time you essentially have non-determinism caused by the interleaving of the effects from each operation.  So in side-effecty languages, the only way to get parallelism is concurrency; it’s therefore not surprising that we often see the two conflated. [^1]
 
-In other words, the notion of threads of control (as defined by concurrency) makes sense only in a language with side-effects. In a purely-functional language, there are no effects to observe, and the evaluation order is irrelevant [1]. Thus, parallelism can be achieved without concurrency. 
+In other words, the notion of threads of control (as defined by concurrency) makes sense only in a language with side-effects. In a purely-functional language, there are no effects to observe, and the evaluation order is irrelevant. [^2] Thus, parallelism can be achieved without concurrency. 
 
 On the other hand, in languages with side-effects, parallelism becomes a subset of concurrency. Hence, for instance, concurrency is defined as follows in Java:
 
-> A condition that exists when at least two threads are making progress. A more generalised form of parallelism that can include time-slicing as a form of virtual parallelism [3].
+> A condition that exists when at least two threads are making progress. A more generalised form of parallelism that can include time-slicing as a form of virtual parallelism [^3].
 
 The understanding of this distinction, within the realm of your language of choice, is essential to develop and reason about concurrent and parallel programs. Until next time!
 
 ## References
-[1] Marlow, S. (2013). Parallel and Concurrent Programming in Haskell.
+[^1]: GHC Mutterings. (2018). Parallelism /= Concurrency. Available at: [Link](https://ghcmutterings.wordpress.com/2009/10/06/parallelism-concurrency/) [Accessed 15 Jun. 2018].
 
-[2] GHC Mutterings. (2018). Parallelism /= Concurrency. Available at: [Link](https://ghcmutterings.wordpress.com/2009/10/06/parallelism-concurrency/) [Accessed 15 Jun. 2018].
+[^2]: Marlow, S. (2013). Parallel and Concurrent Programming in Haskell.
 
-[3] Oracle Docs. (2018). Defining Multithreading Terms (Multithreaded Programming Guide). Available at: [Link](https://docs.oracle.com/cd/E19455-01/806-5257/6je9h032b/index.html) [Accessed 10 Jun. 2018].
+[^3]: Oracle Docs. (2018). Defining Multithreading Terms (Multithreaded Programming Guide). Available at: [Link](https://docs.oracle.com/cd/E19455-01/806-5257/6je9h032b/index.html) [Accessed 10 Jun. 2018].
