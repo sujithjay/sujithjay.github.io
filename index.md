@@ -26,7 +26,7 @@ title: Thinking Aloud
   <div class ="col-md-offset-2 col-md-7">
     <div id="overview" style="margin-top: 1.5rem;">
 	    <p>I design, build and operate data-intensive systems.</p>
-	    <p>At <a href="http://logistimo.com">Logistimo</a>, we're building a analytics platform on top of a supply-chain management product which caters to rural, low-resource delivery chains.</p>
+	    <p>At <a href="http://logistimo.com">Logistimo</a>, we're building a analytics platform on top of a supply-chain management product which caters to rural, low-resource value-chains.</p>
 	    <p></p>
     </div>
     <div style="margin-top: 1.5rem; font-size: 1.2em;"><a href="/about">bio</a> | <a href="cv.pdf">cv</a></div>
