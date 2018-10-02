@@ -9,6 +9,7 @@ tags: data-systems nosql
 series: Data Systems
 categories:
   - data-systems
+image: /public/DHT-Dynamo.png
 permalink: /data-systems/Dynamo-vs-Cassandra/
 ---
 State-of-the-art distributed databases represent a distillation of years of research in distributed systems. The concepts underlying any distributed system can thus be overwhelming to comprehend. This is truer when you are dealing with databases without the strong consistency guarantee. Databases without strong consistency guarantees come in a range of flavours; but they are bunched under a category called [NoSQL databases](http://www.christof-strauch.de/nosqldbs.pdf).
@@ -96,7 +97,7 @@ In consistent hashing, the output range of a hash function is treated as a fixed
 
 Each data item identified by a key is assigned to a node by hashing the data item’s key to yield its position on the ring, and then walking the ring clockwise to find the first _vnode_ with a position larger than the item’s position. The node associated with the _vnode_ is the location of the data item.
 
-{% include image-caption.html file="https://www.cs.rutgers.edu/~pxk/417/notes/images/dht-dynamo-vnode.png" description="Fig. 1: Consistent Hashing" %}
+{% include image-caption.html file="/public/DHT-Dynamo.png" description="Fig. 1: Consistent Hashing" %}
 
 The principle advantage of consistent hashing is incremental stability; the departure or arrival of a node into the cluster only affects its immediate neighbours and other nodes remain unaffected.
 
