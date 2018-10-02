@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "Dynamo vs Cassandra : Systems Design Concepts in NoSQL Databases"
+title: "Dynamo vs Cassandra : Systems Design of NoSQL Databases"
 date: "2018-10-02 11:11"
 comments: true
 desc: A comparison of ideas behind Dynamo and Cassandra
