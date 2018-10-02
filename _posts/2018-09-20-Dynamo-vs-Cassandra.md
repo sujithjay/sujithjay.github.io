@@ -17,6 +17,7 @@ NoSQL databases do not represent a single kind of data model, nor do they offer 
 
 I would like to focus on concepts around two NoSQL databases in this article - Dynamo & Cassandra. The approach of this article is to compare and contrast Dynamo with Cassandra; and in this process, touch upon the underlying ideas. Expect a lot of homework & further readings; I will have copious amounts of references throughout the article.
 
+<!--break-->
 ## Introductions
 The links to the respective papers of Dynamo & Cassandra can be found in my [reading-list](/reading-list/data-systems#database-design). I find that a fair amount of review-articles exists for the Dynamo paper: a few interesting takes can be found [here](http://glinden.blogspot.com/2007/10/highly-available-distributed-hash.html) & [here](http://muratbuffalo.blogspot.com/2010/11/dynamo-amazons-highly-available-key.html).
 
