@@ -38,14 +38,6 @@ This list is inspired by Reynold Xin's list on [Database Readings](https://githu
 ### Database Design
 - [Dynamo: Amazon’s Highly Available Key-value Store](https://courses.cs.washington.edu/courses/csep552/18wi/papers/decandia-dynamo.pdf) (2007): This paper on Dynamo (not to be confused with DynamoDB, which is 'built on the principles of Dynamo') is an excellent primer on understanding concepts behind high-availability storage systems; concepts such as Consistent Hashing, Sloppy Quorum, Anti-entropy processes, and Gossip.
 
-- [Cassandra - A Decentralized Structured Storage System](https://www.cs.cornell.edu/projects/ladis2009/papers/lakshman-ladis2009.pdf) (2009): Cassandra is one of many data storage systems heavily influenced by Dynamo. However, important differences exist. I summarise some in the table below:
-
-| Problem       | Dynamo        | Cassandra  |
-| ------------- |:-------------:| ----------:|
-| High Availabilty for Writes      | Vector Clocks | Last Write Wins|
-| Temporary Failures | Sloppy Quorum & Hinted Hand-offs      |    Strict Quorum & Hinted Hand-offs  |
-| Partitioning      | Consistent Hashing      |  Consistent Hashing  |
-| Permanent Failures | Anti-entropy using Merkle trees      |    Anti-entropy using Merkle trees |
-| Failure Detection | Gossip Protocols      |    Gossip Protocols |
+- [Cassandra - A Decentralized Structured Storage System](https://www.cs.cornell.edu/projects/ladis2009/papers/lakshman-ladis2009.pdf) (2009): Cassandra is one of many data storage systems heavily influenced by Dynamo. However, important differences exist. I have written about it in this [post](https://sujithjay.com/data-systems/Dynamo-vs-Cassandra/).
 
 ### Distributed Data Computation
