@@ -148,7 +148,7 @@ The scope of topics covered in this article are vast; and I do not believe a sin
    [^2]: Riak has last-write-wins as its default mechanism for conflict resolution, inspite of a high chance of data-loss. As its maintainers put it,
        > [Vector clocks are hard: even with perfect implementation you can’t have perfect information about causality in an open system without unbounded information growth](http://basho.com/posts/technical/why-vector-clocks-are-hard/).
 
-   [^2]: The catch here is 'when consistency is not required'. In Dynamo which uses sloppy quorum, hinted writes count towards write consistency requirements, and hence hinted handoff helps offer full write availability.
+   [^3]: The catch here is 'when consistency is not required'. In Dynamo which uses sloppy quorum, hinted writes count towards write consistency requirements, and hence hinted handoff helps offer full write availability.
 
     In Cassandra, [for every write consistency other than ANY](https://docs.datastax.com/en/cassandra/3.0/cassandra/dml/dmlConfigConsistency.html#Writeconsistencylevels), hinted writes do not count towards write consistency requirements. Hence, full write availability may not be available.
 
