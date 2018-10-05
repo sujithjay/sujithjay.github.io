@@ -53,11 +53,11 @@ The common heuristics for conflict resolution are [vector clocks](#vector-clocks
 ### Vector Clocks
 Vector Clocks are a mechanism to notify the actors about the occurrence of conflicts.
 
-To illustrate the process, assume three actors with actor IDs Anu, Baba and Chandra respectively. Let an existing data-point in the data-store be `{"street" : "Lavelle", "city" : "Bangalore"}` with key 'address'. We will call this version of 'address' _V0_.  Anu updates the street such that the data now reads `{"street" : "Cubbon", "city" : "Bangalore"}`, which we will call _V1_. This is updated to a single replica. A concurrent update is performed by Baba, who changes the city such that the data now reads `{"street" : "Lavelle", "city" : "Bombay"}` (_V2_). This is updated to another replica.
+To illustrate the process, assume three actors with actor IDs Anu, Baba and Chandra respectively. Let an existing data-point in the data-store be `{"street" : "Lavelle", "city" : "Bangalore"}` with key 'address'. We will call this version of 'address' _V0_.  Anu updates the street such that the data now reads `{"street" : "Cubbon", "city" : "Bangalore"}`, which we will call _V1_. This is updated to a single replica. A concurrent update is performed by Baba, who changes the city such that the data now reads `{"street" : "Lavelle", "city" : "Bombay"}` (_V2_ ). This is updated to another replica.
 
 In a data-store using vector clocks, the data-store holds onto both _V1_ and _V2_ because they do not descend from each other. When an actor reads the data at a future point of time (for example, Chandra is reading the 'address' data), the data-store will hand back both values. The client decides on the merge strategy of the sibling data returned to it. Once descendancy can be calculated, values stored with vector clocks that have been succeeded will be removed.
 
-Vector Clocks were proposed as a conflict resolution mechanism in the original Dynamo paper; however, most Dynamo-family databases have last-write-wins as their conflict resolution mechanism. [^2]
+Vector Clocks were proposed as a conflict resolution mechanism in the original Dynamo paper; however, most Dynamo-family databases have last-write-wins as their conflict resolution mechanism.[^2]
 
 The maintainers of Riak have lucid explanations of how vector clocks work and the associated challenges in [Why Vector Clocks Are Easy](http://basho.com/posts/technical/why-vector-clocks-are-easy/) and [Why Vector Clocks Are Hard](http://basho.com/posts/technical/why-vector-clocks-are-hard/).
 
