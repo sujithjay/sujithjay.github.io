@@ -29,7 +29,7 @@ title: Thinking Aloud
 	    <p>At <a href="http://logistimo.com">Logistimo</a>, we're building an analytics platform on top of a supply-chain management product which caters to rural, low-resource value-chains.</p>
 	    <p></p>
     </div>
-    <div style="margin-top: 1.5rem; font-size: 1.2em;"><a href="/about">bio</a> | <a href="cv.pdf">cv</a></div>
+    <div style="margin-top: 1.5rem; font-size: 1.2em;"><a href="/about">bio</a> | <a href="cv.pdf">cv</a> | <a href="/essays">essays</a></div>
     <hr>
   </div> 
 </div> 
