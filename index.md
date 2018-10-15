@@ -6,7 +6,7 @@ title: Thinking Aloud
 
 <div class="col-md-3">
     <div id="picpad">
-    <a href="pbailis-lg.jpg"><img align="right" src ="https://pbs.twimg.com/profile_images/1044297926598696960/CD345Qsl_400x400.jpg" alt="pdb" id="pdb-pic" style=" margin-top: 10px; margin-left: 30px;"></a>
+    <a href=""><img align="right" src ="https://pbs.twimg.com/profile_images/1044297926598696960/CD345Qsl_400x400.jpg" alt="pdb" id="pdb-pic" style=" margin-top: 10px; margin-left: 30px;"></a>
     </div>
 </div>
 
