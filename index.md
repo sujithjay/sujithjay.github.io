@@ -17,7 +17,7 @@ title: Thinking Aloud
       </div>
       <div id="title" style="margin-top: 1.5rem;">
         <div>Data Engineer, <a class="nodecor" href="http://logistimo.com/">Logistimo</a></div>
-        <div id="email">sujith@logistimo.com</div>
+        <div id="email">sujith@sujithjay.com</div>
       </div>
 </div>
 
