@@ -9,7 +9,7 @@ tags: data-systems
 series: Data Systems
 categories:
   - data-systems
-image: /public/SerVsLin.png
+image: /public/images/SerVsLinInfo.png
 permalink: /data-systems/linearizability-versus-serializability
 ---
-{% include image-caption.html file="/public/SerVsLin.png" description="" %}
+{% include image-caption.html file="/public/images/SerVsLinInfo.png" description="" %}
