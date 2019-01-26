@@ -2,7 +2,7 @@
 layout: page
 title: About
 ---
-My name is Sujith Jay Nair. I am employed at [Logistimo](http://www.logistimo.com) as a data engineer. I earned a Masters in systems engineering from the Indian Institute of Technology at Varanasi. I did my undergraduate degree at the University of Mumbai in computer engineering. I am a contributor to multiple open-source communities; notably Apache Spark, Impala and ScalaNLP. My interests revolve around design & operations of large-scale data-intensive systems.
+My name is Sujith Jay Nair. I am employed at [Nubank](https://www.nubank.com.br/) in Berlin as a data engineer. I earned a Masters in systems engineering from the Indian Institute of Technology, Varanasi. I did my undergraduate degree at the University of Mumbai in computer engineering. I am a contributor to multiple open-source communities; notably Apache Spark, Impala and ScalaNLP. My interests revolve around design & operations of large-scale data-intensive systems.
 
 I have a thorough background in computer science, but I also try to think and write on organizational culture, statistics, and all sorts of randomness. This blog is a presentation of learnings, ideas, and solutions I come across, and my explorations around it.
 
