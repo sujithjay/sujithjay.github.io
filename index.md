@@ -16,7 +16,7 @@ title: Thinking Aloud
 	    <div class="boldtext">JAY NAIR</div>
       </div>
       <div id="title" style="margin-top: 1.5rem;">
-        <div>Data Engineer, <a class="nodecor" href="http://logistimo.com/">Logistimo</a></div>
+        <div>Data Engineer, <a class="nodecor" href="https://www.nubank.com.br/">Nubank</a></div>
         <div id="email">sujith@sujithjay.com</div>
       </div>
 </div>
@@ -25,10 +25,10 @@ title: Thinking Aloud
   <div class ="col-md-offset-2 col-md-7">
     <div id="overview" style="margin-top: 1.5rem;">
 	    <p>I design, build and operate data-intensive systems.</p>
-	    <p>At <a href="http://logistimo.com">Logistimo</a>, we're building an analytics platform on top of a supply-chain management product which caters to rural, low-resource value-chains.</p>
+	    <p>At <a class="nodecor" href="https://www.nubank.com.br/">Nubank</a>, we're building an analytics platform for a new-age, non-conformist banking system.</p>
 	    <p></p>
     </div>
     <div style="margin-top: 1.5rem; font-size: 1.2em;"><a href="/about">bio</a> | <a href="cv.pdf">cv</a> | <a href="/essays">essays</a></div>
     <hr>
-  </div> 
-</div> 
+  </div>
+</div>
