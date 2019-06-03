@@ -10,7 +10,8 @@ series: Data Systems
 categories:
   - data-systems
 image: /public/DHT-Dynamo.png
-permalink: /data-systems/Dynamo-vs-Cassandra/
+permalink: /data-systems/dynamo-cassandra/
+redirect_from: /data-systems/Dynamo-vs-Cassandra/
 ---
 State-of-the-art distributed databases represent a distillation of years of research in distributed systems. The concepts underlying any distributed system can thus be overwhelming to comprehend. This is truer when you are dealing with databases without the strong consistency guarantee. Databases without strong consistency guarantees come in a range of flavours; but they are bunched under a category called [NoSQL databases](http://www.christof-strauch.de/nosqldbs.pdf).
 

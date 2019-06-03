@@ -10,7 +10,8 @@ categories:
   - data-systems
 date: "2018-08-18 11:11"
 image: /public/StateVsStream.png
-permalink: /data-systems/A-Simple-Dichotomy-for-Modelling-Data-Intensive-Systems/
+permalink: /data-systems/dichotomy
+redirect_from: /data-systems/A-Simple-Dichotomy-for-Modelling-Data-Intensive-Systems/
 ---
 ## Cut to the chase
 Large-scale data processing serves multiple purposes. At a 30,000-feet view, every purpose can be bucketed into two broad categories:

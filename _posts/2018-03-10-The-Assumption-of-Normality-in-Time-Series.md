@@ -6,7 +6,8 @@ desc: This post tries to explain the use of Limit theorems in time-series analys
 author: Sujith Jay Nair
 tags: statistics time-series
 date: "2018-03-10 11:11"
-permalink: /2018/03/10/The-Assumption-of-Normality-in-Time-Series/
+permalink: /normality-assumption
+redirect_from: /2018/03/10/The-Assumption-of-Normality-in-Time-Series/
 ---
 
 The notion of normality is oft-encountered in statistics as an underlying assumption to many proofs and results; it is normal to assume normality (pun strongly intended; always wanted to use this one). In much statistical works, the assumption of normality, even if inaccurate, is amortized and ameliorated by the existence of Central Limit Theorem. Time-series analysis, sadly, does not enjoy this privilege. The assumption of independence, so core to the CLT and other Limit theorems, is poignantly absent in time-series.

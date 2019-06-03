@@ -6,7 +6,8 @@ desc: This post provides a bit of a preface on the notion of concurrency, and co
 author: Sujith Jay Nair
 tags: concurrency parallelism
 date: "2018-06-20 11:11"
-permalink: /2018/06/20/Concurrency-and-Parallelism/
+permalink: /concurrency-parallelism
+redirect_from: /2018/06/20/Concurrency-and-Parallelism/
 ---
 
 **TL; DR**

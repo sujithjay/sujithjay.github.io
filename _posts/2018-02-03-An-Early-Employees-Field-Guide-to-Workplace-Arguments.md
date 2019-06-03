@@ -8,7 +8,8 @@ series: Culture Eats Strategy
 categories:
   - culture-eats-strategy
 tags: management culture startup
-permalink: /culture-eats-strategy/2018/02/03/An-Early-Employees-Field-Guide-to-Workplace-Arguments/
+permalink: /workplace-conflict-guide
+redirect_from: /culture-eats-strategy/2018/02/03/An-Early-Employees-Field-Guide-to-Workplace-Arguments/
 ---
 **TL; DR**
 Conflicts are common in an early-stage startup. This post lists a set of mental models an early employee can use to prevent, judge, diffuse and take leverage of conflicts.

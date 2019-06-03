@@ -5,10 +5,9 @@ title: Shuffle Hash and Sort Merge Joins in Apache Spark
 desc: An overview into Shuffle Hash and Sort Merge Joins in Apache Spark SQL
 author: Sujith Jay Nair
 series: Apache Spark SQL
-categories:
-  - spark-sql
 tags: apache-spark sql joins
-permalink: /spark-sql/2018/06/28/Shuffle-Hash-and-Sort-Merge-Joins-in-Apache-Spark/
+permalink: /spark/shuffle-hash-sort-merge-joins
+redirect_from: /spark-sql/2018/06/28/Shuffle-Hash-and-Sort-Merge-Joins-in-Apache-Spark/
 ---
 
 ## Introduction

@@ -7,7 +7,8 @@ author: Sujith Jay Nair
 tags: conversations learning culture
 date: "2018-06-24 11:11"
 image: /public/ourjob.png
-permalink: /2018/06/24/How-Conversations-on-StackOverflow-Teach-You/
+permalink: /stackoverflow-conversations
+redirect_from: /2018/06/24/How-Conversations-on-StackOverflow-Teach-You/
 ---
 ![image-title-here]({{ site.baseurl }}/public/ourjob.png){:class="img-responsive"}
 

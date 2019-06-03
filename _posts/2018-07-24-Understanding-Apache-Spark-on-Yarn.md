@@ -6,7 +6,8 @@ desc: An introductory reference to Apache Spark on YARN
 author: Sujith Jay Nair
 tags: apache-spark yarn
 image: /public/Spark-Cluster-Overview.png
-permalink: /2018/07/24/Understanding-Apache-Spark-on-YARN/
+permalink: /spark/with-yarn
+redirect_from: /2018/07/24/Understanding-Apache-Spark-on-YARN/
 date: "2018-07-24 11:11"
 ---
 ## Introduction
