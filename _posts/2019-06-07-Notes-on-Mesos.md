@@ -4,7 +4,7 @@ comments: true
 title: "Notes on Mesos"
 desc: An introductory reference to Apache Mesos
 author: Sujith Jay Nair
-tags: mesos
+tags: mesos data-systems
 permalink: /mesos
 image: /public/mesos/ClusterKernel.png
 date: "2019-06-06 11:11"
