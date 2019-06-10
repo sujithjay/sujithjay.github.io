@@ -41,7 +41,7 @@ Mesos belongs to the second category: *two-level scheduling*. The documentation 
 {% include image-caption.html file="/public/mesos/Indirection.png" description="Fig. 3: Mesos, a level of indirection" %}
 
 ## Two-Level Scheduling?
-The *two-level* scheduling provided by Mesos can be described thus: A scheduler exists at the framework-level & another exists as part of Mesos (a part of the Mesos *master* ). In a cluster with heterogenous workloads, multiple frameworks function together with a single Mesos scheduler.
+The *two-level* scheduling provided by Mesos can be described thus: A scheduler exists at the framework-level & another exists as part of Mesos (as a component of the Mesos *master* ). In a cluster with heterogenous workloads, multiple frameworks function together with a single Mesos scheduler.
 
 {% include image-caption.html file="/public/mesos/Interactions.png" description="Fig. 4: Mesos Scheduler Interactions" %}
 <div></div>
@@ -57,7 +57,7 @@ The events in the diagram are described as follows: [^8]
 4. Finally, the master sends the tasks to the agent, which allocates appropriate resources to the framework’s executor, which in turn launches the two tasks (depicted with dotted-line borders in the figure). Because 1 CPU and 1 GB of RAM are still unallocated, the allocation module may now offer them to framework 2.
 
 
-During offers, the master avoids conflicts by only offering a given resource to one framework at a time, and attempts to achieve dominant resource fairness ([DRF](https://cs.stanford.edu/~matei/papers/2011/nsdi_drf.pdf)) by choosing the order and the sizes of its offers. Because only one framework is examining a resource at a time, it effectively holds a lock on that resource for the duration of a scheduling decision. In other words, concurrency control is pessimistic.[^9]
+During offers, the master avoids conflicts by only offering a given resource to one framework at a time, and attempts to achieve dominant resource fairness (DRF) by choosing the order and the sizes of its offers. Because only one framework is examining a resource at a time, it effectively holds a lock on that resource for the duration of a scheduling decision. In other words, concurrency control is pessimistic.[^10]
 
 ## A note on YARN
 To contrast the above discussion with YARN, resource requests from per-job application masters are sent to a single global scheduler in the resource master, which allocates resources on various machines, subject to application-specified constraints. The application masters provide job-management services, and no scheduling. So YARN is effectively a monolithic scheduler architecture.
@@ -73,4 +73,5 @@ To contrast the above discussion with YARN, resource requests from per-job appli
 [^6]: A scheduler framework is the distributed system running on top of Mesos, eg. Spark, Storm, Hadoop. In other words, framework &asymp; distributed system.
 [^7]: This is referred to as *choice of resources* in the Omega paper.
 [^8]: Taken from the official Mesos [documentation](http://mesos.apache.org/documentation/latest/architecture/).
-[^9]: Termed as *pessimistic interference* in the Omega paper.
+[^9]: [Dominant Resource Fairness](https://cs.stanford.edu/~matei/papers/2011/nsdi_drf.pdf) is an allocation algorithm for clusters with mixed workloads, which originated in the same research group as Mesos. 
+[^10]: Termed as *pessimistic interference* in the Omega paper.
