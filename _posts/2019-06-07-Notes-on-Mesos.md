@@ -62,6 +62,13 @@ During offers, the master avoids conflicts by only offering a given resource to 
 ## A note on YARN
 To contrast the above discussion with YARN, resource requests from per-job application masters are sent to a single global scheduler in the resource master, which allocates resources on various machines, subject to application-specified constraints. The application masters provide job-management services, and no scheduling. So YARN is effectively a monolithic scheduler architecture.
 
+## Closing Comments
+A concise overview of the functionalities of Mesos in comparison with other resource management systems in the following diagram. [^11]
+
+{% include image-caption.html file="/public/mesos/Comparison.png" description="Fig. 6: Comparison" %}
+
+This diagram makes clear why the makers of Mesos call it *the distributed systems kernel*. Mesos does not try to provide every functionality a distributed system needs to function; it provides the minimum over which *frameworks* are expected to build on. This explains the need for schedulers & orchestration services such as [Marathon](https://mesosphere.github.io/marathon/), [Aurora](http://aurora.apache.org/) and [Peloton](https://eng.uber.com/peloton/) to run your applications with Mesos. We will delve into them in a future post. Until next time!
+
 **P.S.** The title illustration is from [Apache Mesos as an SDK for Building Distributed Frameworks](https://www.slideshare.net/pacoid/strata-sc-2014-apache-mesos-as-an-sdk-for-building-distributed-frameworks/25) by Paco Nathan.
 
 ## Notes
@@ -72,6 +79,7 @@ To contrast the above discussion with YARN, resource requests from per-job appli
 [^5]: Thanks to [Alessandro Andrioni](https://twitter.com/metamatema) for pointing me to it.
 [^6]: A scheduler framework is the distributed system running on top of Mesos, eg. Spark, Storm, Hadoop. In other words, framework &asymp; distributed system.
 [^7]: This is referred to as *choice of resources* in the Omega paper.
-[^8]: Taken from the official Mesos [documentation](http://mesos.apache.org/documentation/latest/architecture/).
+[^8]: From the official Mesos [documentation](http://mesos.apache.org/documentation/latest/architecture/).
 [^9]: [Dominant Resource Fairness](https://cs.stanford.edu/~matei/papers/2011/nsdi_drf.pdf) is an allocation algorithm for clusters with mixed workloads, which has its origins in the same UC Berkeley research group as Mesos.
-[^10]: Termed as *pessimistic interference* in the Omega paper.
+[^10]: This is termed as *pessimistic interference* in the Omega paper.
+[^11]: This comparison is from the article on [Peloton](https://eng.uber.com/peloton/), Uber's open source resource scheduler.
