@@ -62,9 +62,6 @@ During offers, the master avoids conflicts by only offering a given resource to 
 ## A note on YARN
 To contrast the above discussion with YARN, resource requests from per-job application masters are sent to a single global scheduler in the resource master, which allocates resources on various machines, subject to application-specified constraints. The application masters provide job-management services, and no scheduling. So YARN is effectively a monolithic scheduler architecture.
 
-
-
-
 ## Notes
 [^1]: In resource management systems literature, the term *co-ordinator* is used interchangeably with *scheduler*.
 [^2]: Tasks here refers to sub-units of the program which are independently schedulable.
@@ -75,3 +72,4 @@ To contrast the above discussion with YARN, resource requests from per-job appli
 [^7]: This is referred to as *choice of resources* in the Omega paper.
 [^8]: Taken from the official Mesos [documentation](http://mesos.apache.org/documentation/latest/architecture/).
 [^9]: Termed as *pessimistic interference* in the Omega paper.
+[^10]: The title illustration is from [Apache Mesos as an SDK for Building Distributed Frameworks](https://www.slideshare.net/pacoid/strata-sc-2014-apache-mesos-as-an-sdk-for-building-distributed-frameworks/25) by Paco Nathan.
