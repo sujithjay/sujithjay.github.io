@@ -6,8 +6,10 @@ desc: An introductory reference to Apache Mesos
 author: Sujith Jay Nair
 tags: mesos
 permalink: /mesos
+image: /public/mesos/ClusterKernel.png
 date: "2019-06-06 11:11"
 ---
+![image-title-here]({{ site.baseurl }}/public/mesos/ClusterKernel.png){:class="img-responsive"}
 Mesos is a framework I have had recent acquaintance with. The only resource management framework I have known prior is Hadoop [YARN]((/spark/with-yarn)). These are my notes as I try to make friends with Mesos (he's a good boy!), and revisit the concept of cluster resource-management in general.
 
 <!--break-->
