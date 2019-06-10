@@ -32,7 +32,7 @@ This class of distributed systems has one (or multiple) co-ordinator(s)[^1] co-o
 ## Elasticity
 > An elastic system is able to adapt to workload changes by provisioning and de-provisioning resources in an autonomic manner, such that at each point in time the available resources match the current demand as closely as possible. [^3]
 
-Elasticity, as defined above, is a scheduling problem. There are multiple approaches to having elasticity, and based on these, resource-management systems can be bucketed into the three categories. These categories, based on scheduler architectures, are borrowed from the Omega paper. [^4] [^5]
+Elasticity, as defined above, is a scheduling problem. There are multiple approaches to having elasticity and based on these approaches, resource-management systems can be bucketed into the three categories. These categories which are based on scheduler architectures are borrowed from the Omega paper. [^4] [^5]
 
 {% include image-caption.html file="/public/mesos/SchedulerArchitecture.png" description="Fig. 2: Prevalent Scheduler Architectures" %}
 
