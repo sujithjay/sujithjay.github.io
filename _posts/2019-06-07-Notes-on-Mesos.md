@@ -73,5 +73,5 @@ To contrast the above discussion with YARN, resource requests from per-job appli
 [^6]: A scheduler framework is the distributed system running on top of Mesos, eg. Spark, Storm, Hadoop. In other words, framework &asymp; distributed system.
 [^7]: This is referred to as *choice of resources* in the Omega paper.
 [^8]: Taken from the official Mesos [documentation](http://mesos.apache.org/documentation/latest/architecture/).
-[^9]: [Dominant Resource Fairness](https://cs.stanford.edu/~matei/papers/2011/nsdi_drf.pdf) is an allocation algorithm for clusters with mixed workloads, which originated from the same UC Berkeley research group as Mesos.
+[^9]: [Dominant Resource Fairness](https://cs.stanford.edu/~matei/papers/2011/nsdi_drf.pdf) is an allocation algorithm for clusters with mixed workloads, which has its origins in the same UC Berkeley research group as Mesos.
 [^10]: Termed as *pessimistic interference* in the Omega paper.
