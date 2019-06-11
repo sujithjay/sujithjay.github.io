@@ -63,7 +63,7 @@ During offers, the master avoids conflicts by only offering a given resource to 
 To contrast the above discussion with YARN, resource requests from per-job application masters are sent to a single global scheduler in the resource master, which allocates resources on various machines, subject to application-specified constraints. The application masters provide job-management services, and no scheduling. So YARN is effectively a monolithic scheduler architecture.
 
 ## Closing Comments
-A concise overview of the functionalities of Mesos in comparison with other resource management systems in the following diagram. [^11]
+A concise overview of the functionalities of Mesos in comparison with other resource management systems is shown in the following diagram. [^11]
 
 {% include image-caption.html file="/public/mesos/Comparison.png" description="Fig. 6: Comparison" %}
 
