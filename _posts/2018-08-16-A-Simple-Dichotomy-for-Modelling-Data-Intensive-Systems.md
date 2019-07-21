@@ -70,7 +70,7 @@ Based on the answers of 'what', you could now make a choice of 'how' your comput
 Is your consumer interested in the aggregated state or the processed/enriched stream? The answer to this question seems to closely resemble our dichotomy. Multiple consumers interested in both stream & aggregated state will exist for your system; this is not incoherent. As we have observed in our examples, these multiple consumers are only placed at different vantage points with respect to your system. Thus, defining consumers is an exercise of defining the vantage points to your system.
 
 - ### Why is the computation performed?
-This answer to this question is the raison d'être for your system. I believe our dichotomy captures a high-level answer to this question. Also, answering the 'why' encompasses every other 'W' question; so it helps to [start with why](https://en.wikipedia.org/wiki/Start_With_Why).
+The answer to this question is the raison d'être for your system. I believe our dichotomy captures a high-level answer to this question. Also, answering the 'why' encompasses every other 'W' question; so it helps to [start with why](https://en.wikipedia.org/wiki/Start_With_Why).
 
 
 ## Related Work
