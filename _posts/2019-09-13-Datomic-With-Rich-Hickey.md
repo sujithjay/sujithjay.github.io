@@ -12,6 +12,6 @@ youtube: 9TYfcyvSpEQ
 ---
 {% include youtubeplayer.html id=page.youtube %}
 
-This is Rich Hickey giving a talk introducing Datomic. Here are my notes on the talk.
+This talk is an introduction to Datomic, by its creator Rich Hickey. My notes on this talk is linked below.
 
 <iframe style="display:block" src="/public/pdf/Datomic.pdf" width="700" height="860"></iframe>
