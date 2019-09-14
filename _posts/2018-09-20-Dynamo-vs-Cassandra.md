@@ -5,7 +5,7 @@ date: "2018-10-02 11:11"
 comments: true
 desc: A comparison of ideas behind Dynamo and Cassandra
 author: Sujith Jay Nair
-tags: data-systems nosql
+tags: data-systems nosql databases
 series: Data Systems
 categories:
   - data-systems

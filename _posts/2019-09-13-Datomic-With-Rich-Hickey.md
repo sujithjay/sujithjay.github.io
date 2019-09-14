@@ -4,7 +4,7 @@ comments: true
 title: "Datomic with Rich Hickey"
 desc: Notes and Transcript of Rich Hickey's Talk on Datomic
 author: Sujith Jay Nair
-tags: annotated-talks data-systems
+tags: annotated-talks data-systems databases
 permalink: /datomic
 image: /public/datomic/Datomic.png
 date: "2019-09-13 11:11"
