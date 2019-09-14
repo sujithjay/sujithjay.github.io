@@ -16,7 +16,7 @@ title: Thinking Aloud
 	    <div class="boldtext">JAY NAIR</div>
       </div>
       <div id="title" style="margin-top: 1.5rem;">
-        <div>Data Engineer, <a class="nodecor" href="https://www.nubank.com.br/">Nubank</a></div>
+        <div>Data Engineer, <a class="nodecor" href="https://www.nubank.com.br/en">Nubank</a></div>
         <div id="email">sujith@sujithjay.com</div>
       </div>
 </div>
