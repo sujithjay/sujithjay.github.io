@@ -4,7 +4,7 @@ comments: true
 title: "Behaviour of ORDER BY in FROM: MariaDB vs MySQL"
 desc: Difference between MariaDB and MySQL in handling of FROM subquery
 author: Sujith Jay Nair
-tags: sql mariadb mysql
+tags: sql mariadb mysql databases
 permalink: /orderby-from
 redirect_from: /2017/12/01/Order-By-in-From-Subquery-MariaDB-MySQL/
 ---
@@ -20,7 +20,7 @@ Older versions of MariaDB (< 10.2.0) did not have window functions such as `rank
 
 **Employee Table**
 
-Id   | Name    | Salary   | DepartmentId 
+Id   | Name    | Salary   | DepartmentId
 :--: | :-----: | :------: | :------------:
  1   | Joe     | 70000    | 1            
  2   | Henry   | 80000    | 2            
@@ -29,7 +29,7 @@ Id   | Name    | Salary   | DepartmentId
  5   | Janet   | 69000    | 1            
  6   | Randy   | 85000    | 1              
 
-                                                                                  
+
 <br /> <br />
 **Department Table**
 
@@ -47,10 +47,10 @@ I list three approaches to solving this problem, starting with the easiest one w
 ### The Dense-Rank Version
 Using `dense_rank()`, this can be accomplished using:
 ```
-SELECT * FROM 
+SELECT * FROM
   (
    SELECT d.Name as Department, e.Name as Employee, Salary,
-   DENSE_RANK() 
+   DENSE_RANK()
        OVER (PARTITION BY DepartmentId ORDER BY Salary DESC) Rank
    FROM Employee e JOIN Department d ON e.DepartmentId = d.id
  ) t WHERE rank <= 3
@@ -79,8 +79,8 @@ WHERE
                 AND e1.DepartmentId = e2.DepartmentId
         );
 ```
-	
-But this is sub-optimal, and we can do better. 
+
+But this is sub-optimal, and we can do better.
 
 
 ### Session Variables
@@ -95,11 +95,11 @@ select `Department`, `Employee`, `Salary` from (
 	@rn:= if(@did = DepartmentId, if(@sal = Salary, @rn, @rn + 1), 1 ) as rank,
 	@did:= DepartmentId,
 	@sal:= Salary
-  from 
+  from
 	(
-	  select d.name as `Department`, e.Name as `Employee`, DepartmentId, Salary 
-	  from Employee e 
-		  inner join Department d on e.DepartmentId = d.Id 
+	  select d.name as `Department`, e.Name as `Employee`, DepartmentId, Salary
+	  from Employee e
+		  inner join Department d on e.DepartmentId = d.Id
 	  order by DepartmentId, Salary desc
 	) t
 	) f where rank <= 3;
