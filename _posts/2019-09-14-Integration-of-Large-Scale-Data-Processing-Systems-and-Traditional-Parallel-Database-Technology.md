@@ -38,7 +38,7 @@ In spite of these shortcomings, there are valid technical (and non-technical) re
 
 HadoopDB was designed to take advantage of these technical prowesses of Hadoop, while addressing its shortcomings.
 
-HadoopDb placed a local DBMS (PostgreSQL/VectorWise) on every node in the data processing clusters. This enabled significant speedup in the Map tasks, as filtering, projection, transformation, certain joins and, partial aggregations were pushed into the local DBMS.
+HadoopDB placed a local DBMS (PostgreSQL/VectorWise) on every node in the data processing clusters. This enabled significant speedup in the Map tasks, as filtering, projection, transformation, certain joins and, partial aggregations were pushed into the local DBMS.
 
 {% include image-caption.html file="/public/hadoopdb/pushdown.png" description="Fig. 1: Pushdown of Map Functions" %}
 
