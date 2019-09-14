@@ -13,6 +13,8 @@ Abouzied, A., Abadi, D.J, Bajda-Pawlikowski, K., Silberschatz, A. (2019, August)
 
 HadoopDB was a prototype built in 2009 as a hybrid SQL system with the features from Hadoop MapReduce framework and parallel database management systems (Greenplum, Vertica, etc). This paper revisits the design choices for HadoopDB, and investigates its legacy in existing data systems. I felt it is a great review paper for the state of modern data analysis systems.
 
+<!--break-->
+
 MapReduce is the most famous example in a class of systems which partition large amounts of data over multitude of machines, and provide a straightforward language in which to express complex transformations and analyses. The key feature of these systems is how they abstract out fault-tolerance and partitioning from the user.
 
 > MapReduce, along with other large-scale data processing systems such as Microsoft’s Dryad/LINQ project, were originally designed for processing unstructured data.
