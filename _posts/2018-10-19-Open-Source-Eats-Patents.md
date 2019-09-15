@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "Open Source Eats Patents : Tweetstorm"
+title: "Open Source Eats Patents"
 date: "2018-10-19 11:11"
 comments: true
 desc: A tweet-storm on open source disrupting patent-heavy industries
