@@ -60,7 +60,7 @@ Other contributions listed include **Invisible Loading**, **Sinew**, and **Autom
 ### Review of SQL-on-Hadoop
 HadoopDb demonstrated the performance benefits of columnar data storage in the Hadoop ecosystem. The Hadoop community followed it with the introduction of columnar storage capability into HDFS file formats, namely Parquet and ORC.
 
-> Parquet and ORCFile use PAX blocks for columnar storage. In PAX, data is kept in columns within blocks, but a given block may consist of multiple columns from the same table. This makes tuple reconstruction faster since all data needed to perform this operation can be found in the same block. On the other hand, PAX reduces scan performance compared to pure column stores since not all data for a given column is placed contiguously on disk.
+> Parquet and ORCFile use PAX blocks for columnar storage. In PAX, data is kept in columns within blocks, but a given block may consist of multiple columns from the same table. This makes tuple reconstruction faster since all data needed to perform this operation can be found in the same block. On the other hand, PAX reduces scan performance compared to pure column stores since not all data for a given column is placed contiguously on disk. [^2]
 
 The next-wave of SQL-on-Hadoop systems utilised the performance of columnar storage, and were architected as system-level integrations of parallel databases and large-scale data processing systems.
 
@@ -80,3 +80,4 @@ Apache Calcite was incorporated into Hive to provide cost-based optimizations. O
 
 ### Footnotes
 [^1]: DeWitt, David, and Michael Stonebraker. ["MapReduce: A major step backwards."](https://pdfs.semanticscholar.org/08d1/2e771d811bcd0d4bc81fa3993563efbaeadb.pdf) The Database Column.
+[^2]: As noted by [Dmitriy Ryaboy](https://twitter.com/squarecog) [here](https://twitter.com/squarecog/status/1173067158982557696?s=20), the combined effect of large block sizes (~256 MB in case of ORC and 512-1024MB for Parquet in standard deployments) and parallel reader processes diminishes the significance of the PAX "weaving pattern".
