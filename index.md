@@ -5,7 +5,7 @@ title: Thinking Aloud
 
 <div class="col-md-3">
     <div id="picpad">
-    <a href=""><img align="right" src ="/public/profile.jpeg" alt="Sujith" style=" margin-top: 10px; margin-left: 30px;"></a>
+    <a href=""><img align="right" src ="/public/profile.jpg" alt="Sujith" style=" margin-top: 10px; margin-left: 30px;"></a>
     </div>
 </div>
 
