@@ -5,7 +5,7 @@ date: "2018-10-19 11:11"
 comments: true
 desc: A tweet-storm on open source disrupting patent-heavy industries
 author: Sujith Jay Nair
-tags: open-source
+tags: open-source tweetstorm
 permalink: /open-source-eats-patents/
 ---
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr"><a href="https://twitter.com/asynchio?ref_src=twsrc%5Etfw">@asynchio</a> postulates that every patent-heavy industry will be dis-intermediated by open source. A thread on why this prediction could turn out to be true. 1/N</p>&mdash; Sujith Jay Nair (@suj1th) <a href="https://twitter.com/suj1th/status/1053238415091814400?ref_src=twsrc%5Etfw">October 19, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
