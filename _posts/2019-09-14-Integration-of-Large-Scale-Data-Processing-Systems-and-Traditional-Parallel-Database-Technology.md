@@ -5,7 +5,7 @@ date: "2019-09-14 11:11"
 desc: Annotated Paper and Notes on HadoopDB.
 comments: true
 author: Sujith Jay Nair
-tags: data-systems databases
+tags: paper-summary data-systems databases
 permalink: hadoopdb
 ---
 [Integration of Large-Scale Data Processing Systems and Traditional Parallel Database Technology](http://www.vldb.org/pvldb/vol12/p2290-abouzied.pdf)
