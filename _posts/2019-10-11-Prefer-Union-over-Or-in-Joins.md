@@ -12,8 +12,9 @@ permalink: /spark/or-within-joins
 ---
 A common pattern in Spark workloads is the use of an `or` operator as part of a`join`.  An example of this goes as follows:
 ```scala
-     val resultDF = dataframe
-      .join(anotherDataframe, $"cID" === $"customerID" || $"cID" === $"contactID", "left")
+val resultDF = dataframe
+ .join(anotherDF, $"cID" === $"customerID" || $"cID" === $"contactID",
+   "left")
 ```
 
 This looks straight-forward. The use of an `or` within the join makes its semantics easy to understand.  However, we should be aware of the pitfalls of such an approach.
@@ -22,7 +23,9 @@ The declarative SQL above is resolved within Spark into a physical plan which de
 
 ```scala
 resultDF.explain()
-resultDF.explain(true) /*pass true if you are interested in the logical plan of the query as well*/
+
+/* pass true if you are interested in the logical plan of the query as well */
+resultDF.explain(true)
 ```
 
 For the purpose of our discussion we will stick to just the physical plan. For a more detailed understanding of query plans within Spark, I would recommend reading: [Deep Dive into Spark SQL’s Catalyst Optimizer](https://databricks.com/blog/2015/04/13/deep-dive-into-spark-sqls-catalyst-optimizer.html).
@@ -54,8 +57,8 @@ For many large workloads, a query plan involving a `BroadcastNestedLoopJoin` wil
 So, how do we work-around this? High-school boolean algebra to the rescue! Remember an `or` over two sets result in their union set. We can rewrite our example as follows:
 
 ```scala
-val resultPart1 = dataframe.join(anotherDataframe, $"cID" === $"customerID", "left")
-val resultPart2 = dataframe.join(anotherDataframe, $"cID" === $"contactID", "left")
+val resultPart1 = dataframe.join(anotherDF, $"cID" === $"customerID", "left")
+val resultPart2 = dataframe.join(anotherDF, $"cID" === $"contactID", "left")
 
 val resultDF = resultPart1.unionByName(resultPart2)
 ```
