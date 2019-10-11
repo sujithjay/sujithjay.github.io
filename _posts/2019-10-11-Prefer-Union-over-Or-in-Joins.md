@@ -10,7 +10,7 @@ categories:
 tags: apache-spark sql joins
 permalink: /spark/or-within-joins
 ---
-A common pattern in Spark workloads is the use of an `or` operator as part of a`join`.  An example of this goes as follows:
+A common anti-pattern in Spark workloads is the use of an `or` operator as part of a`join`.  An example of this goes as follows:
 ```scala
 val resultDF = dataframe
  .join(anotherDF, $"cID" === $"customerID" || $"cID" === $"contactID",
