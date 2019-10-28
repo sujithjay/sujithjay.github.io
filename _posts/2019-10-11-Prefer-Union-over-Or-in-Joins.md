@@ -98,7 +98,7 @@ I will leave you with a complete reproducible example so you can try this out in
 
 {% gist 097b80f7799d5d8389d1df650df377eb UnionOverOr.md %}
 
-Edit:
+*Edits*:
 An important caveat to the above discussion is that we can use `unions` instead of `or` only in case the `or` conditions are collectively independent.
 
-{% include image-caption.html file="/public/unionor/reddit-comment.png" description="Thanks, /u/xristos_forokolomvos" %}
+{% include image-caption.html file="/public/unionor/reddit-comment.png" description="" %}
