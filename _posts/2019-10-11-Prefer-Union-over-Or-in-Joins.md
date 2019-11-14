@@ -2,7 +2,7 @@
 layout: "post"
 title: "Prefer Unions over Or in Spark Joins"
 date: "2019-10-11 11:11"
-desc: Work-Around to using Or in a Spark SQL Join Clauses
+desc: Work-Around to using OR within Spark SQL Join Clauses
 comments: true
 author: Sujith Jay Nair
 series: Apache Spark SQL
