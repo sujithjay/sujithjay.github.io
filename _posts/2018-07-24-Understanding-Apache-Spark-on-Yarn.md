@@ -19,7 +19,7 @@ YARN is a generic resource-management framework for distributed workloads; in ot
 
 The central theme of YARN is the division of resource-management functionalities into a global ResourceManager (RM) and per-application ApplicationMaster (AM). An application is the unit of scheduling on a YARN cluster; it is either a single job or a DAG of jobs (jobs here could mean a Spark job, an Hive query or any similar constructs).
 
-{% include image-caption.html file="/public/Yarn-Architecture.gif" description="Fig. 1: YARN Architecture [1]" %}
+{% include image-caption.html file="/public/yarn/Yarn-Architecture.gif" description="Fig. 1: YARN Architecture [1]" %}
 
 The ResourceManager and the NodeManager form the data-computation framework. The ResourceManager is the ultimate authority that arbitrates resources among all the applications in the system. The NodeManager is the per-machine agent who is responsible for containers, monitoring their resource usage (cpu, memory, disk, network) and reporting the same to the ResourceManager/Scheduler [1].
 
@@ -35,7 +35,7 @@ A Spark application is the highest-level unit of computation in Spark. A Spark a
 #### Spark Driver
 To understand the driver, let us divorce ourselves from YARN for a moment, since the notion of driver is universal across Spark deployments irrespective of the cluster manager used.
 
-{% include image-caption.html file="/public/Spark-Cluster-Overview.png" description="Fig. 2: Spark Cluster Overview [4]" %}
+{% include image-caption.html file="/public/yarn/Spark-Cluster-Overview.png" description="Fig. 2: Spark Cluster Overview [4]" %}
 
 Spark applications are coordinated by the SparkContext (or SparkSession) object in the main program, which is called the Driver. In plain words, the code initialising SparkContext is your driver. The driver process manages the job flow and schedules tasks and is available the entire time the application is running (i.e, the driver program must listen for and accept incoming connections from its executors throughout its lifetime. As such, the driver program must be network addressable from the worker nodes) [4].
 
@@ -49,13 +49,13 @@ The driver program, in this mode, runs on the YARN client. Thus, the driver is n
 
 Take note that, since the driver is part of the client and, as mentioned above in the [Spark Driver](#spark-driver) section, the driver program must listen for and accept incoming connections from its executors throughout its lifetime, the client cannot exit till application completion.
 
-{% include image-caption.html file="http://blog.cloudera.com/wp-content/uploads/2014/05/spark-yarn-f22.png" description="Fig. 3: YARN Client Mode [2]" %}
+{% include image-caption.html file="/public/yarn/Yarn-Client-Mode.png" description="Fig. 3: YARN Client Mode [2]" %}
 
 
 *Cluster mode:*
 The driver program, in this mode, runs on the ApplicationMaster, which itself runs in a container on the YARN cluster. The YARN client just pulls status from the ApplicationMaster. In this case, the client could exit after application submission.
 
-{% include image-caption.html file="http://blog.cloudera.com/wp-content/uploads/2014/05/spark-yarn-f31.png" description="Fig. 4: YARN Cluster Mode [2]" %}
+{% include image-caption.html file="/public/yarn/Yarn-Cluster-Mode.png" description="Fig. 4: YARN Cluster Mode [2]" %}
 
 #### Executor and Container
 The first fact to understand is: each Spark executor runs as a YARN container [2]. This and the fact that Spark executors for an application are fixed, and so are the resources allotted to each executor, a Spark application takes up resources for its entire duration. This is in contrast with a MapReduce application which constantly returns resources at the end of each task, and is again allotted at the start of the next task.
