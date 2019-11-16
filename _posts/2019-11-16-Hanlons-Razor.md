@@ -16,7 +16,7 @@ An aphorism of utmost utility in my life is the Hanlon's Razor. I find it a libe
 
 > <blockquoted> Stupid people abound; Malicious people, less so. </blockquoted>
 
-There is a neat [wikipedia article](https://en.wikipedia.org/wiki/Hanlon%27s_razor) on it which focuses on its origin, and also introduced to me an earlier form of the aphorism by Goethe.
+There is a neat [wikipedia article](https://en.wikipedia.org/wiki/Hanlon%27s_razor) on it which focuses on its origin, and also introduced me to an earlier form of the aphorism by Goethe.
 
 > <blockquoted> Misunderstandings and lethargy perhaps produce more wrong in the world than deceit and malice do. At least the latter two are certainly rarer.
 <cite> Johann Wolfgang von Goethe, in The Sorrows of Young Werther </cite></blockquoted>
