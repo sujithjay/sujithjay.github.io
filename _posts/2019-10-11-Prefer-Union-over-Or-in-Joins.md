@@ -29,6 +29,9 @@ resultDF.explain()
 resultDF.explain(true)
 ```
 
+<!--break-->
+
+
 For the purpose of our discussion we will stick to just the physical plan. For a more detailed understanding of query plans within Spark, I would recommend reading: [Deep Dive into Spark SQL’s Catalyst Optimizer](https://databricks.com/blog/2015/04/13/deep-dive-into-spark-sqls-catalyst-optimizer.html).
 
 In the physical plan of a join operation, Spark identifies the strategy it will use to perform the join. The most common types of join strategies are (more can be found [here](https://github.com/apache/spark/blob/master/sql/core/src/main/scala/org/apache/spark/sql/execution/SparkStrategies.scala)):

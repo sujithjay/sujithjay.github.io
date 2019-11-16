@@ -21,6 +21,9 @@ There is a neat [wikipedia article](https://en.wikipedia.org/wiki/Hanlon%27s_raz
 > <blockquoted> Misunderstandings and lethargy perhaps produce more wrong in the world than deceit and malice do. At least the latter two are certainly rarer.
 <cite> Johann Wolfgang von Goethe, in The Sorrows of Young Werther </cite></blockquoted>
 
+<!--break-->
+
+
 Every time a fellow passenger is curt to me in the underground; whenever colleagues at work are under-appreciative to a piece of work I poured my heart into; when I face those racial micro-aggressions on a bad day; when a loved one is being unreasonable & stubborn: I find myself reaching out for the razor in an attempt to rationalise the situation in my mind.
 
 Over time, as I have used it to great effect to calm a distressed me, I have found it to be a little deficient. Let me tell you a story:
