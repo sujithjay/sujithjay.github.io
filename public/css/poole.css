@@ -498,3 +498,50 @@ a.pagination-item:hover {
 li{
   text-align: justify;
 }
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #444;
+    color: #e4e4e4;
+  }
+  a {
+    color: #e39777;
+  }
+  img {
+    filter: grayscale(30%);
+  }
+}
+
+blockquoted {
+    font-family: Georgia, serif;
+    font-style: italic;
+    text-align:justify;
+    width: 500px;
+    margin: 0.25em 0;
+    padding: 0.35em 40px;
+    line-height: 1.45;
+    position: relative;
+    color: #383838;
+}
+
+blockquoted:before {
+    display: block;
+    padding-left: 20px;
+    content: "\201C";
+    font-size: 80px;
+    position: absolute;
+    left: -20px;
+    top: -20px;
+    color: #7a7a7a;
+}
+
+blockquoted cite {
+    color: #999999;
+    font-size: 14px;
+    display: block;
+    margin-top: 5px;
+}
+
+blockquoted cite:before {
+    content: "\2014 \2009";
+}
