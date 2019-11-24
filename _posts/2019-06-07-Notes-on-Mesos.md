@@ -35,7 +35,7 @@ This class of distributed systems have one (or multiple) co-ordinator(s)[^1] co-
 ## Elasticity
 > An elastic system is able to adapt to workload changes by provisioning and de-provisioning resources in an autonomic manner, such that at each point in time the available resources match the current demand as closely as possible. [^3]
 
-Elasticity, as defined above, is a scheduling problem. There are multiple design choices to consider to achieve elasticity and based on these approaches, resource-management systems can be bucketed into categories. The table below lists the categories suggested in the paper, along with the design choices:
+Elasticity, as defined above, is a scheduling problem. There are multiple design choices to consider to achieve elasticity and based on these choices, resource-management systems can be bucketed into categories. The table below lists the categories suggested in the paper, along with the design choices:
 
 Approach  |  Resource Choice |  Interference |  Allocation Granularity |  Fairness
 --|---|---|---|--
@@ -91,7 +91,7 @@ A concise overview of the functionalities of Mesos in comparison with other reso
 
 {% include image-caption.html file="/public/mesos/Comparison.png" description="Fig. 6: Comparison" %}
 
-This diagram makes clear why the makers of Mesos call it *the distributed systems kernel*. Mesos does not try to provide every functionality a distributed system needs to function; it provides the minimum over which *frameworks* are expected to build on. This explains the need for schedulers & orchestration services such as [Marathon](https://mesosphere.github.io/marathon/), [Aurora](http://aurora.apache.org/) and [Peloton](https://eng.uber.com/peloton/) to run your applications with Mesos. We will delve into them in a future post. Until next time!
+This diagram makes clear why the makers of Mesos call it *the distributed systems kernel*. Mesos does not try to provide every functionality a distributed system needs to function; it provides the minimum over which *frameworks* are expected to build on. This explains the need for schedulers & orchestration services such as [Marathon](https://mesosphere.github.io/marathon/), [Aurora](http://aurora.apache.org/) and [Peloton](https://eng.uber.com/peloton/) to run your applications on Mesos. We will delve into them in a future post. Until next time!
 
 **P.S.** The title illustration is from [Apache Mesos as an SDK for Building Distributed Frameworks](https://www.slideshare.net/pacoid/strata-sc-2014-apache-mesos-as-an-sdk-for-building-distributed-frameworks/25) by Paco Nathan.
 
