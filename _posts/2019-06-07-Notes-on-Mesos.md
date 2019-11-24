@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: "Mesos, in the light of Omega"
-desc: Apache Mesos
+desc: Mesos described as a two-level scheduler framework, a categorisation borrowed from the Omega paper
 author: Sujith Jay Nair
 tags: mesos data-systems paper-summary
 permalink: /mesos
