@@ -39,21 +39,21 @@ Elasticity, as defined above, is a scheduling problem. There are multiple design
 
 Approach  |  Resource Choice |  Interference |  Allocation Granularity |  Fairness
 --|---|---|---|--
-Monolithic  | All Available  | None (Serialized)  |  Global Policy |  Strict Priority (Preemption)
-Statically Partitioned  | Fixed Subset  |  None (Partitioned) |  Per-partition Policy |  Scheduler-dependent
-Two-Level [Mesos]  | Dynamic Subset  | Pessimistic  |  Hoarding |  Strict Fairness (Dominant Resource Fairness)
-Shared-State [Omega]  |  All Available | Optimistic  | Per-scheduler Policy  |  Free-for-all, Priority Preemption
+`Monolithic`  | All Available  | None (Serialized)  |  Global Policy |  Strict Priority (Preemption)
+`Statically Partitioned`  | Fixed Subset  |  None (Partitioned) |  Per-partition Policy |  Scheduler-dependent
+`Two-Level [Mesos]`  | Dynamic Subset  | Pessimistic  |  Hoarding |  Strict Fairness (Dominant Resource Fairness)
+`Shared-State [Omega]`  |  All Available | Optimistic  | Per-scheduler Policy  |  Free-for-all, Priority Preemption
 
 The design choices can be described briefly as follows:
 - Choice of Resources to Participating Workloads
   - Do participating workloads (effectively, schedulers of participating workloads) have a universal view of cluster state and universal access to cluster resources? Or is it a limited view and restricted access?
-  - Preemptive scheduling vs. Non-preemptive scheduling
+  - Preemptive scheduling vs. Non-preemptive scheduling.
 - Interference
   - Pessimistic approach to resource sharing, vs. Optimistic concurrency with conflict resolution.
 - Allocation Granularity
   - Gang-scheduling vs. Incremental allocation.
 - Fairness
-  - Strict, central enforcement of fairness policy, vs. Reliance on emergent behaviour with post-facto checks
+  - Strict, central enforcement of fairness policy, vs. Reliance on emergent behaviour with post-facto checks.
 
 I refer the reader to the _Taxonomy_ section of the paper for a more verbose discussion on design choices. The categories are summarised in the following diagram.
 
