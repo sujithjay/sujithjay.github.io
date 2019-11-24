@@ -4,7 +4,7 @@ comments: true
 title: "Mesos, in the light of Omega"
 desc: Apache Mesos
 author: Sujith Jay Nair
-tags: mesos data-systems
+tags: mesos data-systems paper-summary
 permalink: /mesos
 image: /public/mesos/ClusterKernel.png
 date: "2019-06-06 11:11"
