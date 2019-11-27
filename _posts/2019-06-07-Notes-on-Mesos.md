@@ -7,7 +7,8 @@ author: Sujith Jay Nair
 tags: mesos data-systems paper-summary
 permalink: /mesos
 image: /public/mesos/ClusterKernel.png
-date: "2019-11-24 11:11"
+date: "2019-06-06 11:11"
+updatedon: "2019-11-24 11:11"
 ---
 ![image-title-here]({{ site.baseurl }}/public/mesos/ClusterKernel.png){:class="img-responsive"}
 Mesos is a framework I have had recent acquaintance with. We use it to manage resources for our Spark workloads. The other resource management framework for [Spark](/tag/apache-spark/) I have prior experience with is [Hadoop YARN]((/spark/with-yarn)). In this article, I revisit the concept of cluster resource-management in general, and explain higher-level Mesos abstractions & concepts. To this end, I borrow heavily the classification of cluster resource-management systems from the [Omega paper](https://static.googleusercontent.com/media/research.google.com/en//pubs/archive/41684.pdf).
