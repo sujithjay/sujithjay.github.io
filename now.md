@@ -2,6 +2,7 @@
 layout: page
 title: "Now"
 image: /public/now/Edinburgh.jpg
+desc: What I'm Doing Now
 ---
 A week into the new decade, I am back in Berlin after a long stay in Britain.
 
