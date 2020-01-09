@@ -28,7 +28,7 @@ title: Thinking Aloud
 	    <p>At <a class="nodecor" href="https://www.nubank.com.br/en">Nubank</a>, we're building an analytics platform for a new-age, nonconformist banking system.</p>
 	    <p></p>
     </div>
-    <div style="margin-top: 1.5rem; font-size: 1.2em;"><a href="/about">bio</a> | <a href="/essays">essays</a> | <a href="/topics">topics</a></div>
+    <div style="margin-top: 1.5rem; font-size: 1.2em;"><a href="/essays">essays</a> | <a href="/topics">topics</a></div>
     <hr>
   </div>
 </div>
