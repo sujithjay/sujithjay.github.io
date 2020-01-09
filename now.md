@@ -8,7 +8,7 @@ A week into the new decade, I am back in Berlin after a long stay in Britain.
 
 {% include image-caption.html file="/public/now/Edinburgh.jpg" description="A Lovely Afternoon in Edinburgh" %}
 
-Some things I am working on:
+I am working on the following:
 - I am pushing myself to read more books with a philosophy bent. Started with ["An Enquiry Concerning Human Understanding"](https://www.goodreads.com/book/show/130119.An_Enquiry_Concerning_Human_Understanding) by David Hume. Onto ["Gödel, Escher, Bach: An Eternal Golden Braid"](https://www.goodreads.com/book/show/24113.G_del_Escher_Bach) by Douglas R. Hofstadter.
 
 - Write longer essays which go beyond the obvious & said. I was inspired into this after reading ["All Art is Propaganda"](https://www.goodreads.com/book/show/3339527-all-art-is-propaganda) by George Orwell, but I would desist from talking politics like Orwell.
