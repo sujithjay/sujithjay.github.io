@@ -1,6 +1,7 @@
 ---
 layout: page
 title: "Now"
+image: /public/now/Edinburgh.jpg
 ---
 A week into the new decade, I am back in Berlin after a long stay in Britain.
 
