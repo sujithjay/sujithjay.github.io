@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "Why is Computer Storage Called 'Memory'?"
+title: "Why Are Computer Storage Units Called 'Memory'?"
 date: "2020-01-11 11:11"
 desc: A short history on why computer storage is called 'Memory'?
 comments: true
