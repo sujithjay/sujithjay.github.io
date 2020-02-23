@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: "A Conversation on Software Engineering Daily"
+title: "A Conversation with Software Engineering Daily"
 date: "2020-02-21 11:11"
 image: /public/podcast/Nubank.png
 comments: true
