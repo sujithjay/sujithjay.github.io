@@ -35,6 +35,7 @@ df.na.fill("empty",Seq("id", "place", "name"))
 
 This looks wrong, but apparently works fine in *v2.4.3* 😲. A transformation which attempts to fill in a missing value for a column which does not exist should raise an error: *v2.4.5* does that.
 
+<!--break-->
 
 ### Deep Dive
 So, what changed? A review of the [changelog for *v2.4.5*](https://issues.apache.org/jira/secure/ReleaseNote.jspa?projectId=12315420&version=12346042) shows a number of changes touching the functionality for working with missing data in DataFrames. The relevant change here is [SPARK-29890](https://issues.apache.org/jira/browse/SPARK-29890).
