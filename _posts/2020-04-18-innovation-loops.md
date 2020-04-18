@@ -12,7 +12,7 @@ image: /public/innovationloops/InnovationLoop.jpg
 permalink: /innovation-loops
 comments: true
 ---
-The purpose of an engineering organization (at the risk of sounding frivolously reductionist) is to build business value. You can grow an organization's delivered business value over time by [^1]:
+The purpose of an engineering organization (at the risk of sounding frivolously reductionist) is to build business value. You can grow an organization's delivered business value over time by: [^1]
 
 - training members: investing in people,
 - improving process: investing in shaping behaviour and communication,
