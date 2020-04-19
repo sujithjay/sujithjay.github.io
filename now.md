@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "Now"
-image: /public/now/Edinburgh.jpg
+image: /public/now/Daffodils.jpg
 desc: What I'm Doing Now
 ---
 Locked down in Bristol, England. It is the best of times, it is the worst of times.
