@@ -4,20 +4,20 @@ title: "Now"
 image: /public/now/Edinburgh.jpg
 desc: What I'm Doing Now
 ---
-A week into the new decade, I am back in Berlin after a long stay in Britain.
+Locked down in Bristol, England. It is the best of times, it is the worst of times.
 
-{% include image-caption.html file="/public/now/Edinburgh.jpg" description="A Lovely Afternoon in Edinburgh" %}
+{% include image-caption.html file="/public/now/Daffodils.jpg" description="Daffodils in Bloom" %}
 
 I am working on the following:
-- I am pushing myself to read more books with a philosophy bent. Started with ["An Enquiry Concerning Human Understanding"](https://www.goodreads.com/book/show/130119.An_Enquiry_Concerning_Human_Understanding) by David Hume. Onto ["Gödel, Escher, Bach: An Eternal Golden Braid"](https://www.goodreads.com/book/show/24113.G_del_Escher_Bach) by Douglas R. Hofstadter.
+- As a healing measure to the lockdown-induced fatigue, I have restarted a long-lost habit of writing short-stories.
 
-- Write longer essays which go beyond the obvious & said. I was inspired into this after reading ["All Art is Propaganda"](https://www.goodreads.com/book/show/3339527-all-art-is-propaganda) by George Orwell, but I would desist from talking politics unlike Orwell.
+- My endeavour to write longer essays, inspired by ["All Art is Propaganda"](https://www.goodreads.com/book/show/3339527-all-art-is-propaganda), has been a failure so far. Partially-written drafts are piling up like debris.
 
-- I will be on a podcast episode of [Software Engineering Daily](https://softwareengineeringdaily.com/) later in the month, talking about the Data Infrastructure at Nubank.
+- I have been reading more literature on engineering management. Started with [Strategize](https://www.goodreads.com/book/show/29336329-strategize), and now on [An Elegant Puzzle: Systems of Engineering Management](https://www.goodreads.com/book/show/45303387-an-elegant-puzzle)
 
-- Reboot meditation.
+- I am building a tiny sql compiler, as a project to teach myself `rust` & query compilation. This is the third in a series of tiny `rust` projects I have taken up this year.
 
 - - - -
 <sub> This is a _now page_ describing my current focus items. Inspired by [Sivers](https://nownownow.com/about). </sub>
 
-<sub> Updated on 7th January, 2020 from Berlin.</sub>
+<sub> Updated on 19th April, 2020 from Bristol.</sub>
