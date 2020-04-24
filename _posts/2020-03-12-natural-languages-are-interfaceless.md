@@ -48,27 +48,27 @@ Constructed auxiliary languages, however, implicitly have a notion of interfacea
 In general, for every auxiliary language, there exists an interface within the mind of the speaker which translates between their primary tongue & the auxiliary tongue.
 
 ### Interfaces are Dynamic
-Almost every major language now possesses translation guides to almost every other major language. In cases where this is not true, we could use an auxiliary, third language to mediate the translation. Do such translation guides and dictionaries count as interfaces? This can be answered (in a non-intuitive, convoluted way) with a counter-question: Why do translations of literature between languages always require a medium (a human scholar or a machine-aided translation)? The shorter answer is no. Translation Guides are not Interfaces.
+Almost every major language now possesses translation guides to almost every other major language. In cases where this is not true, we could use an auxiliary, third language to mediate the translation. Do such translation guides and dictionaries count as interfaces? This can be answered with a counter-question: Why do translations of literature between languages always require a medium (a human scholar or a machine-aided translation)? The shorter, crisper answer is no; translation guides are not interfaces.
 
-Interfaces are dynamic. They hide the evolution of source languages as long as they conform to the interface. Users do not need to understand the evolution of the source language. On the other hand, translation guides of every form are a static snapshot of a minuscule part of the source language captured into the target language; and this snapshot stays true for the subset of the source language for a given point in time, and may not hold for any time before or after.
+Interfaces are dynamic. They hide the evolution of source languages as long as they conform to the interface. Users do not need to understand the evolution of the source language. On the other hand, translation guides of every form are a static snapshot of a subset of the source language captured into the target language; and this snapshot stays true for a given point in time, and may not hold true for any point in time before or after.
 
-The above discussion on dynamicity in interfaces uncovers an important necessary (but not sufficient?) feature of them: every interface has an associated Intermediate Representation (IR).
+The above discussion on dynamicity in interfaces uncovers an important necessary (but not sufficient?) feature of interfaces: every interface has an associated Intermediate Representation (IR).
 
-In the previous section, when I said that in constructed auxiliary languages the interface is the language, I implied that a constructed auxiliary language acts as an Intermediate Representation.
+In the previous section, when I said that in constructed auxiliary languages the interface is the language, I implied that a constructed auxiliary language acts as an intermediate representation.
 
 
 ### Ongoing Discussion
 This is an incomplete article, as it reflects my nebulous thoughts on the subject. Open questions remain:
 
-- How does an Intermediate Representation look? Do they need to be a first-class language on their own?
-- Can we have interfaces live outside of a mind? State-of-the-art Machine Language Translation does not, yet, fill those large shoes. How can we push it to be an interface?
+- How does an intermediate representation of a natural language look? Do they need to be a first-class natural language in their own right?
+- Can we have interfaces live outside of a human mind? State-of-the-art Machine Language Translation does not, yet, fill those large shoes. How can we push it to be an interface?
 
 
 ### Notes
 [^1]: [The Law of Leaky Abstractions.](https://www.joelonsoftware.com/2002/11/11/the-law-of-leaky-abstractions/)
 [^2]: Declarative programming languages are based on this philosophy of separation of the what & the how.
-[^3]: [Opposable thumbs.](https://www.ruf.rice.edu/~kemmer/Evol/opposablethumb.html)
+[^3]: I say "arguably". [Opposable thumbs](https://www.ruf.rice.edu/~kemmer/Evol/opposablethumb.html) are tight contenders as well.
 [^4]: English is, by far, the most widely used auxiliary language, constructed or non-constructed. As a native of India, and a non-native speaker of Hindi, I believe Hindi is the second most-widely used auxiliary language.
 [^5]: [A Language for Idealists.](https://paw.princeton.edu/article/language-idealists)
 [^6]: Derivational word formation or [Morphological derivation](https://en.wikipedia.org/wiki/Morphological_derivation) in languages allows speakers to derive hundreds of other words by learning one word root.
-[^7]: This is not true for any constructed auxiliary, and particularly Esperanto. The language evolves and loses conformity to its interface.
+[^7]: This is not true for all constructed auxiliary languages, and particularly for Esperanto. The language evolves independently, and loses conformity to its interface.
