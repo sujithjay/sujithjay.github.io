@@ -23,8 +23,8 @@ title: Thinking Aloud
 <div class="row">
   <div class ="col-md-offset-2 col-md-7">
     <div id="overview" style="margin-top: 1.5rem;">
-        <p>I am <a class="nodecor" href="https://www.twitter.com/suj1th">@suj1th</a>, occasional writer, and engineer at Nubank, where I design, build, and operate data-intensive systems.</p>
-        <p>I write about <a class="nodecor" href="/tag/data-systems/">data systems</a>, mildly muse on <a class="nodecor" href="/tag/culture/">work-place culture</a>, and <a class="nodecor" href="tag/paper-summary/">summarise papers</a> I want to be less wrong about.</p>
+        <p>I am <a class="nodecor" href="https://www.twitter.com/suj1th">@suj1th</a>, occasional writer, and software engineer with a penchant data-intensive systems.</p>
+        <p>I write about <a class="nodecor" href="/tag/data-systems/">data systems</a>, mildly muse on <a class="nodecor" href="/tag/culture/">engineering management & culture</a>, and <a class="nodecor" href="tag/paper-summary/">summarise research papers</a> I want to be less wrong about.</p>
     </div>
     <div style="margin-top: 1.5rem; font-size: 1.2em;"><a href="/essays">essays</a> | <a href="/topics">topics</a></div>
     <hr>
@@ -37,6 +37,8 @@ title: Thinking Aloud
       Greatest Hits
     </div>
     <a class="nodecor" href="/data-systems/dynamo-cassandra/">Dynamo vs Cassandra : Systems Design of NoSQL Databases</a>
+    <br>
+    <a class="nodecor" href="/interfaceless-languages">Natural Languages are Interfaceless</a>
     <br>
     <a class="nodecor" href="/spark/shuffle-hash-sort-merge-joins">Shuffle Hash and Sort Merge Joins in Apache Spark</a>
     <br>
