@@ -23,7 +23,7 @@ title: Thinking Aloud
 <div class="row">
   <div class ="col-md-offset-2 col-md-7">
     <div id="overview" style="margin-top: 1.5rem;">
-        <p>I am <a class="nodecor" href="https://www.twitter.com/suj1th">@suj1th</a>, occasional writer, and software engineer with a penchant data-intensive systems.</p>
+        <p>I am <a class="nodecor" href="https://www.twitter.com/suj1th">@suj1th</a>, occasional writer, and software engineer with a penchant for data-intensive systems.</p>
         <p>I write about <a class="nodecor" href="/tag/data-systems/">data systems</a>, mildly muse on <a class="nodecor" href="/tag/culture/">engineering management & culture</a>, and <a class="nodecor" href="tag/paper-summary/">summarise research papers</a> I want to be less wrong about.</p>
     </div>
     <div style="margin-top: 1.5rem; font-size: 1.2em;"><a href="/essays">essays</a> | <a href="/topics">topics</a></div>
