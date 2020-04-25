@@ -40,8 +40,6 @@ title: Thinking Aloud
     <br>
     <a class="nodecor" href="/interfaceless-languages">Natural Languages are Interfaceless</a>
     <br>
-    <a class="nodecor" href="/spark/shuffle-hash-sort-merge-joins">Shuffle Hash and Sort Merge Joins in Apache Spark</a>
-    <br>
     <a class="nodecor" href="/mesos">Mesos, in the light of Omega</a>
   </div>
 </div>
