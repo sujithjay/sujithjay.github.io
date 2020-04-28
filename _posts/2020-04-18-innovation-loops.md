@@ -22,7 +22,7 @@ A cumulative side-effect of these approaches is to **strengthen innovation loops
 
 ### Innovation Loops
 
-Innovation loops are informal, intrapreneurial feedback loops in engineering teams which builds products & features to address user demand & pain. It is innovation which circumvents the software development cycle involving product & market research teams. In mature teams, innovation loops complement & reinforce the existing, evolutionary product development feedback cycle. I call product development evolutionary, in contrast to the more revolutionary trait of innovation loops.
+Innovation loops are informal, intrapreneurial feedback loops in engineering teams which builds products & features to address user demand & pain. It is innovation which circumvents the software development cycle involving product & market research teams. In mature teams, innovation loops complement & reinforce the existing, evolutionary product development feedback cycle. I call product development evolutionary, in contrast to the more revolutionary (or reactive) trait of innovation loops.
 
 {% include image-caption.html file="/public/innovationloops/InnovationLoop.jpg" description="Regular product development as green arrows; Innovation loops as red squiggles." %}
 
