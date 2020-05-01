@@ -124,9 +124,9 @@ The sizing of micro-batches is crucial. Larger micro-batches provide better esti
 Each stream computes its _PT_ independently. Stream synchronisation is performed by pausing the stream that has its _PT_ too far
 ahead of the other. Synchronization uses the following formula:
 
-$$\mathsf{ PT_{left} + WindowBoundary_{upper} = PT_{right}}$$
+$$\mathsf{ PT_{left} + Window_{upper} = PT_{right}}$$
 
-where $$\mathsf{ PT_{left}}$$ represents the processing time estimated for the left stream, $$\mathsf{ PT_{right}}$$ is the processing time for the right stream, and $$\mathsf{WindowBoundary_{upper}}$$ is the upper boundary of the window.
+where $$\mathsf{ PT_{left}}$$ represents the processing time estimated for the left stream, $$\mathsf{ PT_{right}}$$ is the processing time for the right stream, and $$\mathsf{Window_{upper}}$$ is the upper boundary of the window.
 
 ### Performance Evaluation
 
