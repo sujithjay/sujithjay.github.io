@@ -1,12 +1,12 @@
 ---
 layout: page
 title: "Now"
-image: /public/now/Daffodils.jpg
+image: /public/now/Cheddar.jpg
 desc: What I'm Doing Now
 ---
 Locked down in Bristol, England. It is the best of times, it is the worst of times.
 
-{% include image-caption.html file="/public/now/Daffodils.jpg" description="Daffodils in Bloom" %}
+{% include image-caption.html file="/public/now/Cheddar.jpg" description="Cheddar Gorge, near Bristol; Eponymous to Cheddar Cheese" %}
 
 I am working on the following:
 - As a healing measure to the lockdown-induced fatigue, I have restarted a long-lost habit of writing short-stories.
