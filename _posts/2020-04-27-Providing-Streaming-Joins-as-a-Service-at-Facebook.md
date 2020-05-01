@@ -6,7 +6,7 @@ desc: Paper Summary for 'Providing Streaming Joins as a Service at Facebook'
 comments: true
 author: Sujith Jay Nair
 tags: paper-summary data-systems streaming joins
-image: /public/streamingjoins/join.png
+image: /public/streamingjoins/synchronisation.png
 permalink: /streaming-joins-at-facebook
 ---
 [Providing Streaming Joins as a Service at Facebook](http://www.vldb.org/pvldb/vol11/p1809-jacques-silva.pdf).
