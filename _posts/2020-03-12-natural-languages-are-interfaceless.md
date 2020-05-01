@@ -26,6 +26,8 @@ Norman is talking about the lack of a (good) interface here: a layer to translat
 
 In both cases, a translation is needed, and the translator is termed an _interface_.
 
+<!--break-->
+
 ### Languages are Interfaceless
 {% include image-caption.html file="/public/interfaceless/no-face.gif" description="(Inter)Faceless a.k.a No-Face" %}
 
