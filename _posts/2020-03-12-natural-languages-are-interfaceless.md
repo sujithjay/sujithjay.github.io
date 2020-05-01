@@ -26,14 +26,14 @@ Norman is talking about the lack of a (good) interface here: a layer to translat
 
 In both cases, a translation is needed, and the translator is termed an _interface_.
 
-<!--break-->
-
 ### Languages are Interfaceless
 {% include image-caption.html file="/public/interfaceless/no-face.gif" description="(Inter)Faceless a.k.a No-Face" %}
 
 (Natural) Languages are the quintessential human way of communication. Our advanced languages are arguably the lone differentiators of our species from our cousins in the primate family, and the larger animal kingdom. [^3]
 
 We have been inventing, honing, assimilating, and discarding languages since the start of our existence as a species. But we do not develop languages with an intent for it to be translated. Languages are not meant by its inventors to be translated. Every language is developed as if it is the only language in existence, and everyone else understands it.
+
+<!--break-->
 
 This is in spite of the fact that translations of literature and texts are a crucial medium of cross-pollinating ideas, technology, values, and ethics.
 
