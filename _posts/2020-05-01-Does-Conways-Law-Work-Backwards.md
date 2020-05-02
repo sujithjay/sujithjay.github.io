@@ -1,7 +1,7 @@
 ---
 layout: "post"
 title: "Converse Conway's Law"
-date: "2020-05-01 11:11"
+date: "2020-05-02 11:11"
 comments: true
 author: Sujith Jay Nair
 tags: questions
