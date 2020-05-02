@@ -21,7 +21,7 @@ author:
   stackoverflow:  suj1th
   rss:            atom.xml
 
-paginate:         3
+paginate:         5
 paginate_path: "/essays/:num/"
 
 version:          0.4.0
