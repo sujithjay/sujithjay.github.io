@@ -14,7 +14,7 @@ Melvin Conway in his 1968 paper [How Do Committees Invent?](http://www.melconway
 
 This homomorphism between organisational communication structures and systems designed by them, has become an adage in software management. It implies a one-way effect, though. But, does it work in the other direction?
 
-Given a mature software system, can we infer organisational communication structures? Particularly, informal communication structures? [^1] Do informal communication structures affect system design in the first place?
+Given a mature (say, software) system, can we infer organisational communication structures? Particularly, informal communication structures? [^1] Do informal communication structures affect system design in the first place?
 
 ##### Footnotes
 
