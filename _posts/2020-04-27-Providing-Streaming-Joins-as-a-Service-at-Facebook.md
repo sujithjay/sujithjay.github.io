@@ -23,6 +23,8 @@ The key contributions of the paper are:
 
 3. a stream time estimation scheme that handles the variations on the distribution of event-times observed in real-world streams and achieves high join accuracy.
 
+### Trade-offs in Stream-Stream Joins
+
 Stream-stream joins have a 3-way trade-off of output latency, join accuracy, and memory footprint. One extreme of this trade-off is to provide best-effort (in terms of join accuracy) processing-time joins. Another extreme is to persist metadata associated with every joinable event on a replicated distributed store to ensure that all joinable events get matched. This approach provides excellent guarantees on output latency & join accuracy, with memory footprint sky-rocketing for large, time-skewed streams.
 
 The approach of the paper is in the middle: it is best-effort with a facility to improve join accuracy by pacing the consumption of the input streams based on dynamically estimated watermarks on event-time.
