@@ -5,6 +5,7 @@ date: "2020-05-04 11:11"
 desc: A Review of The Blue Flower by Penelope Fitzgerald
 author: Sujith Jay Nair
 tags: reviews
+image: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1420661808l/24356917._SX98_.jpg
 permalink: /blue-flower
 ---
 <a href="https://www.goodreads.com/book/show/24356917-the-blue-flower" style="float: left; padding-right: 20px"><img border="0" alt="The Blue Flower" src="https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1420661808l/24356917._SX98_.jpg" /></a><a href="https://www.goodreads.com/book/show/24356917-the-blue-flower">The Blue Flower</a> by <a href="https://www.goodreads.com/author/show/3222.Penelope_Fitzgerald">Penelope Fitzgerald</a><br/>
