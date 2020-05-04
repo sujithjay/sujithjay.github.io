@@ -23,6 +23,7 @@ The key contributions of the paper are:
 
 3. a stream time estimation scheme that handles the variations on the distribution of event-times observed in real-world streams and achieves high join accuracy.
 
+### Trade-offs in Stream-Stream Joins 
 Stream-stream joins have a 3-way trade-off of output latency, join accuracy, and memory footprint. One extreme of this trade-off is to provide best-effort (in terms of join accuracy) processing-time joins. Another extreme is to persist metadata associated with every joinable event on a replicated distributed store to ensure that all joinable events get matched. This approach provides excellent guarantees on output latency & join accuracy, with memory footprint sky-rocketing for large, time-skewed streams.
 
 The approach of the paper is in the middle: it is best-effort with a facility to improve join accuracy by pacing the consumption of the input streams based on dynamically estimated watermarks on event-time.
@@ -54,37 +55,16 @@ streaming join is significantly different, users have the option of creating a v
 
 For streaming-joins, the user express their joins via _PQL_ in Puma, while the join is implemented under the hoods in Stylus. A user-defined join is defined as an application:
 
+<details>
+<summary>Example PQL Application</summary>
+<p>
+
+```python
+print("hello world!")
 ```
-00: CREATE APPLICATION sample_app;
-01:
-02: CREATE INPUT TABLE left (
-03: eventtime, key, dim_one, metric
-04: ) FROM SCRIBE("left");
-05:
-06: CREATE INPUT TABLE right (
-07: eventtime, key, dim_two, dim_three
-08: ) FROM SCRIBE("right");
-09:
-10: CREATE VIEW joined_streams AS
-11: SELECT
-12: l.eventtime AS eventtime, l.key AS key,
-13: l.dim_one AS dim_one, r.dim_two AS dim_two,
-14: COALESCE(r.dim_three, "example") AS dim_three,
-15: ABS(l.metric) AS metric
-16: FROM left AS l
-17: LEFT OUTER JOIN right AS r
-18: ON (l.key = r.key) AND
-19: (r.eventtime BETWEEN
-20: l.eventtime - INTERVAL `3 minutes' AND
-21: l.eventtime + INTERVAL `3 minutes');
-22:
-23: CREATE TABLE result AS
-24: SELECT
-25: eventtime, key, dim_one, dim_two,
-26: dim_three, metric
-27: FROM joined_streams
-28: STORAGE SCRIBE (category = "result");
-```
+</p>
+</details>
+
 The join view specification above has an equality expression (line 18), and a window expressed with the BETWEEN function
 and using intervals on the timestamp attributes (lines 19-21).
 
