@@ -98,7 +98,7 @@ Given a _PQL_ query as above, it is compiled into an execution plan comprised of
 
 {% include image-caption.html file="/public/streamingjoins/plan.jpg" description="Figure 1. Logical Plan for Join query" %}
 
-As part of the pre-join transformations on both the left (build-side) & right side (probe-side), projections are resolved, join equality & timestamp expressions are computed, and the streams are sharded as per the join-equality attribute & written into intermediary Scribe categories.
+As part of the pre-join transformations on both the left (probe-side) & right side (build-side), projections are resolved, join equality & timestamp expressions are computed, and the streams are sharded as per the join-equality attribute & written into intermediary Scribe categories.
 
 Since only inner joins or left-outer joins are supported by the system, the expressions of the left-side are evaluated before join while for the right-side, this is done after the join.
 
