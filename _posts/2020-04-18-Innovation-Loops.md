@@ -26,7 +26,7 @@ Innovation loops are informal, intrapreneurial feedback loops in engineering tea
 
 {% include image-caption.html file="/public/innovationloops/InnovationLoop.jpg" description="Regular product development as green arrows; Innovation loops as red squiggles." %}
 
-Innovation loops are more prevalent in infrastructure teams than in product focused teams. This could be partly explained by the availability of direct communication channels to the user which infrastructure teams enjoy compared to a product focused teams.
+Innovation loops are more prevalent in infrastructure teams than in product-focused teams. This could be partly explained by the availability of direct communication channels to users which infrastructure teams possess, and product-focused teams do not.
 
 <!--break-->
 
