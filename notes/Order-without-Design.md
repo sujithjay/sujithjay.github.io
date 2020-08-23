@@ -26,7 +26,11 @@ permalink: /notes/order-without-design
 
 ## Chapter 4
 - Projections of population density is a necessary input into design; but projections should not be frozen into land use regulations.
-- High land prices —\> High Density; not the other way around.
+- High land prices —> High Density; not the other way around.
 - Standard Urban Model
 - The SUM works for a acentric city with no CBD, since proximity to centroid provides a better access to labor market.
 - The SUM can estimate the urban-agriculture boundary, and how far a city expands.
+- There will develop two urban-agriculture boundaries:
+  - x1, where urban land price meets agricultural land prices
+  - x2, where urban land price meets agricultural land price + cost of infrastructure
+- In the range between x2 to x1, informal development occurs. The cause of informal development is the same in developed and developing economies: poorly conceived land use regulations that do not take into account the income of poor households.
