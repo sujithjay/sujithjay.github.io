@@ -9,7 +9,7 @@ tags: notes
 permalink: /notes/order-without-design
 
 ---
-## Chapter 2
+## Chapter 2 - Cities as Labour Markets
 - Firms and Households relate via the labor market. The labor market obliges firms and households to locate at ‘commute-able’ distances.
 - OTOH, they compete for land use.
 - Thus, there is a trade-off between land consumption and commute distance.
@@ -43,3 +43,10 @@ permalink: /notes/order-without-design
   - all workers in a household cannot not find employment in the same neighbourhood.
   - when a worker changes employment, they do not change residence since moving homes has a high transaction cost.
   - proximity to work is not the only consideration when choosing a residence.
+- A measure for mobility can be computed in two stages:
+  - Calculating the number of jobs accessible from every census tract within a selected time limit. This is accessibility of the census tract.
+  - Calculating the worker-weighted average of the accessibility of all census tracts to form the mobility index of the metropolitan area.
+- Commuting time = Travel time + Access time. Reducing access time, rather than improving speed of travel, should be a priority. Access time is also why public transports take longer than a private vehicle in point-to-point commute.
+- Congestion is measured using TTI - Travel Time Index - ratio of travel time in peak periods vs. travel time in free-flow conditions.
+
+#### The Supply Side
