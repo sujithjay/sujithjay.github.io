@@ -50,3 +50,5 @@ permalink: /notes/order-without-design
 - Congestion is measured using TTI - Travel Time Index - ratio of travel time in peak periods vs. travel time in free-flow conditions.
 
 #### The Supply Side
+- Increasing Road Supply in already dense areas is not feasible: the Haussmann project in 1850s Paris is unique in this respect. The alternative of an underground rail network makes more sense for modern cities. The arithmetic depends on price per square metre of real estate vs. price per square metre of underground construction.
+- In general, a planner has to act on the demand side rather than on the supply side, to improve mobility.
