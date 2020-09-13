@@ -60,7 +60,7 @@ permalink: /notes/order-without-design
   - Decrease the width of vehicles such that two can occupy the space of one in a lane; two bikes instead of one car.
 - The total number of cars on street determines the combined speed of the traffic.
 - Buses have a very low index of street area used per passenger; almost 50 times less than a car, both travelling at 40km/h.
-  - However, an argument for BRT based on just the above index does not factor in how commute with a bus is different from a car. Buses cannot follow each other, even in a BRT, in a long column because of the need for headway.
+  - However, an argument for BRT based on just the above index does not factor in how commuting in a bus is different from a car. Buses cannot follow each other, even in a BRT, in a long column because of the need for headway.
   - BRT street consumption is at par with cars once adjusted for realistic headways and passenger occupancy levels.
   - BRT lines can be an option only along axes of the city where demand for capacity at peak hours ensures full occupancy.
   - Also, BRTs focus on optimising PPHPD (passengers per hour per direction), but does not focus on speed. For large cities, speed of commute is an important factor to attain maximum mobility.
