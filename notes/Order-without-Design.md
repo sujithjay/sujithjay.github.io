@@ -52,3 +52,18 @@ permalink: /notes/order-without-design
 #### The Supply Side
 - Increasing Road Supply in already dense areas is not feasible: the Haussmann project in 1850s Paris is unique in this respect. The alternative of an underground rail network makes more sense for modern cities. The arithmetic depends on price per square metre of real estate vs. price per square metre of underground construction.
 - In general, a planner has to act on the demand side rather than on the supply side, to improve mobility.
+#### The Demand Side
+- Consumption of Road by vehicles is almost entirely the space maintained between cars to allow for 2-second reaction time. Thus, a smaller car does not use less space than a large SUV.
+- There are only two ways to decrease the consumption of street area by moving cars:
+  - Decrease the 2-second reaction time using self-driving technology, etc.
+  - Decrease the width of vehicles such that two can occupy the space of one in a lane; two bikes instead of one car.
+- The total number of cars on street determines the combined speed of the traffic.
+- Buses have a very low index of street area used per passenger; almost 50 times less than a car, both travelling at 40km/h.
+  - However, an argument for BRT based on just the above index does not factor in how commute with a bus is different from a car. Buses cannot follow each other, even in a BRT, in a long column because of the need for headway.
+  - BRT street consumption is at par with cars once adjusted for realistic headways and passenger occupancy levels.
+  - BRT lines can be an option only along axes of the city where demand for capacity at peak hours ensures full occupancy.
+  - Also, BRTs focus on optimising PPHPD (passengers per hour per direction), but does not focus on speed. For large cities, speed of commute is an important factor to attain maximum mobility.
+- Singapore manages to decrease congestion by managing demand via pricing.
+- Charging for Road Maintainence and Capital Cost
+  - Gasoline taxation is the traditional way governments cover the maintainence costs of roads. It is never close to the real costs, due to lack to inflation-ties taxation and the improving fuel efficiency of cars. Also, electric cars do not pay such a toll.
+  - Making the consumer pay the real economic price of road usage - inclusive of shared fixed costs of construction, per-vehicle fixed costs of insurance, and negative externalities - can ensure that consumers choose better between public, shared, and private modes of transport. In the long run, this will alter urban land use for the better.
