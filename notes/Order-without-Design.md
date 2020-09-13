@@ -52,6 +52,7 @@ permalink: /notes/order-without-design
 #### The Supply Side
 - Increasing Road Supply in already dense areas is not feasible: the Haussmann project in 1850s Paris is unique in this respect. The alternative of an underground rail network makes more sense for modern cities. The arithmetic depends on price per square metre of real estate vs. price per square metre of underground construction.
 - In general, a planner has to act on the demand side rather than on the supply side, to improve mobility.
+
 #### The Demand Side
 - Consumption of Road by vehicles is almost entirely the space maintained between cars to allow for 2-second reaction time. Thus, a smaller car does not use less space than a large SUV.
 - There are only two ways to decrease the consumption of street area by moving cars:
