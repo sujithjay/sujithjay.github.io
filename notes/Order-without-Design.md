@@ -68,3 +68,9 @@ permalink: /notes/order-without-design
 - Charging for Road Maintainence and Capital Cost
   - Gasoline taxation is the traditional way governments cover the maintainence costs of roads. It is never close to the real costs, due to lack to inflation-ties taxation and the improving fuel efficiency of cars. Also, electric cars do not pay such a toll.
   - Making the consumer pay the real economic price of road usage - inclusive of shared fixed costs of construction, per-vehicle fixed costs of insurance, and negative externalities - can ensure that consumers choose better between public, shared, and private modes of transport. In the long run, this will alter urban land use for the better.
+
+## Chapter 6 - Affordability
+- The level of affordability of a housing unit is comprised of the floor area, price per square meter, construction quality, and location of the unit.
+- The government response to low-income housing crunch & unfavourable living conditions in low-income housing is 'to do something', most typically create affordable housing which improve on floor area, and price per square meter, but deteriorate the poor's accessibility to labour markets by being situated in peripheral locations.
+- The choice of housing made by low-income households is very different when provided with affordable, remote housing versus when their incomes are increased by the implicit subsidy.
+- Price of housing (P) for households = (Land area) * (Price of land) + (Floor area) * (Cost of construction). Rent depends on the same variables.
