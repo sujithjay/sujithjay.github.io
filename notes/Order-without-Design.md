@@ -74,3 +74,13 @@ permalink: /notes/order-without-design
 - The government response to low-income housing crunch & unfavourable living conditions in low-income housing is 'to do something', most typically create affordable housing which improve on floor area, and price per square meter, but deteriorate the poor's accessibility to labour markets by being situated in peripheral locations.
 - The choice of housing made by low-income households is very different when provided with affordable, remote housing versus when their incomes are increased by the implicit subsidy.
 - Price of housing (P) for households = (Land area) * (Price of land) + (Floor area) * (Cost of construction). Rent depends on the same variables.
+
+## Chapter 7 - Alternative Urban Shapes and Utopia
+- Since a city does not have a specific purpose, it is difficult to define an objective function around which the city can be designed. We have to rely on the self-organising principle of markets to do so.
+- Objects which are designed are discarded with time for better objects with improved designs. Cities however are expected to evolve, and external shocks improve cities which survive those shocks. 'Fluctuat nec mergitur' -- it is tossed around, but never sinks.
+- Objective functions for urban planning can be of four kinds:
+  - Aesthetics as objective function. eg. Paris historical preservation.
+  - Limiting externalities, or public interest as objective function
+  - Containing urban expansion as objective function
+  - Aspirations as objective function
+-
