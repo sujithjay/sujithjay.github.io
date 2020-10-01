@@ -1,7 +1,7 @@
 ---
 layout: "post"
 title: "AWS Is NOT Your Ideal"
-date: "2020-08-14 11:11"
+date: "2020-10-01 11:11"
 desc: On platform product management
 comments: true
 author: Sujith Jay Nair
