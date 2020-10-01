@@ -56,6 +56,6 @@ As a parting note, I will take a jab at user-interviews again. The above tactics
 [^1]: To define a platform for the purposes of this post, I use Camille Fournier's words: A platform is the software side of infrastructure.
 [^2]: I use AWS throughout this article as a stand-in for a generic cloud provider.
 [^3]: Although I do not mention data abstractions provided by data platform teams specifically here, the arguments in this article hold just as true.
-[^4]: The other function, in many cases, turns out to be another engineering team. eg., a team of backend engineers reliant on the tooling provided by the infrastructure team for the provisioning of servers.
+[^4]: The other function, in many cases, turns out to be another engineering team. eg. a team of backend engineers reliant on the tooling provided by the infrastructure team for the provisioning of servers.
 [^5]: As anyone aware of product management for consumer products, this is gross reductionism; but let us take it at face value for the sake of the narrative I want to focus on.
 [^6]: Metrics have an overloaded meaning here. To clarify, your team might have good observability metrics to understand the need to design better solutions to scale existing features, but no metrics to make the case for new features.
