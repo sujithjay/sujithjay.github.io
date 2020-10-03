@@ -24,7 +24,7 @@ As an agnostic service provider, AWS can afford to cater to median use-cases. Th
 
 {% include image-caption.html file="/public/notaws/Median.jpeg" description="AWS can afford to stay within a single σ. You cannot." %}
 
-Agnostic platform engineering teams which emulate AWS try to get away from this responsibility by proposing abstractions which target the median use-case. A tell-tale sign of this is when the lack in wide usability of internal abstractions is compensated for by extensive onboarding & repeated training. This is also a side-effect of the the relative valuation of engineering time vs. the time of another function [^4].
+Agnostic platform engineering teams which emulate AWS try to get away from this responsibility by proposing abstractions which target the median use-case. A tell-tale sign of this is when the lack in wide usability of internal abstractions is compensated for by extensive onboarding & repeated training. This is also a side-effect of the relative valuation of engineering time vs. the time of another function [^4].
 
 ### 2. Follow the Money
 The dictum 'follow the money' works beautifully for customer-front products. When faced with a choice between two competing features to prioritise, a common tactical play is to make something which leads to more (immediate & long-term) revenue. The proxy for increased revenue could be increased acquisition conversion, better retention or improved user experience -- metrics which ensure increased revenue for the company over time. In short, revenue growth is the north star [^5].
