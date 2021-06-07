@@ -5,7 +5,7 @@ date: "2020-10-01 11:11"
 desc: On platform product management
 comments: true
 author: Sujith Jay Nair
-tags: product management
+tags: platforms product management
 image: /public/notaws/Median.jpeg
 permalink: /not-aws
 
