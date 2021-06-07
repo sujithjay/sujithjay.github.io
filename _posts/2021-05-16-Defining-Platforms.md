@@ -45,7 +45,7 @@ An illustration of the property of cost-scalability is as follows:
 Consider a platform with \\(n\\) users and an operating cost of \\(C\\). Assume that when the user-count increases to \\(n+1\\), the cost increases to \\(C+ c\_{1}\\), and when the user-count increases to \\(n+1\\), the cost increases to \\(C+ c\_{1} + c\_{2}\\). For a cost-scalable platform, \\(c\_{2} \leq c\_{1}\\) [^3].
 
 #### Lasting
-A 'lasting' platform ensures that the incremental cost of the customer grows more slowly than the incremental value to the customer.
+A 'lasting' platform ensures that the incremental cost to the customer grows more slowly than the incremental value to the customer.
 
 In case of public platforms, not every platform has to be lasting. [Byrne Hobart](https://diff.substack.com/p/who-amazon-grows-with/) calls (public) platforms which follow the incremental value dictum as second-derivative platforms (a first-derivative platform being one which follows the Bill Gates' definition above).
 
@@ -61,10 +61,7 @@ There is another explanation of why no true platform [^4] will only cater to a s
 
 ### Final Take?
 A definition for internal platforms in the light of these attributes could be stated as:
-> An internal platform is a scalable, lasting, serendipitous set of coherent APIs.
-
-
-Ugh, that is one dispirited definition! Can I do better?
+> An internal platform is when a scalable, serendipitous, coherent set of APIs ensures that the incremental cost to the customer grows more slowly than the incremental value to the customer.
 
 
 ### Footnotes
