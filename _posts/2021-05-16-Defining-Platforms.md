@@ -61,7 +61,7 @@ There is another explanation of why no true platform [^5] will only cater to a s
 
 ### Final Take?
 A definition for internal platforms in the light of these attributes could be stated as:
-> An internal platform is when a scalable, commodifying, coherent set of APIs ensures that the incremental cost to the customer grows more slowly than the incremental value to the customer.
+> <blockquoted>An internal platform is when a scalable, commodifying, coherent set of APIs ensures that the incremental cost to the customer grows more slowly than the incremental value to the customer.
 
 
 ### Footnotes
