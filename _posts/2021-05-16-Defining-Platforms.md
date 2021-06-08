@@ -10,7 +10,7 @@ permalink: /internal-platforms
 ---
 Engineering platforms are a vague concept. Software organisations across the board agree on the need to 'platformise' layers of their stack, but struggle to define the term. The question 'what is a platform' is met with a response 'something similar to AWS, but at a higher layer of the company software stack'. [I have previously argued why this is a false analogy](/not-aws).
 
-I think we can agree that there is a dichotomy in engineering platforms: public platforms and internal (or private) platforms. AWS Beanstalk, Snowflake, and others are examples of public platforms, while internal platforms are engineering platforms built within a software organisation to serve internal users.
+I think we can agree that there is a dichotomy in engineering platforms: public platforms and internal (or private) platforms. AWS S3, Snowflake, and others are examples of public platforms, while internal platforms are engineering platforms built within a software organisation to serve internal users.
 
 My approach here is to start with a reasonable definition of platforms in general and arrive at a reasonable definition for internal platforms. This was not as straightforward as it sounds. The minimum we can gain from such an exercise is the ability to identify internal platforms in the wild (_"Is X an internal platform?"_ ). [^1]
 
