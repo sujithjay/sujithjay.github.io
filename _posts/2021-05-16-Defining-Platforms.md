@@ -42,7 +42,7 @@ Platforms inherently have to be scalable.
 A typical engineering definition of scalability would be along the dimensions of reliability and fault-tolerance; the system should be reliable and fault-tolerant as usage of the system increases. But for a platform, we need to consider cost scalability as well: the marginal cost of the platform should diminish as usage increases.
 
 An illustration of the property of cost-scalability is as follows:
-Consider a platform with \\(n\\) users and an operating cost of \\(C\\). Assume that when the user-count increases to \\(n+1\\), the cost increases to \\(C+ c\_{1}\\), and when the user-count increases to \\(n+1\\), the cost increases to \\(C+ c\_{1} + c\_{2}\\). For a cost-scalable platform, \\(c\_{2} \leq c\_{1}\\) [^3].
+Consider a platform with \\(n\\) users and an operating cost of \\(C\\). Assume that when the user-count increases to \\(n+1\\), the cost increases to \\(C+ c\_{1}\\), and when the user-count increases to \\(n+1\\), the cost increases to \\(C+ c\_{1} + c\_{2}\\). For a cost-scalable platform, \\(c\_{2} \leq c\_{1}\\). [^3]
 
 #### Lasting
 A 'lasting' platform ensures that the incremental cost to the customer grows more slowly than the incremental value to the customer.
@@ -52,7 +52,7 @@ In case of public platforms, not every platform has to be lasting. [Byrne Hobart
 Internal platforms always have to be lasting (a.k.a. second-derivative).
 
 #### Serendipitous
-Every platform has users who use them for use-cases they were not designed for [^4]. This also implies that a platform caters to multiple sets of users (target audiences and otherwise). I call this being serendipitous.
+Every platform has users who use them for use-cases they were not designed for. [^4] This also implies that a platform caters to multiple sets of users (target audiences and otherwise). I call this being serendipitous.
 
 Contrary to the other attributes, being serendipitous is an attribute of internal platforms which can be leveraged to predict where to build an internal platform. I have previously talked about how [overloaded use-cases within a platform are a good guide to learn about the unmet needs of the users](https://sujithjay.com/not-aws#2-overloaded-use-cases). This is true even in cases where a platform has not yet been built. APIs with overloaded use-cases are excellent indicators that a platform with more general abstractions should probably take its place.
 
