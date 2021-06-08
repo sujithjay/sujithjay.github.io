@@ -52,11 +52,11 @@ In case of public platforms, not every platform has to be lasting. [Byrne Hobart
 Internal platforms always have to be lasting (a.k.a. second-derivative).
 
 #### Serendipitous
-Every platform has users who use them for use-cases they were not designed for. This also implies that a platform caters to multiple sets of users (target audiences and otherwise). I call this being serendipitous.
+Every platform has users who use them for use-cases they were not designed for [^4]. This also implies that a platform caters to multiple sets of users (target audiences and otherwise). I call this being serendipitous.
 
 Contrary to the other attributes, being serendipitous is an attribute of internal platforms which can be leveraged to predict where to build an internal platform. I have previously talked about how [overloaded use-cases within a platform are a good guide to learn about the unmet needs of the users](https://sujithjay.com/not-aws#2-overloaded-use-cases). This is true even in cases where a platform has not yet been built. APIs with overloaded use-cases are excellent indicators that a platform with more general abstractions should probably take its place.
 
-There is another explanation of why no true platform [^4] will only cater to a single user persona. Internal platforms are essentially monopolies within a company for a certain value-producing activity. And [monopolies tend to commodify their adjacent in the value chain](https://www.gwern.net/Complement). If you consider the product teams or other internal users using the internal platform as the layer adjacent to the platform in the value chain of the company, it follows naturally that internal platforms should cater to a wide spectrum of users (or use-cases) which it commodifies.
+There is another explanation of why no true platform [^5] will only cater to a single user persona. Internal platforms are essentially monopolies within a company for a certain value-producing activity. And [monopolies tend to commodify their adjacent in the value chain](https://www.gwern.net/Complement). If you consider the product teams or other internal users using the internal platform as the layer adjacent to the platform in the value chain of the company, it follows naturally that internal platforms should cater to a wide spectrum of users (or use-cases) which it commodifies.
 
 
 ### Final Take?
@@ -68,4 +68,5 @@ A definition for internal platforms in the light of these attributes could be st
 [^1]: The best-case scenario would be if we are able to leverage the definition to identify opportunities to build internal platforms (_"Does Y require a platform?"_ ).
 [^2]: Although I mention the example of a back-office of accountants here (for effect), eliminating it from any definition of a platform is easy. We can differentiate the same way we differentiate any automation from a manual performance of the same task: by introducing the constraint of consistent repeatability. Humans are error-prone in performing repetitive tasks, machines are less so.
 [^3]: I use number of users here as a proxy for usage. Depending on the exact service provided by the platform, usage might not be a function of number of users alone (for example, number of API calls).
-[^4]: [No true Scotsman](https://en.wikipedia.org/wiki/No_true_Scotsman).
+[^4]: AWS S3 was famously never designed for Data Lakes, but that is one of the major use-cases for S3 nowadays.
+[^5]: [No true Scotsman](https://en.wikipedia.org/wiki/No_true_Scotsman).
