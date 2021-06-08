@@ -24,7 +24,7 @@ This is a succinct description but the trouble with it is that it is a post-hoc 
 How can the above be paraphrased for internal platforms? Assuming that a company can be seen as a set of coordinating units or teams, we might say, _'an internal platform is when the economic value to every team that uses it, exceeds the cost of the platform'_.
 
 So, by this definition, in a simple case where there is a single 'software platform' used by \\(m\\) product teams, each of which has \\(n\\) customers with a uniform revenue of \\($R\\) per customer, the cumulative value
-\\(n * m * R\\) should greatly exceed \\(C\\), the cost-to-company of the platform.
+\\(n * m * R\\) should (greatly) exceed \\(C\\), the cost-to-company of the platform.
 
 This definition is almost useless. Unlike the original Gates' quote, it does not help us identify platforms from non-platforms. Everything within a company, from a set of APIs to a team of accountants in the back-office [^2], could pass off as a platform under this definition. Let us refine this further using what we know about internal platforms, and their distinct attributes.
 
@@ -61,7 +61,7 @@ There is another explanation of why no true platform [^5] will only cater to a s
 
 ### Final Take?
 A definition for internal platforms in the light of these attributes could be stated as:
-> An internal platform is when a scalable, serendipitous, coherent set of APIs ensures that the incremental cost to the customer grows more slowly than the incremental value to the customer.
+> An internal platform is when a scalable, commodifying, coherent set of APIs ensures that the incremental cost to the customer grows more slowly than the incremental value to the customer.
 
 
 ### Footnotes
