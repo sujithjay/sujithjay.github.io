@@ -19,7 +19,7 @@ So, what is a platform?
 The Bill Gates' definition of a platform goes like this:
 > <blockquoted> A platform is when the economic value to everybody that uses it, exceeds the value of the company that creates the platform.
 
-This is a succinct description but the trouble with it is that it is a post-hoc definition: it can only identify a platform after it has started accruing value for the creators and users. Like a lagging indicator, this is useful in a limited sense. But as you might have noticed, the question we look to answer is also post-hoc (_"Is X an internal platform?"_ ). So we have our initial template for a definition of internal platform.
+This is a succinct description but the trouble with it is that it is a post-hoc definition: it can only identify a platform after it has started accruing value for the creators and users. Like a lagging indicator, this is useful in a limited sense. But as you might have noticed, the question we look to answer is also post-hoc (_"Is X an internal platform?"_ ). Thus the Gates' definition can be our initial template for a definition of internal platforms.
 
 How can the above be paraphrased for internal platforms? Assuming that a company can be seen as a set of coordinating units or teams, we might say, _'an internal platform is when the economic value to every team that uses it, exceeds the cost of the platform'_.
 
