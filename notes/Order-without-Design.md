@@ -83,4 +83,3 @@ permalink: /notes/order-without-design
   - Limiting externalities, or public interest as objective function
   - Containing urban expansion as objective function
   - Aspirations as objective function
--

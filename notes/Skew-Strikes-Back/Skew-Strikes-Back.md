@@ -14,7 +14,7 @@ permalink: /notes/skew-strikes-back
 
 The two conceptual ideas of the paper:
 - a theoretical basis for skew based on geometry: and a family of algorithms which provide optimal ways of avoiding skew.
-- to challenge the database dogma of doing 'one join at a time': there are classes of query for which any project join-project plan will be slower than the optimal run-time by a polynomial factor in data size.
+- to challenge the database dogma of doing 'one join at a time': there are classes of query for which any join-project plan will be slower than the optimal run-time by a polynomial factor in data size.
 
 ## History of Join Processing
 The major approaches to join processing are: _using structural information of the query_ and _using cardinality information_; the AGM bounds bring together both sets of information. [^1]
@@ -32,9 +32,9 @@ The major approaches to join processing are: _using structural information of th
 - Commercial databases place little emphasis on the structural property of the queries and tremendous emphasis on the cardinality aspect; an example is how commercial databases treat complex multi-way joins as a series of pairwise joins. Such any join-project plans are destined to be slower than the optimal plans.
 
 ### Bridging the Gap
-AGM defines a tight bound on the  output size of a join query as a function of input sizes. This width, in turn, leads to the notion of `fractional query number` and `fractional hypertree width` (`fhw`). `fhw` is proven to be less than or equal to every other width measure. Leapfrog Triejoin is an example implementation of this join.
+AGM defines a tight bound on the  output size of a join query as a function of input sizes and a finer notion of width. This bound, in turn, leads to the notion of `fractional query number` and `fractional hypertree width` (`fhw`). `fhw` is proven to be less than or equal to every other width measure. Leapfrog Triejoin is an example implementation of turning this bound into a join algorithm.
 
-## Triangle Query
+## [[Triangle Query]]
 
 
 ## Notes
