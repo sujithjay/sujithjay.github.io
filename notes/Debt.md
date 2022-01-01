@@ -2,7 +2,7 @@
 layout: "post"
 title: "Debt : The First 5,000 Years"
 date: "2022-01-01 11:11"
-desc: Debt : The First 5,000 Years
+desc: "Debt : The First 5,000 Years"
 comments: false
 author: Sujith Jay Nair
 tags: notes
