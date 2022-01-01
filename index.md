@@ -36,11 +36,12 @@ title: Thinking Aloud
     <div class="semiboldtext">
       Greatest Hits
     </div>
-    <a class="nodecor" href="/data-systems/dynamo-cassandra/">Dynamo vs Cassandra : Systems Design of NoSQL Databases</a>
-    <br>
-    <a class="nodecor" href="/mesos">Mesos, in the light of Omega</a>
+    <a class="nodecor" href="/internal-platforms">Defining a Platform is Hard</a>
     <br>
     <a class="nodecor" href="/interfaceless-languages">Natural Languages are Interfaceless</a>
+    <br>
+    <a class="nodecor" href="/data-systems/dynamo-cassandra/">Dynamo vs Cassandra : Systems Design of NoSQL Databases</a>
+
   </div>
 </div>
 ----

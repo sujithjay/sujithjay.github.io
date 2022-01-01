@@ -12,3 +12,6 @@ title: Questions
 
 ### Health Coverage
 - How can every person in India be provided with health coverage? Is a private-sector intervention possible?
+
+### Fintech
+- Is Fintech more than an arbitrage opportunity induced by the non-uniform distribution of software? How will finance look in 2030, and much further in 2050?
