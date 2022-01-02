@@ -24,3 +24,9 @@ permalink: /notes/debt
 - Money as medium of exchange is treated as primary, and how it replaced barter is a founding myth of economics. In this myth, money replaced barter because it eliminates the problem of double coincidence of wants.
 - Lewis Henry Morgan, in his descriptions of the Six Nations of the Iriquois, says that the main economic institution of the Iriquois were longhouses where most goods were stockpiled and then allocated by women's councils.
 - Caroline Humphrey: 'No example of barter system, pure and simple, has ever been described, let alone the emergence of money from it.'
+- Barter has been observed in small, non-industrialised societies. Nambikwara of Brazil have barter as a ritualized exchange that bordered on outright warfare. Gunwinggu of Western Arnhem Land, Australia have rituals of ceremonial barter called dzamalag, which are cordial festive games of sexual intrigue, potential hostility, music and dance. Pakhtun in Northern Pakistan indulge in adal-badal, wherein men exchange items with non-relatives.
+- Double coincidence of wants is a non-issue in small communities where everyone keeps track of who owes what to whom. Quantification of favor can be accomplished via 'spheres of exchange'.
+- Barter seems to crop up as a phenomenon only among groups who are aware of the concept of money, and were improvising credit systems because coinage was in short supply.
+- Sumerian accounting system in 3500 BC: A silver shekel was equal to a gur of barley. A shekel had 60 minas. Temple bureaucrats used this system to calculate debts, rents, fees, loans in silver. However, the circulation of silver was minimal; most debts were settled in barley, but also in goats or furniture or lapis lazuli. Transactions were almost always done with credit.
+- Virtual money and credit came first, then coinage. Barter has always been a rarity.
+- History of money is not the history of coinage; it precedes the latter by a lot.
