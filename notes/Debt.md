@@ -43,3 +43,8 @@ permalink: /notes/debt
 ### Primordial Debt Theory
 - The weak link in state-credit theory is the element of taxes. Early states demanded taxes to create markets, but by what right?
 - Modern day rationale for taxes is that we pay taxes so the government can provide us with services. Early states provided the service of military protection. This explanation (taxes as a form of 'social contract') does not hold if the assumption that markets came before government is not true.
+- Vedas and Brahmanas say that human existence itself is a form of debt to the gods. Sacrifices were a form of partial reimbursement for this debt.
+- Primordial debt theorists argue this Vedic line of thought was prevalent across every human society.
+- Bruno Theret, in "The Socio-Cultural Dimensions of the Currency: Implications for the Transition to the Euro", folds back the primordial debt into the state theory of money. Debt to the gods eventually was replaced by a debt to the society and to the state.
+- The primordial debt is that owed by the living to the continuity and durability of the society that secures their individual existence.
+- There is indirect proof for the primordial theory, such as etymological evidence (synonymous words for debt, guilt & sin in Indo-European languages) and the widespread use of cattle as money.
