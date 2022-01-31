@@ -47,4 +47,7 @@ permalink: /notes/debt
 - Primordial debt theorists argue this Vedic line of thought was prevalent across every human society.
 - Bruno Theret, in "The Socio-Cultural Dimensions of the Currency: Implications for the Transition to the Euro", folds back the primordial debt into the state theory of money. Debt to the gods eventually was replaced by a debt to the society and to the state.
 - The primordial debt is that owed by the living to the continuity and durability of the society that secures their individual existence.
-- There is indirect proof for the primordial theory, such as etymological evidence (synonymous words for debt, guilt & sin in Indo-European languages) and the widespread use of cattle as money.
+- There is indirect proof for the primordial theory, such as etymological evidence (synonymous words for debt, guilt & sin in Indo-European languages) and the widespread use of sacrificial cattle as money.
+- How does the absolute debt to God turn into a specific amount of money? Primordial theorists suggest that the first step is by using money to resolve societal relations such as marriage (dowry) or to settle disputes (feud money). 'to pay' comes from 'to pacify'. 'Barbarian law codes' provide ample evidence of detailed conversion tables between various household possessions so as to ease dispute remediation.
+- The absence of taxes on free citizens of ancient Persia and Greece goes against primordial debt theory.
+- Amargi in Sumer - declaration of freedom and cancellation of debt for debt-peons - is the closest thing we have evidence of about primordial debt in Mesopotamia, and it is not close enough.
