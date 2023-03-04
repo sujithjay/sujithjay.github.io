@@ -1,6 +1,6 @@
 ---
 layout: "post"
-title: " Defining a Platform is Hard"
+title: "Defining a Platform is Hard"
 date: "2021-06-07 11:11"
 desc: On defining software engineering platforms
 comments: true
