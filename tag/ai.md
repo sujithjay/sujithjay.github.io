@@ -1,6 +1,6 @@
 ---
 layout: tagpage
-title: "Tag: bets"
-tag: bets
+title: "Tag: ai"
+tag: ai
 robots: noindex
 ---
