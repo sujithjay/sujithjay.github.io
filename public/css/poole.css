@@ -93,7 +93,7 @@ h1 {
   font-size: 1.50rem;
 }
 h2 {
-  margin-top: 1rem;
+  margin-top: 2rem;
   font-size: 1.20rem;
 }
 h3 {
@@ -122,6 +122,23 @@ strong {
 ul, ol, dl {
   margin-top: 0;
   margin-bottom: 1rem;
+}
+
+/* Space list items evenly, whether the Markdown list is tight (<li>text) or
+   loose (<li><p>text), and don't let nested lists add a gap after themselves. */
+li + li {
+  margin-top: .4rem;
+}
+li > p {
+  margin-bottom: .4rem;
+}
+li > p:last-child {
+  margin-bottom: 0;
+}
+li > ul,
+li > ol {
+  margin-top: .4rem;
+  margin-bottom: 0;
 }
 
 dt {
