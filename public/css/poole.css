@@ -189,7 +189,8 @@ pre {
   line-height: 1.4;
   white-space: pre;
   white-space: pre-wrap;
-  word-break: break-all;
+  /* Wrap long lines at spaces; split a token only when it can't fit at all. */
+  overflow-wrap: anywhere;
   word-wrap: break-word;
   background-color: #f9f9f9;
 }

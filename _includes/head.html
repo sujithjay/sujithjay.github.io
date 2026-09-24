@@ -69,6 +69,12 @@
         {% include collecttags.html %}
     {% endif %}
     {% include section-anchors.html %}
+    <!-- Always use MathJax's own TeX web fonts. Left to itself, MathJax picks up
+         STIX fonts installed on the reader's machine, and newer STIX versions
+         lack glyphs it expects (e.g. \mathcal{N} renders as a box). -->
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({ "HTML-CSS": { availableFonts: [], preferredFont: null, webFont: "TeX" } });
+    </script>
     <script type="text/javascript" async
             src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
     </script>
