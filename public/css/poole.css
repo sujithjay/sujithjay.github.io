@@ -62,7 +62,7 @@ body {
   color: #333;
   background-color: #fff;
   font-size: 0.8rem;
-  font-family: 'Muli', sans-serif !important;
+  font-family: 'Muli', -apple-system, Helvetica, Arial, sans-serif !important;
   -webkit-text-size-adjust: 100%;
       -ms-text-size-adjust: 100%;
 }
