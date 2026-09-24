@@ -16,6 +16,8 @@ My approach here is to start with a reasonable definition of platforms in genera
 
 So, what is a platform?
 
+<!--break-->
+
 The Bill Gates' definition of a platform goes like this:
 > <blockquoted> A platform is when the economic value to everybody that uses it, exceeds the value of the company that creates the platform.
 

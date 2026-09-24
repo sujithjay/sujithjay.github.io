@@ -17,6 +17,8 @@ Every platform team wants to be like AWS, because like AWS, they provide infrast
 
 This similarity prompts leaders of platform engineering teams to model their teams as agnostic providers of universal, non-leaky (within SLO bounds), self-served abstractions for their engineering organisation. Platform teams structured as such detached units struggle to define cohesive roadmaps which provide increasing value to business. But how does your platform differ from AWS?
 
+<!--break-->
+
 ## Your Platform vs. The Platform
 
 ### 1. The Middle Ground

@@ -10,6 +10,8 @@ permalink: /inventing-work
 ---
 Platform teams are engineering-led rather than product-led. There is almost never a product manager handing you a roadmap, no revenue line to follow, and no market to lose. This means that work does not exist unless an engineer invents it. The continuous struggle is to find ways to increase the value our platform provides to the users of the system. A big part of a staff engineer's job in a platform team is to figure out what the team should build next - I like to call that "inventing work". Thankfully, the signals that help us to invent work are already out there, and they arrive from four directions - from the systems, from the users, from your organization, and from the industry. What follows is a guide to reading each of them.
 
+<!--break-->
+
 ## Signals the System Emits
 ### Crash-led Discovery
 Crashes and their associated postmortems, when done right, are clear signals that tell you what to fix, or what to replace. It is rare for postmortems to point to a new thing to build, but sometimes that does happen if you pay close attention to how users were impacted by crashes, or how they made their processes work while your team fixed a long-running crash. Identifying patterns across postmortems is something teams rarely do as a practice because it is a sporadic source of patterns; make sure you are not missing the big picture.

@@ -3,6 +3,7 @@ layout: "post"
 title: "Converse Conway's Law"
 date: "2020-05-02 11:11"
 comments: true
+desc: On whether Conway's Law works in the other direction
 author: Sujith Jay Nair
 tags: questions
 image: /public/conway/Reverse.jpg
@@ -13,6 +14,8 @@ Melvin Conway in his 1968 paper [How Do Committees Invent?](http://www.melconway
 > <blockquoted> Organisations which design systems are constrained to produce designs which are copies of the communication structures of these organisations.
 
 This homomorphism between organisational communication structures and systems designed by them, has become an adage in software management. It implies a one-way effect, though. But, does it work in the other direction?
+
+<!--break-->
 
 Given a mature (say, software) system, can we infer organisational communication structures? Particularly, informal communication structures? [^1] Do informal communication structures affect system design in the first place?
 

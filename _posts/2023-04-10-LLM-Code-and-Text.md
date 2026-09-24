@@ -17,6 +17,8 @@ Large Language Models (LLMs) are the rage now, and we can see those extremes pla
 
 The general perception (as of early 2023) is that (auto-regressive) LLMs are better at generating code, but have had a mixed bag of results in use-cases involving generation of general text. Why is that?
 
+<!--break-->
+
 Yann LeCun provides a possible explanation of this divergence:
 
 <blockquote class="twitter-tweet" data-conversation="none" data-dnt="true"><p lang="en" dir="ltr">13. Why do LLMs appear much better at generating code than generating general text?<br>Because, unlike the real world, the universe that a program manipulates (the state of the variables) is limited, discrete, deterministic, and fully observable.<br>The real world is none of that.</p>&mdash; Yann LeCun (@ylecun) <a href="https://twitter.com/ylecun/status/1625127902890151943?ref_src=twsrc%5Etfw">February 13, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
