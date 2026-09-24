@@ -34,6 +34,19 @@ title: Thinking Aloud
 <div class="row">
   <div class ="col-md-offset-2 col-md-7">
     <div class="semiboldtext">
+      Recent
+    </div>
+    {% for post in site.posts limit:3 %}
+    <a class="nodecor" href="{{ post.url }}">{{ post.title }}</a> <span class="home-date">{{ post.date | date_to_string }}</span>
+    <br>
+    {% endfor %}
+    <hr>
+  </div>
+</div>
+
+<div class="row">
+  <div class ="col-md-offset-2 col-md-7">
+    <div class="semiboldtext">
       Greatest Hits
     </div>
     <a class="nodecor" href="/internal-platforms">Defining a Platform is Hard</a>
