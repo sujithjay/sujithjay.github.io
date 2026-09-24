@@ -37,7 +37,7 @@ title: Thinking Aloud
       Recent
     </div>
     {% for post in site.posts limit:3 %}
-    <a class="nodecor" href="{{ post.url }}">{{ post.title }}</a> <span class="home-date">{{ post.date | date_to_string }}</span>
+    <a class="nodecor" href="{{ post.url }}">{{ post.title }}</a>
     <br>
     {% endfor %}
     <hr>

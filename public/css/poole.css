@@ -576,13 +576,6 @@ a.pagination-item:hover {
     font-size: 1.2em;
 }
 
-/* Dates beside the home page's Recent list, in the post-date grey. */
-.home-date {
-    margin-left: .25em;
-    font-size: .8em;
-    color: #9a9a9a;
-}
-
 #projects {
     font-size: 1.1em;
 }
