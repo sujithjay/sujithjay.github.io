@@ -84,6 +84,10 @@ h1, h2, h3, h4, h5, h6 {
   .container {
     max-width: 38rem;
   }
+  /* Every page but the home page gets Substack's 728px text column (plus 1rem padding each side). */
+  .reading .container {
+    max-width: calc(728px + 2rem);
+  }
 }
 
 

@@ -94,11 +94,11 @@ h1 {
 }
 h2 {
   margin-top: 2rem;
-  font-size: 1.20rem;
+  font-size: 1.30rem;
 }
 h3 {
   margin-top: 1.5rem;
-  font-size: 1rem;
+  font-size: 0.95rem;
 }
 h4, h5, h6 {
   margin-top: 1rem;
@@ -373,6 +373,83 @@ tbody tr:nth-child(odd) th {
   margin-bottom: 1rem;
   color: #9a9a9a;
   font-size: 0.7rem;
+}
+
+/* Phones: Poole drops the root size from 20px to 16px on narrow screens, which
+   shrank body text (0.8rem) to 12.8px. Every page but the home page keeps the
+   20px root, so phones get the same sizes as desktop: 16px body text, and
+   headings, code, tables and tags in the same proportions. */
+html.reading {
+  font-size: 20px;
+}
+
+/* Wide tables scroll sideways on narrow screens instead of spilling off the
+   page. Gists (table.highlight) already scroll on their own. */
+@media (max-width: 37.99em) {
+  .content table:not(.highlight) {
+    display: block;
+    overflow-x: auto;
+  }
+}
+
+/* Embeds with a fixed width, like the Datomic PDF viewer, shrink to fit. */
+.content iframe {
+  max-width: 100%;
+}
+
+/* Newsletter signup (Mailchimp embed). Mailchimp's stylesheet loads after this
+   one, so these rules are prefixed with `.content` to outrank it. They set the
+   form in the body font and size, with the site's border and link red. */
+.content #mc_embed_signup {
+  clear: left;
+  margin: 2.5rem 0 3rem;
+  font: inherit;
+  background: #fff;
+  border: 1px solid #eee;
+  border-radius: 4px;
+}
+.content #mc_embed_signup form {
+  padding: 1.25em 1.5em .5em;
+}
+.content #mc_embed_signup .newsletter-intro {
+  margin-bottom: 1em;
+}
+.content #mc_embed_signup .mc-field-group {
+  width: 100%;
+  min-height: 0;
+  padding-bottom: 1em;
+}
+.content #mc_embed_signup .mc-field-group label {
+  margin-bottom: .35em;
+  font-size: .85em;
+}
+.content #mc_embed_signup .asterisk {
+  top: 0;
+  font-size: 1em;
+  color: #ac4142;
+}
+.content #mc_embed_signup .mc-field-group input {
+  padding: .5em .75em;
+  text-indent: 0;
+  font: inherit;
+  border-color: #ddd;
+  border-radius: 4px;
+}
+.content #mc_embed_signup .button {
+  height: auto;
+  padding: .45em 1.5em;
+  font-family: inherit;
+  font-size: .9em;
+  line-height: 1.5;
+  background-color: #ac4142;
+}
+.content #mc_embed_signup .button:hover {
+  background-color: #8f3637;
+}
+
+/* Line the topics up with the column edge instead of the default list indent. */
+.tag-list {
+  padding-left: 0;
 }
 
 /* Related posts */
