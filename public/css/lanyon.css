@@ -606,3 +606,16 @@ h5:hover .header-link,
 h6:hover .header-link {
     opacity: 1;
 }
+/* On iPhone and iPad, use Apple's system font (San Francisco) instead of Muli.
+   -webkit-touch-callout exists only in WebKit on iOS and iPadOS, so this block
+   applies to every browser there and to nothing else. This file loads after
+   poole.css, so the !important here wins over the body font set there. */
+@supports (-webkit-touch-callout: none) {
+  body {
+    font-family: -apple-system, system-ui, Helvetica, Arial, sans-serif !important;
+  }
+  h1, h2, h3, h4, h5, h6,
+  .sidebar {
+    font-family: -apple-system, system-ui, Helvetica, Arial, sans-serif;
+  }
+}
