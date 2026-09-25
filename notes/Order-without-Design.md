@@ -5,7 +5,6 @@ date: "2020-08-01 11:11"
 desc: Order Without Design
 comments: false
 author: Sujith Jay Nair
-tags: notes
 permalink: /notes/order-without-design
 
 ---

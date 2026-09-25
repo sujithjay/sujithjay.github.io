@@ -4,7 +4,7 @@ comments: true
 title: "The Assumption of Normality in Time Series"
 desc: This post tries to explain the use of Limit theorems in time-series analysis
 author: Sujith Jay Nair
-tags: statistics time-series
+tags: statistics
 date: "2018-03-10 11:11"
 permalink: /normality-assumption
 redirect_from: /2018/03/10/The-Assumption-of-Normality-in-Time-Series/

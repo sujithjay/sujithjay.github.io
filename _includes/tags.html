@@ -1,0 +1,4 @@
+{% comment %}
+  A post's tags as chips. Usage: {% include tags.html tags=page.tags %}
+{% endcomment %}{% for tag in include.tags %}{% include tag-chip.html tag=tag %}
+{% endfor %}

@@ -1,0 +1,21 @@
+{% comment %}
+  One entry in a list of posts: title, date and tags, and the excerpt up to the
+  post's <!--break--> marker. Shared by the essays pages and the tag pages so
+  the two listings stay identical. Usage: {% include post-summary.html post=post %}
+{% endcomment %}{% assign post = include.post %}
+    <div class="post">
+        <h1 class="post-title" style="font-weight: 600;">
+            <a href="{{ post.url }}">
+                {{ post.title }}
+            </a>
+        </h1>
+
+        <span class="post-date">{{ post.date | date_to_string }}{% if post.tags.size > 0 %} • {% include tags.html tags=post.tags %}{% endif %}</span>
+
+        {{ post.content | split:'<!--break-->' | first }}
+        {% if post.content contains '<!--break-->' %}
+        <a href="{{ post.url }}">.. Read More</a>
+        <div class="doublespaced" >
+        </div>
+        {% endif %}
+    </div>

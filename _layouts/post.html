@@ -4,7 +4,7 @@ layout: default
 
 <div class="post">
   <h1 class="post-title" style="font-weight: 600; margin-bottom: 20px">{{ page.title }}</h1>
-  <span class="post-date"> {{ page.date | date_to_string }} {% if page.updatedon %}• Updated on {{ page.updatedon | date_to_string }}{% endif %} • {% include includetags.html %}</span>
+  <span class="post-date"> {{ page.date | date_to_string }} {% if page.updatedon %}• Updated on {{ page.updatedon | date_to_string }}{% endif %}{% if page.tags.size > 0 %} • {% include tags.html tags=page.tags %}{% endif %}</span>
     {{ content }}
   {% include crosspost.html %}
 </div>

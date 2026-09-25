@@ -7,7 +7,7 @@ author: Sujith Jay Nair
 series: Culture Eats Strategy
 categories:
   - culture-eats-strategy
-tags: management culture startup
+tags: management culture
 permalink: /workplace-conflict-guide
 redirect_from: /culture-eats-strategy/2018/02/03/An-Early-Employees-Field-Guide-to-Workplace-Arguments/
 ---

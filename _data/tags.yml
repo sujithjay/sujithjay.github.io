@@ -1,0 +1,14 @@
+# Per-tag overrides.
+#   name:  label on chips and the Topics page. A tag without one is shown as its
+#          slug with hyphens turned into spaces (data-systems -> "data systems").
+#          Labels are always shown in lowercase.
+#   title: heading of the tag's page, before " Articles". A tag without one gets
+#          its slug in Title Case (data-systems -> "Data Systems").
+ai:
+  title: AI
+paper-summary:
+  name: paper summaries
+sql:
+  title: SQL
+tweetstorm:
+  name: tweetstorms

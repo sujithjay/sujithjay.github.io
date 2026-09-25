@@ -5,7 +5,7 @@ date: "2023-04-10 11:11"
 desc: Why are LLMs better at code generation than general text generation?
 comments: true
 author: Sujith Jay Nair
-tags: deep-learning large-language-models
+tags: ai
 permalink: /code-versus-text
 ---
 Every technology hype-cycle is a Dickensian tale of two extremes.

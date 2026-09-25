@@ -398,6 +398,41 @@ html.reading {
   max-width: 100%;
 }
 
+/* Tags: soft red chips in the body font. Used after the date on posts and in
+   listings, and with counts on the Topics page. */
+.tag {
+  display: inline-block;
+  margin: 0 .3em .3em 0;
+  padding: 0 .5em;
+  font-size: .7rem;
+  line-height: 1.7;
+  color: #ac4142;
+  background-color: rgba(172, 65, 66, .08);
+  border-radius: 3px;
+  white-space: nowrap;
+}
+a.tag:hover,
+a.tag:focus {
+  text-decoration: none;
+  background-color: rgba(172, 65, 66, .16);
+}
+.tag-count {
+  margin-left: .4em;
+  opacity: .6;
+}
+.tag-cloud .tag {
+  font-size: .8rem;
+}
+
+/* The essay count under a tag page's centred heading. */
+.tag-page-count {
+  margin-top: -.25rem;
+  margin-bottom: 2.5rem;
+  font-size: .7rem;
+  color: #9a9a9a;
+  text-align: center;
+}
+
 /* Line the topics up with the column edge instead of the default list indent. */
 .tag-list {
   padding-left: 0;

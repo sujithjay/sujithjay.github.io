@@ -4,7 +4,7 @@ comments: true
 title: "Mesos, in the light of Omega"
 desc: Mesos described as a two-level scheduler framework, a categorisation borrowed from the Omega paper
 author: Sujith Jay Nair
-tags: mesos data-systems paper-summary
+tags: data-systems paper-summary
 permalink: /mesos
 image: /public/mesos/ClusterKernel.png
 date: "2019-11-24 11:11"

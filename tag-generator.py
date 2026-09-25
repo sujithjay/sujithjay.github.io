@@ -38,14 +38,22 @@ for filename in filenames:
     f.close()
 total_tags = set(total_tags)
 
-old_tags = glob.glob(tag_dir + '*.md')
-for tag in old_tags:
-    os.remove(tag)
+# Existing tag pages are left as they are, because some carry redirect_from
+# entries for retired tags that were merged into them. Only pages for tags
+# no post uses any more are removed, and only missing pages are created.
+for tag_filename in glob.glob(tag_dir + '*.md'):
+    tag = os.path.basename(tag_filename)[:-len('.md')]
+    if tag not in total_tags:
+        os.remove(tag_filename)
+        print("Removed unused tag page", tag)
 
 for tag in total_tags:
     tag_filename = tag_dir + tag + '.md'
-    f = open(tag_filename, 'a')
+    if os.path.exists(tag_filename):
+        continue
+    f = open(tag_filename, 'w')
     write_str = '---\nlayout: tagpage\ntitle: \"Tag: ' + tag + '\"\ntag: ' + tag + '\nrobots: noindex\n---\n'
     f.write(write_str)
     f.close()
-print("Tags generated, count", total_tags.__len__())
+    print("Created tag page", tag)
+print("Tags in use, count", total_tags.__len__())

@@ -5,7 +5,7 @@ date: "2020-05-02 11:11"
 comments: true
 desc: On whether Conway's Law works in the other direction
 author: Sujith Jay Nair
-tags: questions
+tags: management
 image: /public/conway/Reverse.jpg
 permalink: /converse-conways-law
 ---

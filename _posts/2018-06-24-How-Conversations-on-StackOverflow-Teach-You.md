@@ -4,7 +4,7 @@ comments: true
 title: "How Conversations on StackOverflow Teach You"
 desc: An exhortation to the engineering community to share more
 author: Sujith Jay Nair
-tags: conversations learning culture
+tags: conversations culture
 date: "2018-06-24 11:11"
 image: /public/ourjob.png
 permalink: /stackoverflow-conversations

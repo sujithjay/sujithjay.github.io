@@ -1,7 +1,0 @@
-<span>
-  {% for tag in page.tags %}
-    {% capture tagname %}{{ tag }}{% endcapture %}
-    {% capture tagcase %}{{ tag | upcase }}{% endcapture %}
-    <a href="/tag/{{ tagname }}" style="color: #da393f;font-size: 0.8rem;font-weight: 600;letter-spacing: 0.05em;"><code class="highligher-rouge"><nobr>{{ tagcase }}</nobr></code>&nbsp;</a>
-  {% endfor %}
-</span>

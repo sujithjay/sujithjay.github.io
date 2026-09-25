@@ -1,0 +1,7 @@
+{% comment %}
+  One tag, rendered as a chip linking to its tag page.
+  Usage: {% include tag-chip.html tag="data-systems" %}, optionally with count=N.
+  The label comes from _data/tags.yml when the tag has an entry there, otherwise
+  from the tag itself with hyphens turned into spaces. Labels are always
+  lowercase.
+{% endcomment %}{% assign tag_label = site.data.tags[include.tag].name | default: include.tag | replace: '-', ' ' | downcase %}<a class="tag" href="{{ site.baseurl }}/tag/{{ include.tag }}/">{{ tag_label }}{% if include.count %}<span class="tag-count">{{ include.count }}</span>{% endif %}</a>

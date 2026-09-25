@@ -4,7 +4,7 @@ comments: true
 title: "Understanding Apache Spark on YARN"
 desc: An introductory reference to Apache Spark on YARN
 author: Sujith Jay Nair
-tags: apache-spark yarn
+tags: apache-spark
 image: /public/Spark-Cluster-Overview.png
 permalink: /spark/with-yarn
 redirect_from: /2018/07/24/Understanding-Apache-Spark-on-YARN/

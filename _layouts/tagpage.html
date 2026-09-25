@@ -1,29 +1,22 @@
 ---
 layout: default
 ---
-<div class="post">
-    {% assign tags = page.tag | split: '-' %}
-    {% capture titlecase %}{% for word in tags %}{{ word | capitalize }} {% endfor %}{% endcapture %}
-    <h1 class="page-title" align="center" style="font-weight: 600; margin-bottom: 2.5rem;">{{ titlecase }} Articles</h1>
-    <div>
-        {% for post in site.tags[page.tag] %}
-        <div class="post">
-            <h1 class="post-title" style="font-weight: 600;">
-                <a href="{{ post.url }}">
-                    {{ post.title }}
-                </a>
-            </h1>
+{% assign posts = site.tags[page.tag] %}
+{% comment %} Title Case from the tag's words, unless _data/tags.yml gives a title (for acronyms). {% endcomment %}
+{% if site.data.tags[page.tag].title %}
+    {% assign tag_title = site.data.tags[page.tag].title %}
+{% else %}
+    {% assign words = page.tag | split: '-' %}
+    {% capture tag_title %}{% for word in words %}{{ word | capitalize }} {% endfor %}{% endcapture %}
+    {% assign tag_title = tag_title | strip %}
+{% endif %}
+<div class="page">
+    <h1 class="page-title" align="center" style="font-weight: 600;">{{ tag_title }} Articles</h1>
+    <p class="tag-page-count">{{ posts.size }} {% if posts.size == 1 %}essay{% else %}essays{% endif %} · <a href="{{ site.baseurl }}/topics/">all topics</a></p>
 
-            <span class="post-date">{{ post.date | date_to_string }} • {% include includetags-homepage.html %}</span>
-
-            {{ post.content | split:'<!--break-->' | first }}
-            {% if post.content contains '<!--break-->' %}
-            <a href="{{ post.url }}">.. Read More</a>
-            <div class="doublespaced" >
-            </div>
-            {% endif %}
-        </div>
+    <div class="posts">
+        {% for post in posts %}
+        {% include post-summary.html post=post %}
         {% endfor %}
     </div>
 </div>
-<hr>

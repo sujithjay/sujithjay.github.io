@@ -5,7 +5,7 @@ date: "2018-12-01 11:11"
 comments: true
 desc: A tweet-storm on Catastrophic Forgetting
 author: Sujith Jay Nair
-tags: deep-learning tweetstorm
+tags: ai tweetstorm
 permalink: /catastrophic-forgetting
 ---
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">1/ Catastrophic Forgetting is a long-recognised problem in neural networks; and is of great interest in cognitive sciences. In plain words, it is the destructive interference effect of learning a new skill on pre-existing skills. <a href="https://twitter.com/hashtag/deeplearning?src=hash&amp;ref_src=twsrc%5Etfw">#deeplearning</a></p>&mdash; Sujith Jay Nair (@suj1th) <a href="https://twitter.com/suj1th/status/1068759316000210944?ref_src=twsrc%5Etfw">December 1, 2018</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
