@@ -4,8 +4,7 @@ layout: default
 <div class="post">
     {% assign tags = page.tag | split: '-' %}
     {% capture titlecase %}{% for word in tags %}{{ word | capitalize }} {% endfor %}{% endcapture %}
-    <h1 class="page-title" align="center" style="font-weight: 600;">{{ titlecase }} Articles</h1>
-    {% include newsletter.html %}
+    <h1 class="page-title" align="center" style="font-weight: 600; margin-bottom: 2.5rem;">{{ titlecase }} Articles</h1>
     <div>
         {% for post in site.tags[page.tag] %}
         <div class="post">
