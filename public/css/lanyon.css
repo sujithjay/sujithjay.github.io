@@ -103,9 +103,12 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: 3rem;
   border-bottom: 1px solid #eee;
 }
+/* The title is an h3 but keeps its own size, so changes to h3 headings in
+   posts don't resize the masthead. */
 .masthead-title {
   margin-top: 0;
   margin-bottom: 0;
+  font-size: 1rem;
   color: #505050;
 }
 .masthead-title a {
