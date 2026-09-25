@@ -32,3 +32,18 @@ plugins:
   - jekyll-gist
   - jekyll-seo-tag
   - jekyll-redirect-from
+
+# Files Jekyll should not publish. Setting this replaces Jekyll's own default
+# list, so the defaults (Gemfile through CNAME, as the github-pages gem sets
+# them) are restated before the site's additions.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - CNAME
+  # Images used only by the unpublished Triangle Query note.
+  - notes/Skew-Strikes-Back/Resources
