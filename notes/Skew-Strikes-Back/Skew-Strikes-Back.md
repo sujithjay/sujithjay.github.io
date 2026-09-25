@@ -2,7 +2,7 @@
 layout: "post"
 title: "Skew Strikes Back"
 date: "2020-09-02 11:11"
-desc: Skew Strikes Back - New Developments in the Theory of Join Algorithms
+description: Skew Strikes Back - New Developments in the Theory of Join Algorithms
 comments: false
 author: Sujith Jay Nair
 permalink: /notes/skew-strikes-back

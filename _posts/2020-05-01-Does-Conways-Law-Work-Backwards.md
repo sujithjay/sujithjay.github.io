@@ -3,7 +3,7 @@ layout: "post"
 title: "Converse Conway's Law"
 date: "2020-05-02 11:11"
 comments: true
-desc: On whether Conway's Law works in the other direction
+description: On whether Conway's Law works in the other direction
 author: Sujith Jay Nair
 tags: management
 image: /public/conway/Reverse.jpg

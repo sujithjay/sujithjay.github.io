@@ -2,7 +2,7 @@
 layout: "post"
 title: "AWS Is NOT Your Ideal"
 date: "2020-10-01 11:11"
-desc: On platform product management
+description: On platform product management
 comments: true
 author: Sujith Jay Nair
 tags: platforms product management

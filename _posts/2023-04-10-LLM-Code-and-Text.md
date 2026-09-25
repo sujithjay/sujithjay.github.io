@@ -2,7 +2,7 @@
 layout: "post"
 title: "Large Language Models: Code vs. Text"
 date: "2023-04-10 11:11"
-desc: Why are LLMs better at code generation than general text generation?
+description: Why are LLMs better at code generation than general text generation?
 comments: true
 author: Sujith Jay Nair
 tags: ai

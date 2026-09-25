@@ -2,7 +2,7 @@
 layout: "post"
 comments: true
 title: "A Simple Dichotomy for Modeling Data-Intensive Systems"
-desc: A simple mental-model to designing data systems
+description: A simple mental-model to designing data systems
 author: Sujith Jay Nair
 tags: data-systems
 series: Data Systems

@@ -2,7 +2,7 @@
 layout: "post"
 title: "Natural Languages are Interfaceless"
 date: "2020-04-20 11:11"
-desc: On the lack of interfaces in a natural languages, and why humans might need it.
+description: On the lack of interfaces in a natural languages, and why humans might need it.
 comments: true
 author: Sujith Jay Nair
 tags: philosophy language

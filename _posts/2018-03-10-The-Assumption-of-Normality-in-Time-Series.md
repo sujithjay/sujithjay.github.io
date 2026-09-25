@@ -2,7 +2,7 @@
 layout: "post"
 comments: true
 title: "The Assumption of Normality in Time Series"
-desc: This post tries to explain the use of Limit theorems in time-series analysis
+description: This post tries to explain the use of Limit theorems in time-series analysis
 author: Sujith Jay Nair
 tags: statistics
 date: "2018-03-10 11:11"

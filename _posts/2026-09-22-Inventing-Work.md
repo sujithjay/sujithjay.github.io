@@ -2,7 +2,7 @@
 layout: "post"
 title: "A Staff Engineer's Guide to Inventing Work"
 date: "2026-09-22 11:11"
-desc: A how-to manual for engineer-led discovery in software platforms
+description: A how-to manual for engineer-led discovery in software platforms
 comments: true
 author: Sujith Jay Nair
 tags: platforms product management

@@ -2,7 +2,7 @@
 layout: "post"
 title: "Providing Streaming Joins as a Service at Facebook"
 date: "2020-05-01 11:11"
-desc: Paper Summary for 'Providing Streaming Joins as a Service at Facebook'
+description: Paper Summary for 'Providing Streaming Joins as a Service at Facebook'
 comments: true
 author: Sujith Jay Nair
 tags: paper-summary data-systems joins

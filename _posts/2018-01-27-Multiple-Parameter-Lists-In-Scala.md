@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: Multiple Parameter Lists in Scala
-desc: A small tutorial on Currying in Scala
+description: A small tutorial on Currying in Scala
 author: Sujith Jay Nair
 tags: programming
 permalink: /scala-currying

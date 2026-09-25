@@ -7,12 +7,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
     <title>
-        {% if page.url == "/" %}
-        {{ site.title }}
-        {% else %}
-        {{ page.title }} &middot; {{ site.title }}
-        {% endif %}
+        {%- if page.url == "/" -%}
+            {{ site.title }}
+        {%- elsif paginator.page and page.url contains "/essays" -%}
+            Essays{% if paginator.page > 1 %}, page {{ paginator.page }}{% endif %} &middot; {{ site.title }}
+        {%- elsif page.title -%}
+            {{ page.title }} &middot; {{ site.title }}
+        {%- else -%}
+            {{ site.title }}
+        {%- endif -%}
     </title>
+
+    {% if page.robots %}
+    <meta name="robots" content="{{ page.robots }}">
+    {% endif %}
 
     <!-- CSS -->
     <link rel="stylesheet" href="{{ site.baseurl }}/public/css/poole.css">
@@ -35,8 +43,9 @@
     <meta name="twitter:creator" content="@{{ site.author.twitter }}">
     <meta name="twitter:title"   content="{{ page.title }}">
 
-    {% if page.desc %}
-    <meta name="twitter:description" content="{{ page.desc }}">
+    {% assign page_description = page.description | default: page.desc %}
+    {% if page_description %}
+    <meta name="twitter:description" content="{{ page_description }}">
     {% else %}
     <meta name="twitter:description" content="{{ site.description }}">
     {% endif %}
@@ -51,8 +60,8 @@
     <meta property="og:title" content="{{ page.title }}"/>
     <meta property="og:url" content="{{ site.url }}{{ page.url }}" />
 
-    {% if page.desc %}
-    <meta name="og:description" content="{{ page.desc }}">
+    {% if page_description %}
+    <meta name="og:description" content="{{ page_description }}">
     {% else %}
     <meta name="og:description" content="{{ site.description }}">
     {% endif %}
@@ -62,7 +71,8 @@
     {% endif %}
     <!-- End of Open Graph/ LinkedIn Cards-->
 
-    {% seo %}
+    {% comment %} The <title> above is the only one; jekyll-seo-tag adds the rest. {% endcomment %}
+    {% seo title=false %}
 
     <!-- Post Tags-->
     {% if site.tags != "" %}

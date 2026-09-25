@@ -4,7 +4,7 @@ title: "A Conversation with Software Engineering Daily"
 date: "2020-02-21 11:11"
 image: /public/podcast/Nubank.png
 comments: true
-desc: Software Engineering Daily podcast episode
+description: Software Engineering Daily podcast episode
 author: Sujith Jay Nair
 tags: conversations data-systems
 permalink: /sedaily/

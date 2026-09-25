@@ -2,7 +2,7 @@
 layout: "post"
 title: "Mute Buttons Are The Latest Discourse Markers"
 date: "2020-06-08 11:11"
-desc: Mute Buttons as Language Innovations
+description: Mute Buttons as Language Innovations
 comments: true
 author: Sujith Jay Nair
 tags: language

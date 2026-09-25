@@ -2,7 +2,7 @@
 layout: post
 comments: true
 title: An Early Employee's Field Guide to Workplace Arguments
-desc: Conflicts are common in an early-stage startup. This post lists a set of mental models an early employee can use to prevent, judge, diffuse and take leverage of conflicts.
+description: Conflicts are common in an early-stage startup. This post lists a set of mental models an early employee can use to prevent, judge, diffuse and take leverage of conflicts.
 author: Sujith Jay Nair
 series: Culture Eats Strategy
 categories:

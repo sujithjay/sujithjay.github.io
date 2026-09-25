@@ -2,7 +2,7 @@
 layout: "post"
 title: "Innovation Loops"
 date: "2020-04-18 11:11"
-desc: Innovation Loops as informal, intrapreneurial feedback loops in engineering teams
+description: Innovation Loops as informal, intrapreneurial feedback loops in engineering teams
 author: Sujith Jay Nair
 series: Culture Eats Strategy
 categories:

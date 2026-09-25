@@ -3,7 +3,7 @@ layout: "post"
 title: "Caveat to Open Source Disruption"
 date: "2018-10-20 11:11"
 comments: true
-desc: A tweet-storm on open source disrupting patent-heavy industries
+description: A tweet-storm on open source disrupting patent-heavy industries
 author: Sujith Jay Nair
 tags: open-source tweetstorm
 permalink: /open-source-eats-patents-sometimes/

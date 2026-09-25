@@ -2,7 +2,7 @@
 layout: "post"
 comments: true
 title: "How Conversations on StackOverflow Teach You"
-desc: An exhortation to the engineering community to share more
+description: An exhortation to the engineering community to share more
 author: Sujith Jay Nair
 tags: conversations culture
 date: "2018-06-24 11:11"

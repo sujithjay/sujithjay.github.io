@@ -2,7 +2,7 @@
 layout: "post"
 title: "Hanlon's Razor: Some Comments"
 date: "2019-11-16 11:11"
-desc: Musings on Hanlon's Razor
+description: Musings on Hanlon's Razor
 comments: true
 author: Sujith Jay Nair
 tags: philosophy management culture

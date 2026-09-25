@@ -3,7 +3,7 @@ layout: "post"
 title: "Catastrophic Forgetting"
 date: "2018-12-01 11:11"
 comments: true
-desc: A tweet-storm on Catastrophic Forgetting
+description: A tweet-storm on Catastrophic Forgetting
 author: Sujith Jay Nair
 tags: ai tweetstorm
 permalink: /catastrophic-forgetting

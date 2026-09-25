@@ -3,7 +3,7 @@ layout: "post"
 title: "Github Sponsors"
 date: "2019-05-24 11:11"
 comments: true
-desc: A tweet-storm on Github Sponsors initiative
+description: A tweet-storm on Github Sponsors initiative
 author: Sujith Jay Nair
 tags: open-source tweetstorm
 permalink: /github-sponsors

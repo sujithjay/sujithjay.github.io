@@ -2,7 +2,7 @@
 layout: "post"
 title: "Order Without Design"
 date: "2020-08-01 11:11"
-desc: Order Without Design
+description: Order Without Design
 comments: false
 author: Sujith Jay Nair
 permalink: /notes/order-without-design

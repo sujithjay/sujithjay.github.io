@@ -2,7 +2,7 @@
 layout: "post"
 title: "Integration of Large-Scale Data Processing Systems and Traditional Parallel Database Technology"
 date: "2019-09-14 11:11"
-desc: Annotated Paper and Notes on HadoopDB.
+description: Annotated Paper and Notes on HadoopDB.
 comments: true
 author: Sujith Jay Nair
 tags: paper-summary data-systems databases

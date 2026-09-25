@@ -2,7 +2,7 @@
 layout: "post"
 title: "Defining a Platform is Hard"
 date: "2021-06-07 11:11"
-desc: On defining software engineering platforms
+description: On defining software engineering platforms
 comments: true
 author: Sujith Jay Nair
 tags: platforms product management

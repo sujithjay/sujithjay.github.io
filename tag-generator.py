@@ -52,7 +52,7 @@ for tag in total_tags:
     if os.path.exists(tag_filename):
         continue
     f = open(tag_filename, 'w')
-    write_str = '---\nlayout: tagpage\ntitle: \"Tag: ' + tag + '\"\ntag: ' + tag + '\nrobots: noindex\n---\n'
+    write_str = '---\nlayout: tagpage\ntitle: \"Tag: ' + tag + '\"\ntag: ' + tag + '\nrobots: noindex\nsitemap: false\n---\n'
     f.write(write_str)
     f.close()
     print("Created tag page", tag)

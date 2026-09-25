@@ -2,7 +2,7 @@
 layout: "post"
 title: "The Blue Flower : A Review"
 date: "2020-05-04 11:11"
-desc: A Review of The Blue Flower by Penelope Fitzgerald
+description: A Review of The Blue Flower by Penelope Fitzgerald
 author: Sujith Jay Nair
 tags: reviews
 image: https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1420661808l/24356917._SX98_.jpg

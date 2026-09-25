@@ -2,7 +2,7 @@
 layout: "post"
 title: "Filling Missing Data"
 date: "2020-03-25 11:11"
-desc: Changes to Behaviour of Missing Data Fill in Apache Spark v2.4.5
+description: Changes to Behaviour of Missing Data Fill in Apache Spark v2.4.5
 comments: true
 author: Sujith Jay Nair
 series: Apache Spark
