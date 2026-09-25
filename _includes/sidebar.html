@@ -8,7 +8,7 @@
     <p>{{ site.description }}</p>
     </div>
 
-    <div class="sidebar-item" style="text-align:center">
+    <div class="sidebar-item sidebar-icons" style="text-align:center">
         {% if site.author.github %}
         <a href="https://github.com/{{ site.author.github }}">
           <span class="fa-stack fa-lg">
@@ -33,18 +33,6 @@
             <i class="fa fa-square-o fa-stack-2x"></i>
             <i class="fa fa-envelope fa-stack-1x" title="Email"></i>
           </span>
-        </a>
-        {% endif %}
-    </div>
-
-    <div class="sidebar-item" style="text-align:center">
-
-        {% if site.author.stackoverflow %}
-        <a href="https://stackoverflow.com/story/{{ site.author.stackoverflow }}">
-        <span class="fa-stack fa-lg">
-          <i class="fa fa-square-o fa-stack-2x"></i>
-          <i class="fa fa-stack-overflow fa-stack-1x" title="StackOverflow"></i>
-        </span>
         </a>
         {% endif %}
 

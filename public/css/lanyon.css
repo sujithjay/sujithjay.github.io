@@ -165,6 +165,12 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+/* Keep the social icons at the desktop size on narrow screens, where the
+   sidebar text is larger, so all five stay on one row. */
+.sidebar-icons {
+  font-size: .75rem;
+}
+
 /* Sidebar content */
 .sidebar a {
   font-weight: normal;
