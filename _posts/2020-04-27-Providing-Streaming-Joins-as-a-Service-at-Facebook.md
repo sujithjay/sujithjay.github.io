@@ -91,7 +91,7 @@ The join view specification above has an equality expression (line 18), and a wi
 and using intervals on the timestamp attributes (lines 19-21).
 
 Given a _PQL_ query as above, it is compiled into an execution plan comprised of operators. For joins, the operators involved are :
-1. _Slicer_ : a Puma operator, similar to a mapper in MapReduce, which can ingest data from Scribe, evaluate expressions, do tuple-filtering, project columns, shard streams, and write data to Scribe, Hive, or other storage sinks.
+1. _Slicer_ : a Puma operator, similar to a mapper in MapReduce, which can ingest data from Scribe, evaluate expressions, do tuple-filtering, project columns, shard streams, and write data to Scribe, Hive, or other storage sinks.
 
 
 2. _Join_ : a Stylus operator which can ingest data from two Scribe streams, maintain the join windows, execute the join logic, and output the result into another Scribe stream.
