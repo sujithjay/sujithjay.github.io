@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Thinking Aloud
+title: Sujith Jay Nair
 ---
 
 <div class="col-md-3">

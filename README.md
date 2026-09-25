@@ -1,7 +1,7 @@
-# [Thinking Aloud](http://sujithjay.com)
+# [Sujith Jay Nair](https://sujithjay.com)
 
 ### About
-[Thinking Aloud](http://sujithjay.com) is a personal blog where I write on computer science in general & data systems in particular, some organizational culture, a little statistics, and all sorts of randomness. This blog is a presentation of learnings, ideas, and solutions I come across, and my explorations around it.
+[sujithjay.com](https://sujithjay.com) is a personal blog where I write on computer science in general & data systems in particular, some organizational culture, a little statistics, and all sorts of randomness. This blog is a presentation of learnings, ideas, and solutions I come across, and my explorations around it.
 
 ### For Potential Employers or Collaborators
 This blog is a three-fold portfolio: code, technical writing, and distillations of ideas. You can use the links to my online profiles in the sidebar of the blog to contact me; while I do respond on every profile listed, I am way more responsive on [LinkedIn](https://www.linkedin.com/in/suj1th/).
