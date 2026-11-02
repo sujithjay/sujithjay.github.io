@@ -8,7 +8,7 @@ author: Sujith Jay Nair
 tags: platforms product management
 permalink: /inventing-work
 ---
-*This essay spent several days on the front page of Hacker News. The [discussion there](https://news.ycombinator.com/item?id=49878857) is worth reading alongside this one.*
+**Note**: This essay spent several days on the front page of Hacker News. The [discussion](https://news.ycombinator.com/item?id=49878857) there is worth reading alongside this one.
 
 Platform teams are engineering-led rather than product-led. There is almost never a product manager handing you a roadmap, no revenue line to follow, and no market to lose. This means that work does not exist unless an engineer invents it. The continuous struggle is to find ways to increase the value our platform provides to the users of the system. A big part of a staff engineer's job in a platform team is to figure out what the team should build next - I like to call that "inventing work". Thankfully, the signals that help us to invent work are already out there, and they arrive from four directions - from the systems, from the users, from your organization, and from the industry. What follows is a guide to reading each of them.
 
